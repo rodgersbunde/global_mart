@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: dim_products
+    description: "Product dimension"
+
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_region
+    description: "Region dimension"
+
+    columns:
+      - name: region_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_state
+    description: "State dimension"
+
+    columns:
+      - name: state_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_category
+    description: "Category dimension"
+
+    columns:
+      - name: category_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_subcategory
+    description: "Subcategory dimension"
+
+    columns:
+      - name: subcategory_id
+        tests:
+          - not_null
+          - unique

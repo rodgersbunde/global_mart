@@ -1,0 +1,1001 @@
+order_id,order_date,ship_date,region,state,category,sub_category,product_name,sales,quantity,discount,profit
+a075480d-a9d2-41ac-baa6-e1f3aeaf435b,8/2/2023,8/3/2023,East,Ohio,Furniture,Chairs,Chairs manager,311.28,4,0.05,244.33
+0a503659-9020-4250-9f16-d90333b959b7,3/2/2020,3/3/2020,South,California,Furniture,Tables,Tables prime,530.09,1,0.2,243.01
+c52e304a-de0f-48ec-9c74-646bf379ba66,4/21/2023,4/25/2023,Central,Illinois,Furniture,Tables,Tables small,713.23,6,0.1,328.97
+1552a5c6-465d-4f4a-92d3-bfab478cfbb8,2/17/2022,2/18/2022,East,Ohio,Office Supplies,Pens,Pens small,623.54,1,0.25,356.1
+e06d217a-34ef-44c7-a4ad-2981214bb933,2/4/2023,2/8/2023,East,New York,Technology,Copiers,Copiers factor,891.18,6,0.2,405.65
+cb95fe3e-0e1c-4122-83d3-5e72eeca93a3,5/2/2024,5/6/2024,Central,Florida,Furniture,Tables,Tables popular,873.16,7,0.1,538.66
+e0e486b2-c524-4419-a80a-0d5c6a0df5b8,12/28/2021,12/31/2021,West,Florida,Technology,Phones,Phones prime,716.73,2,0.2,483.3
+0c60686e-14ea-44a1-bac5-8af8893547a1,2/16/2022,2/20/2022,East,California,Technology,Copiers,Copiers manager,579.1,6,0.3,404.9
+31ec8abd-83e4-4648-bd7b-d830a0da6a6a,7/6/2024,7/11/2024,South,Ohio,Office Supplies,Pens,Pens prime,112.88,10,0.25,56.6
+bd15124f-aa79-401d-b59c-18e1ae5d1ab3,10/19/2020,10/23/2020,South,Ohio,Furniture,Tables,Tables popular,757.74,9,0.1,583.7
+4c94fcdc-4d8d-4b09-ba63-05777bb367d8,3/25/2021,3/27/2021,West,Ohio,Technology,Phones,Phones plus,136.36,1,0.3,53.35
+51725fae-1e7d-4a3a-8a25-af540d4333c6,5/10/2020,5/16/2020,East,Illinois,Office Supplies,Binders,Binders elite,996.32,9,0.1,884.12
+d152cfc2-e1b2-45f8-be75-c4253d46cea3,3/17/2024,3/21/2024,Central,Florida,Technology,Phones,Phones elite,155.97,7,0.05,98.78
+8110bdaa-d627-4454-859a-30835c33e92a,8/5/2020,8/15/2020,West,New York,Office Supplies,Binders,Binders plus,532.28,4,0.05,314.32
+8b0b861a-d61a-4d26-b795-61e30b710bf9,10/25/2021,11/1/2021,East,Illinois,Furniture,Tables,Tables prime,932.64,5,0.05,392.7
+ea3056ef-cb04-444a-91e0-b599bb9e606b,7/29/2024,7/30/2024,South,California,Technology,Accessories,Accessories elite,171.97,8,0.2,75.97
+7bc74e87-b8c1-4342-8f6c-385d72b366ac,3/26/2024,3/29/2024,South,Illinois,Technology,Phones,Phones factor,429.04,6,0.15,355.11
+398bcb05-28a9-42c1-b299-03e66e341c68,4/5/2021,4/6/2021,East,New York,Office Supplies,Paper,Paper factor,608.89,4,0.2,285.57
+65f26f4a-6b46-4bb9-b0da-a30e9030aaf7,5/18/2020,5/18/2020,West,Georgia,Office Supplies,Paper,Paper factor,538.45,5,0.25,314.24
+d8a24ac9-487d-41cd-a70d-117127299306,5/25/2024,6/1/2024,South,New York,Office Supplies,Paper,Paper small,139.61,7,0.1,83.95
+f548a320-6e6f-4436-9eff-cf3dce40720f,5/4/2020,5/10/2020,South,Florida,Technology,Phones,Phones will,810.56,2,0.05,399.4
+5dbfcf9d-4ee4-4381-b18f-93b1d7b3538c,1/10/2021,1/14/2021,East,New York,Office Supplies,Paper,Paper elite,880.76,2,0.15,687.95
+0f379027-27ec-4411-aafc-9d6876dcb2e9,9/8/2024,9/8/2024,South,New York,Furniture,Tables,Tables soldier,208,8,0.15,99.58
+f7080e83-9ddb-4e65-9972-4261096c2468,2/15/2022,2/15/2022,South,Florida,Office Supplies,Pens,Pens factor,930.19,8,0.1,559.06
+dc04687a-ef25-4715-81c1-eff785d995c9,8/30/2021,9/2/2021,East,Georgia,Furniture,Chairs,Chairs elite,748.95,1,0.25,375.17
+db9958f1-48d0-463e-acdc-c82a802c0bd0,10/12/2024,10/20/2024,East,California,Furniture,Tables,Tables will,962.74,2,0.3,410.97
+4b90698f-84fe-4200-9c39-e890f7112faa,9/2/2020,9/11/2020,Central,Texas,Furniture,Chairs,Chairs factor,614.79,10,0,387.67
+1ab14ee4-3498-48ce-bd10-8ec68a7982ff,10/3/2023,10/8/2023,East,New York,Furniture,Bookcases,Bookcases prime,426,5,0.15,226.14
+14c02235-1108-4e22-a3ca-4c666da6def9,6/26/2023,7/5/2023,Central,Illinois,Furniture,Tables,Tables factor,560.75,9,0.1,251.89
+4bcab0b6-f5dd-4566-9506-56427e13138c,1/26/2022,1/30/2022,East,Texas,Furniture,Bookcases,Bookcases small,842.06,5,0.2,713.23
+acaa776f-412c-44f9-8d80-51028eafa02c,12/3/2024,12/5/2024,West,Washington,Office Supplies,Paper,Paper factor,895.23,9,0.05,479.89
+175626e1-5fe7-4cd8-92a5-582820dd3019,11/8/2023,11/18/2023,Central,New York,Office Supplies,Binders,Binders manager,514.11,1,0,384.99
+708cd0b3-7289-4ff6-8c39-df666ede0bf4,11/14/2021,11/16/2021,East,Illinois,Technology,Phones,Phones small,203.5,8,0.2,144.34
+143b5952-b3e1-448f-8ebc-0fbd2da1a0d8,12/13/2024,12/15/2024,West,New York,Technology,Accessories,Accessories music,842.87,10,0.2,365.22
+e5db028a-6958-4049-9a98-e9a94447854d,1/16/2022,1/16/2022,South,Florida,Office Supplies,Paper,Paper factor,697.96,2,0.1,549.72
+a09d6b13-8721-4949-a438-7a6be35a1285,11/5/2024,11/7/2024,West,Texas,Furniture,Bookcases,Bookcases soldier,73.55,6,0.3,57.01
+3b499668-aa07-4380-8499-f4dd19ffc590,5/31/2024,6/1/2024,South,Washington,Office Supplies,Paper,Paper music,865.66,4,0.05,716.68
+3b0e1fb4-eeff-4417-a8c2-0bf0cd055820,8/7/2024,8/10/2024,East,Texas,Furniture,Tables,Tables popular,677.03,7,0.1,355.83
+45cc2f3d-24e6-40cd-80ba-3af5280f6460,8/6/2023,8/14/2023,East,Texas,Office Supplies,Binders,Binders soldier,982.09,9,0.1,855.16
+6da77696-9209-4f8c-89a8-caad5f6bc11d,4/4/2023,4/8/2023,South,Illinois,Furniture,Tables,Tables will,616.74,6,0.25,449.28
+3d5aac5b-6ed4-4b19-9e73-80d107c01ceb,3/26/2023,3/29/2023,West,Washington,Office Supplies,Paper,Paper will,723.35,1,0.2,591.82
+4ee296fb-4c47-4586-8d0c-4ed52207fc2b,5/23/2020,6/2/2020,Central,Ohio,Office Supplies,Binders,Binders popular,348.22,2,0.25,272.71
+6f20d441-a0a9-48c4-b968-5956ff14e13c,4/4/2022,4/8/2022,West,Texas,Technology,Accessories,Accessories will,232.25,7,0.25,164.91
+26a4153e-24d1-44be-8aca-d4be4f8f0642,1/27/2023,1/27/2023,South,Georgia,Office Supplies,Pens,Pens prime,249.67,10,0.2,170.79
+621275be-d994-4499-b750-2e5f50aca1b2,10/15/2023,10/18/2023,Central,Illinois,Technology,Phones,Phones factor,804.05,3,0.25,314.23
+7a4820b6-8b39-4344-9f54-69af4a9c7f5f,10/9/2023,10/13/2023,East,Georgia,Furniture,Tables,Tables will,189.99,1,0.05,174.34
+2bffcb8c-9a86-47a1-9dfa-c96b9f5663ca,12/19/2024,12/29/2024,West,New York,Technology,Accessories,Accessories small,732.43,7,0.15,419.92
+dcb1e3fe-dce7-48de-95bb-1213afc76f22,5/13/2024,5/19/2024,West,Illinois,Furniture,Tables,Tables prime,813.9,9,0.15,321.94
+2e4e5a4e-60ab-4ddd-b621-c991c58983fe,9/30/2020,10/7/2020,South,Ohio,Technology,Copiers,Copiers elite,988.5,10,0.1,866.32
+76399942-10ad-4c0e-b7e4-d566f785981e,7/2/2022,7/4/2022,South,California,Technology,Phones,Phones music,477.57,4,0.3,304.74
+63e6e7d3-b1e4-457b-9d45-ccb39c2f707b,6/19/2022,6/20/2022,East,Florida,Technology,Phones,Phones soldier,272.77,6,0.1,230.93
+01f3e53f-70f0-4158-9fc9-0d9c6c075110,4/18/2021,4/24/2021,South,Ohio,Technology,Accessories,Accessories manager,721.1,2,0.15,416.34
+e25fed9b-effc-430f-a408-471c3d02f7f7,2/27/2021,3/5/2021,South,Georgia,Office Supplies,Binders,Binders manager,948.76,1,0.3,713.19
+ccce8c4d-4d3f-431c-a90e-b1eb2b6c0b32,12/21/2021,12/25/2021,West,Georgia,Office Supplies,Pens,Pens factor,561.31,9,0.3,349.15
+8445dff9-fdde-4c9f-a652-89da72454bcc,7/12/2021,7/18/2021,South,Florida,Office Supplies,Paper,Paper plus,419.41,7,0.25,180.11
+8e59eecd-4d92-4e6e-b441-9459f9946af1,12/29/2022,12/29/2022,West,Georgia,Office Supplies,Binders,Binders soldier,586.17,1,0,441.69
+2076bf17-b5e5-4968-88d0-38af8fb5142f,4/12/2020,4/16/2020,South,Texas,Office Supplies,Pens,Pens will,251.08,6,0.1,195.28
+eeaff718-b329-4b33-a800-6d15b9a04ac3,5/31/2021,6/1/2021,East,New York,Office Supplies,Paper,Paper manager,761.57,1,0.1,378.62
+dee726a8-4030-48ac-8069-f3ba3f750e58,5/21/2021,5/24/2021,West,Georgia,Furniture,Chairs,Chairs music,194.76,3,0.15,138.39
+a6949807-6c93-4315-917a-ba6a8e7b95c4,4/19/2024,4/24/2024,Central,Illinois,Furniture,Chairs,Chairs plus,626.89,2,0.3,453.26
+070d6a39-4a68-4577-b343-88777fdc7d13,2/22/2020,2/26/2020,West,Illinois,Technology,Copiers,Copiers plus,912.62,7,0.15,774.79
+897ab3fa-9b7c-4669-85dc-778a12ea6dcc,11/15/2023,11/25/2023,East,New York,Furniture,Tables,Tables popular,712.33,5,0.3,470.06
+66852261-10f5-48a6-b34d-7c8cac97350b,12/27/2022,1/2/2023,South,Illinois,Technology,Phones,Phones will,115.51,6,0,100.18
+d645b690-ffa8-437c-9371-bfff457d5904,1/11/2022,1/21/2022,Central,Georgia,Office Supplies,Binders,Binders prime,195.34,3,0.25,117.42
+4ba02eaf-584b-4313-91c5-51c9d41e5f68,6/11/2022,6/20/2022,West,Georgia,Office Supplies,Pens,Pens plus,859.13,2,0.1,722.23
+777c284c-c4f1-40f4-986a-3baf474a5035,6/3/2023,6/13/2023,Central,Texas,Office Supplies,Pens,Pens popular,77.26,6,0.05,50.33
+6bd0eb63-12d5-49b4-8a33-a307672f040a,7/26/2021,8/4/2021,South,Georgia,Technology,Phones,Phones elite,578,9,0.05,251.96
+093f63a9-5ea0-4527-b2e7-5c006909e7e1,4/1/2024,4/4/2024,East,Texas,Technology,Phones,Phones factor,663.61,8,0.15,513.24
+997f20d3-5c4e-4b24-a8f3-4cdcf39b5ab4,4/8/2022,4/11/2022,South,Washington,Office Supplies,Binders,Binders popular,602.48,8,0.2,375.23
+c9eea78f-2d24-48ea-8b77-48431d38d46d,12/10/2023,12/17/2023,East,Florida,Office Supplies,Pens,Pens factor,288.83,2,0.25,127.86
+30828086-d9ed-498d-a232-4507b5c12507,3/19/2021,3/26/2021,East,California,Office Supplies,Binders,Binders music,610.11,9,0.2,305.11
+fa67bf20-078b-49f6-a2cc-b921f39adbac,4/10/2021,4/15/2021,East,Texas,Furniture,Bookcases,Bookcases soldier,63.44,9,0.05,34.07
+ffef16d1-9200-4e2d-8358-6f44c0e49be0,7/30/2023,8/6/2023,West,New York,Furniture,Tables,Tables music,595.36,8,0.15,353.7
+44697819-e17d-437f-b8f2-feb6c278263a,10/30/2024,11/6/2024,East,Florida,Furniture,Tables,Tables soldier,430.67,2,0.2,289.23
+06123acd-b079-4418-992a-da2fb82c2f67,7/19/2024,7/28/2024,West,Ohio,Office Supplies,Paper,Paper prime,994.22,2,0.2,734.13
+ce1a45b3-9fd5-4270-8cda-d4c95d6ae03c,6/25/2022,6/29/2022,East,California,Technology,Phones,Phones factor,340.11,10,0,250.08
+8bd2407c-bf8d-4f3d-a5d2-7f441a8f21c6,6/25/2021,7/5/2021,South,Georgia,Furniture,Tables,Tables plus,277.87,9,0,135.07
+0858355b-acb7-4eb3-b11a-b632a9c7da74,8/20/2022,8/24/2022,East,California,Furniture,Tables,Tables music,323.7,5,0.25,247.21
+a9c7d304-3570-43cc-9fc7-dac15829af8c,6/1/2024,6/11/2024,West,Florida,Technology,Copiers,Copiers music,813.71,4,0.15,348.59
+be2ac800-54b5-421d-aa86-48577a13dce3,8/19/2024,8/21/2024,Central,Georgia,Furniture,Tables,Tables small,207.63,5,0.2,151.72
+d16a557d-d5ad-44db-9ed6-c2c9b59a53ee,8/17/2022,8/21/2022,East,New York,Technology,Phones,Phones will,945.54,9,0.2,571.51
+f42a5088-bd76-43b4-9325-7c616e3b10e1,2/13/2024,2/18/2024,East,Texas,Technology,Phones,Phones plus,74.57,4,0.25,56.1
+2d5e9ec1-f1dc-4b9b-84d2-3a6fa7f1992c,3/23/2020,3/25/2020,South,Georgia,Office Supplies,Binders,Binders small,668.93,5,0.05,618.5
+3c3ca086-5ef9-4d97-b12d-58243c440759,8/20/2022,8/25/2022,South,Georgia,Office Supplies,Pens,Pens music,355.01,2,0.3,147.4
+3cfc56f0-1976-43d6-bcbf-6cb7b468d922,9/18/2023,9/24/2023,South,New York,Technology,Accessories,Accessories elite,482.08,6,0.1,264.62
+bd792061-f764-40c2-8bbb-858e427b782f,8/4/2022,8/10/2022,South,New York,Furniture,Tables,Tables factor,542.52,10,0.3,310.89
+cba2fa17-4a4e-44f4-b40c-a90141cd0c0b,6/30/2021,7/8/2021,West,Florida,Furniture,Bookcases,Bookcases music,466.21,8,0,193.89
+5831c8e8-5d2e-4b05-a0ba-c159f14f38f5,2/2/2023,2/2/2023,West,Georgia,Technology,Phones,Phones music,138.55,2,0.15,118.02
+c74e5f66-040b-4460-8e35-c57e5e4cd469,11/8/2022,11/12/2022,South,California,Office Supplies,Pens,Pens plus,981.23,4,0.15,638.25
+f79763f7-e12c-47e3-ab58-604bcf9ccaf6,11/6/2022,11/8/2022,Central,New York,Furniture,Bookcases,Bookcases music,784.04,7,0.1,680.66
+226b30f4-b35b-42c8-a56c-6ee3a4ec1990,1/26/2024,1/30/2024,South,Washington,Technology,Copiers,Copiers popular,998.96,8,0.3,409.04
+ff99944c-ce12-407e-a33f-fe76f1b206be,2/4/2023,2/12/2023,South,California,Office Supplies,Pens,Pens will,936.21,4,0.25,435.27
+d502c01b-5d43-46bc-b5a2-cd55cf6fb9db,3/30/2020,4/4/2020,West,Georgia,Technology,Phones,Phones manager,719.97,7,0.15,628.43
+f78f30a5-1a7a-44bd-a86c-34084f427e88,9/15/2020,9/23/2020,South,New York,Technology,Phones,Phones soldier,876.22,8,0,603.95
+5f2a0252-46c7-4558-b721-3f8fe7689755,4/19/2022,4/29/2022,South,Illinois,Furniture,Tables,Tables popular,496.02,5,0.1,350.02
+58576554-b7e3-4b87-bfa2-1c8a31a1ebda,10/11/2024,10/21/2024,East,California,Technology,Phones,Phones music,956.43,8,0.3,567.09
+1b71ba02-a7aa-4f70-88f8-2d9d7c238e3f,4/10/2021,4/11/2021,Central,New York,Office Supplies,Paper,Paper manager,772.35,2,0.15,351.14
+0811ab79-f0f5-4f59-8acb-c8f177966cac,10/26/2021,10/26/2021,West,Florida,Office Supplies,Pens,Pens soldier,406.1,3,0.05,274.05
+afc05b12-8bd9-4df8-b662-a93e10fd36e5,6/10/2020,6/19/2020,South,Texas,Office Supplies,Binders,Binders prime,698.98,8,0.2,301.15
+72dbfb78-69de-4aba-b640-e8a84079cc30,6/6/2021,6/16/2021,Central,Texas,Furniture,Bookcases,Bookcases will,906.15,9,0.05,389.29
+9e9038b7-e700-4322-8d76-189014c21879,11/14/2023,11/18/2023,West,Ohio,Office Supplies,Pens,Pens plus,239.26,7,0.3,135.4
+bba6f978-8e06-4b5e-a684-f39db4e9cb7f,1/5/2022,1/14/2022,East,Georgia,Office Supplies,Binders,Binders music,330.47,7,0.1,126.98
+ab920245-f1e7-4144-a190-39025fc87fc8,5/7/2024,5/10/2024,West,Illinois,Technology,Phones,Phones manager,258.05,4,0.2,124.91
+52051537-5fc7-47ae-a8fa-0f163c86ce0b,9/24/2021,10/1/2021,Central,Ohio,Furniture,Chairs,Chairs soldier,396.62,3,0,357.08
+3c9e41e6-22e4-4445-86fb-e8fea70cff77,2/15/2021,2/17/2021,South,Texas,Technology,Phones,Phones popular,554.31,5,0.3,231.11
+52fb9f7f-46e2-4902-95d6-24e212685e24,7/5/2024,7/6/2024,South,Washington,Office Supplies,Paper,Paper small,183.72,4,0.3,120.55
+56b26c87-418b-42ca-8200-76a3f03bb7ec,6/7/2024,6/13/2024,Central,Ohio,Furniture,Bookcases,Bookcases popular,559.74,8,0.1,409.48
+09a9e9e1-69b1-4bb8-a06b-a97a124296be,8/9/2020,8/19/2020,West,Illinois,Furniture,Bookcases,Bookcases prime,73.77,9,0.1,63.31
+3512d70d-d8f8-4a3e-b0ba-9ea3250fe672,12/6/2023,12/10/2023,South,Illinois,Technology,Phones,Phones small,160.84,1,0,91.26
+519b3058-5d9d-4ea1-b085-89994cf83a35,4/25/2021,5/3/2021,West,Ohio,Furniture,Bookcases,Bookcases small,480.96,9,0.15,321.67
+858a8da8-7a4a-42a6-b73b-1444294bbe8f,9/3/2024,9/10/2024,West,Georgia,Technology,Phones,Phones prime,942.1,5,0,734.51
+d0037cbd-56aa-4ece-b154-5ea0a003bc58,4/28/2021,5/3/2021,West,Illinois,Furniture,Chairs,Chairs prime,398.97,6,0,246.95
+d354588e-8a79-463f-b9b4-4a5fdc3b2a37,7/6/2020,7/16/2020,West,Florida,Furniture,Chairs,Chairs plus,657.52,1,0,547.54
+39be1371-3abc-4a75-bde2-21b9caa61453,2/24/2021,2/25/2021,East,Texas,Technology,Accessories,Accessories soldier,607.06,4,0.1,476.3
+32cb5cab-82b6-4fc2-8872-2bc2e9517e5b,9/23/2020,10/1/2020,West,Washington,Office Supplies,Paper,Paper manager,154.43,1,0.05,61.46
+f7d1f6d4-13bf-4a58-ad37-96d68550589e,12/22/2020,12/26/2020,South,Georgia,Furniture,Tables,Tables popular,754.63,9,0,611.34
+7ed2b5c8-35ed-4591-b685-5a0896047f2c,11/17/2022,11/26/2022,Central,Georgia,Furniture,Bookcases,Bookcases manager,528.65,10,0,422.91
+e8b6da64-3549-4b1c-9c22-1cd0ad05741e,5/4/2020,5/11/2020,East,Illinois,Office Supplies,Pens,Pens popular,701.79,8,0.25,552.87
+78de7a10-ead1-4f79-a8fa-1d77d5922f8d,5/30/2023,6/1/2023,South,Texas,Furniture,Tables,Tables prime,311.27,10,0.2,221.78
+563f6ba5-9d1d-46af-ab9a-40e9132fb4a7,11/1/2022,11/10/2022,West,Ohio,Office Supplies,Paper,Paper prime,803.44,2,0.3,519.09
+5a1f2541-3acc-4084-a543-310c5573e589,12/23/2024,12/26/2024,Central,Ohio,Office Supplies,Pens,Pens popular,836.05,7,0.15,619.67
+d840aec1-39a5-4379-8d75-b1b3f096fe18,9/24/2023,9/28/2023,East,Illinois,Office Supplies,Paper,Paper will,702.48,8,0,316.24
+0d50d2a9-f96f-4ace-b44f-d28ba5e8125d,7/16/2020,7/21/2020,East,Ohio,Furniture,Chairs,Chairs popular,106.98,9,0.2,55.97
+63dad4f4-dfdb-41a7-9aa0-61a89277a1b3,11/24/2024,12/4/2024,East,California,Office Supplies,Binders,Binders soldier,98.87,5,0.2,50.88
+7e312da7-d455-435c-a1d0-c0823a5e6630,9/6/2023,9/13/2023,Central,California,Furniture,Tables,Tables will,382.61,9,0.1,168.36
+f1afec72-be3a-4b9b-a3ba-cc8876831a81,9/26/2024,10/4/2024,Central,New York,Technology,Copiers,Copiers soldier,691.23,9,0,508.02
+2583791a-6e2d-4318-a9ba-3be67d372150,7/13/2021,7/17/2021,East,Florida,Office Supplies,Pens,Pens manager,55.8,3,0.2,38.24
+117dda2c-8bc0-4ebc-9eb2-e8bfddfbb83b,7/6/2020,7/14/2020,Central,Illinois,Furniture,Bookcases,Bookcases manager,448.84,6,0.05,264.12
+77f2c1af-bcc8-4e36-a11d-717febba7f01,11/14/2020,11/16/2020,South,Georgia,Technology,Accessories,Accessories will,690.27,5,0.15,487.86
+73e4d0a3-0b56-429e-8e18-914e45a47a83,7/13/2021,7/16/2021,South,Texas,Technology,Accessories,Accessories manager,377.91,2,0.1,277.53
+fa5a9000-2150-4a91-8c85-74e086d43d18,3/27/2021,4/2/2021,Central,Texas,Technology,Accessories,Accessories popular,57.3,5,0.05,45.93
+6937797a-65ab-433f-9dd4-d172b78d2186,9/2/2020,9/2/2020,West,Washington,Office Supplies,Binders,Binders small,459.12,3,0.15,294.27
+1ee075ba-1fe4-472d-a642-dbceb2232b02,3/24/2022,3/24/2022,South,Ohio,Office Supplies,Paper,Paper will,486.77,2,0.3,236.74
+cda1da3c-8ae1-488a-a44e-8e02756f313c,8/15/2021,8/16/2021,South,Washington,Office Supplies,Paper,Paper small,967.89,3,0.3,757.87
+455c5c32-6ab4-4191-bf4c-4ad7be7d4acf,6/13/2022,6/14/2022,Central,Washington,Furniture,Bookcases,Bookcases factor,609.43,9,0,376.43
+f49cb3e7-42c3-4c1f-9318-b2fb38ea0ab1,11/13/2021,11/15/2021,Central,Washington,Furniture,Chairs,Chairs soldier,651.56,9,0.2,297.1
+fb40bfe0-7fac-417c-81f2-d02d09b9adfa,4/28/2021,4/29/2021,East,Florida,Furniture,Bookcases,Bookcases prime,237.41,10,0.05,189.37
+4d1df3c5-420f-472f-a73d-16dfcf0d3e12,8/8/2022,8/17/2022,Central,Washington,Technology,Phones,Phones soldier,697.08,10,0.25,457.1
+da31246e-c56f-4926-8c41-1b657d38047f,6/19/2022,6/20/2022,East,Texas,Office Supplies,Pens,Pens prime,649.82,5,0.2,252
+a6f4769f-35c6-42b9-9406-2ff1113a9ac7,7/14/2022,7/14/2022,East,Ohio,Furniture,Bookcases,Bookcases prime,840.11,2,0.25,643.46
+4ba37ccd-908d-4f20-86c9-f55351f72d28,4/3/2023,4/11/2023,South,Florida,Technology,Accessories,Accessories manager,477.25,10,0.25,210.27
+a8b7b04b-1c93-43f1-aee1-3a1ed066fd1c,7/11/2022,7/12/2022,South,Georgia,Office Supplies,Binders,Binders elite,130.11,3,0,69.77
+f6c4fbdb-ceaa-4f7e-87c2-4468fbf22985,12/6/2022,12/15/2022,Central,New York,Furniture,Bookcases,Bookcases popular,404.21,5,0.15,233.62
+758f9a73-48ca-49b8-8715-d1d13502d6af,5/14/2020,5/19/2020,West,Washington,Furniture,Chairs,Chairs small,694.46,5,0.1,526.51
+288d1b85-67d3-44d8-9022-5baefd70bb95,4/8/2023,4/18/2023,East,Texas,Furniture,Bookcases,Bookcases elite,344.72,7,0.05,244.44
+d1b7905b-ebf0-4f72-a7e1-65106ee7591d,2/10/2022,2/20/2022,South,Washington,Office Supplies,Paper,Paper manager,686.61,9,0,518.61
+182685b8-64ee-4c72-b6e1-7cf7a5895789,1/12/2022,1/16/2022,West,Florida,Furniture,Tables,Tables small,374.65,8,0.05,191.63
+eb3ec89f-2e30-4b98-bffa-5f00e8e7b161,8/28/2021,8/29/2021,West,Ohio,Technology,Copiers,Copiers soldier,843.36,9,0,644.38
+12b0730c-48c4-444b-b24d-ccfeb0e04c8a,11/28/2020,11/30/2020,South,Washington,Technology,Copiers,Copiers factor,818.59,3,0.25,458.93
+33228657-b925-4e89-8576-c0c0779415af,6/28/2022,7/7/2022,South,California,Office Supplies,Binders,Binders popular,794.61,4,0.2,380.13
+d7f9ff5b-658d-4dc7-bb05-b0b9f8a8cf65,10/21/2023,10/30/2023,West,California,Office Supplies,Pens,Pens plus,780.97,7,0.2,485.05
+1725e268-7017-4b00-881b-2842f51cb659,10/10/2020,10/14/2020,East,Texas,Furniture,Chairs,Chairs small,506.56,6,0.2,416.63
+f49dc5f4-be3c-4a59-85e2-8d1f38911f51,4/11/2024,4/13/2024,West,Georgia,Office Supplies,Pens,Pens popular,910.04,3,0.3,495.53
+f29aa0db-70a9-4860-bd14-e46c19300052,2/24/2020,3/1/2020,Central,California,Furniture,Bookcases,Bookcases manager,526.91,4,0.15,461.55
+f8ea56fd-7787-4840-aebf-1d1e562b6c85,10/14/2021,10/15/2021,South,Florida,Technology,Copiers,Copiers prime,368.53,3,0.05,151.3
+02e9d56e-b606-42d5-9a3a-d084b3590ef3,7/7/2022,7/16/2022,South,Illinois,Furniture,Tables,Tables music,68.05,4,0.3,27.89
+6c9e7bad-5980-49f7-bc0e-3bd86201b83e,5/1/2021,5/5/2021,South,New York,Furniture,Tables,Tables elite,276.52,10,0.15,111.15
+8627ae33-6c38-4d8b-9ba7-060104ae3f0f,3/23/2023,3/26/2023,South,Florida,Technology,Accessories,Accessories small,326.71,1,0.2,174.67
+60a6edb3-6c4a-4f00-ac99-26fa74b4c242,12/8/2022,12/13/2022,South,New York,Furniture,Chairs,Chairs will,566.88,9,0.2,209.78
+2be59455-c5df-445f-85cd-c220632ab178,2/3/2022,2/7/2022,East,Washington,Technology,Accessories,Accessories soldier,389.24,2,0.1,196.95
+63e4faab-4e0f-434d-b3f2-29646863517b,3/31/2020,4/5/2020,South,Georgia,Technology,Phones,Phones soldier,822.83,3,0.3,579.48
+2d244629-4f1d-48cd-b914-cd0ecb7b253e,7/19/2024,7/21/2024,East,California,Furniture,Chairs,Chairs manager,787.38,8,0,442.03
+a8145313-8561-422f-89a8-55379e5c90fc,10/8/2021,10/12/2021,West,Texas,Technology,Phones,Phones popular,989.67,9,0.15,493.72
+d5474c57-a5c9-4c8f-bde7-7b9d206cb3e1,10/31/2024,10/31/2024,South,Ohio,Technology,Phones,Phones popular,309.56,6,0.15,254.62
+083f4957-4914-421a-a16c-0114ccf75423,1/17/2021,1/24/2021,South,Illinois,Technology,Phones,Phones will,398.98,9,0.1,318.63
+f39b04c8-816b-497f-8728-78fc0eec15a6,5/18/2023,5/20/2023,Central,Georgia,Technology,Phones,Phones plus,355.15,2,0.1,257.6
+5416fb27-948f-4d58-90ed-2bbf19d69c89,1/9/2024,1/15/2024,Central,Ohio,Furniture,Chairs,Chairs music,471.71,8,0,377.25
+7d955b0b-9d22-41ec-b54e-ae571359a9cc,8/2/2023,8/2/2023,West,New York,Furniture,Chairs,Chairs soldier,655.64,6,0.2,496.02
+32e43285-7a63-442a-99b1-a701c3f439aa,10/4/2024,10/13/2024,Central,Washington,Technology,Phones,Phones will,83.06,2,0.05,67.07
+a8b41c80-e702-4d41-a5d6-02f381dcabc4,3/7/2023,3/7/2023,East,Florida,Technology,Accessories,Accessories elite,695.11,6,0.1,425.38
+3a2ec6cb-6013-499c-9eee-f365134dc186,1/21/2022,1/27/2022,South,Ohio,Office Supplies,Binders,Binders elite,314.76,2,0,253.26
+76b5b642-fa22-4059-bffc-aaf077d81974,8/29/2020,9/2/2020,South,California,Office Supplies,Binders,Binders small,473.96,10,0.1,351.97
+36319095-4b9a-4e88-b266-6df7785547c9,10/4/2020,10/5/2020,Central,Washington,Office Supplies,Paper,Paper small,903.75,8,0,764.38
+dfc76c88-4869-4bef-a75c-d778da7ec70e,1/31/2023,2/8/2023,West,Illinois,Office Supplies,Pens,Pens factor,858.79,3,0.3,437.12
+fd8e54db-cfe8-400b-a302-d8f4e9ed08b3,6/10/2024,6/12/2024,West,Illinois,Furniture,Bookcases,Bookcases small,74.97,9,0.2,40.68
+ef057a1c-d297-42ab-9169-89d9e6397fb0,9/25/2021,10/1/2021,East,Florida,Technology,Copiers,Copiers popular,504.73,7,0.3,268.22
+95c6d3fd-18e0-4fed-a93b-119dfb3fac91,8/8/2023,8/9/2023,West,Florida,Office Supplies,Pens,Pens will,696.1,6,0.05,599.21
+a80fa198-d447-448d-b8b7-b56179587fb6,10/26/2022,10/26/2022,West,Washington,Furniture,Chairs,Chairs elite,195.36,3,0.05,109.99
+f8867aae-7147-48f3-86bb-f8afe47e9bec,8/4/2021,8/5/2021,Central,Illinois,Office Supplies,Paper,Paper elite,653.3,9,0.1,290.98
+15d02ab6-1bfb-47a0-ab3a-ce92996ad2b4,8/5/2023,8/7/2023,Central,New York,Technology,Copiers,Copiers manager,196.48,10,0.25,154.06
+c7511ce6-b14a-4db4-990b-f220ce1a1620,6/15/2020,6/15/2020,East,Georgia,Technology,Copiers,Copiers elite,301.42,4,0.3,183.1
+8b464a5f-19dd-4502-8bc9-481975e260cd,8/16/2021,8/26/2021,East,Florida,Office Supplies,Pens,Pens prime,282.63,7,0.1,174.38
+4bb45305-d99a-4bbd-b11c-de9a7e0a07df,5/1/2022,5/8/2022,Central,Washington,Office Supplies,Paper,Paper will,373.18,3,0.1,309.79
+d4734358-2657-4940-96f7-dab397d4d289,9/24/2020,9/29/2020,South,California,Technology,Copiers,Copiers soldier,150.87,4,0.15,65.23
+a8693ac7-5725-430d-a086-edbbe786311b,7/17/2020,7/17/2020,West,Washington,Office Supplies,Pens,Pens plus,870.96,7,0.05,789.3
+e58a82ec-97af-48d2-9e8a-3f5972d3277c,1/16/2024,1/21/2024,Central,Georgia,Furniture,Tables,Tables manager,523.35,9,0.15,326.44
+a1b1de5e-f681-4228-9dab-b551b26056ac,7/3/2020,7/9/2020,East,Texas,Technology,Phones,Phones prime,968.35,4,0.2,517.76
+34760a84-2c5d-4fb4-b2d8-bb02f1133714,5/8/2023,5/18/2023,West,Texas,Technology,Phones,Phones popular,321.46,1,0.3,125.45
+d94c8d67-52c8-4b4b-b885-732f64bee2ae,4/13/2024,4/19/2024,Central,Illinois,Office Supplies,Paper,Paper will,430.55,10,0.2,196.48
+beedc71b-65cc-4695-b955-93f8b67525f5,10/29/2022,11/5/2022,West,Illinois,Technology,Phones,Phones will,834.05,10,0.25,537.18
+1571e737-9df4-4e25-9c55-687a7ef906e1,2/3/2022,2/8/2022,East,New York,Technology,Phones,Phones manager,767.22,4,0.2,469.55
+f5070f70-d004-4a4c-9f25-40c8553762be,10/7/2020,10/12/2020,Central,Florida,Office Supplies,Binders,Binders will,484.14,10,0.2,207.79
+2091c6eb-73f0-496e-adf9-551ca5455261,6/16/2023,6/20/2023,Central,Georgia,Technology,Phones,Phones manager,531.95,9,0.2,320.49
+a60e9509-784b-40d4-b98a-f89b68f0949e,1/24/2022,1/29/2022,East,Georgia,Technology,Accessories,Accessories music,980.9,10,0.1,781.09
+31622ea3-c901-4169-ac13-cb7eb9f6664c,9/4/2023,9/13/2023,South,Florida,Technology,Accessories,Accessories factor,735.33,10,0.15,335.86
+403e751a-3c05-49e3-ab42-e0cd8e9af140,3/5/2020,3/14/2020,South,California,Technology,Accessories,Accessories will,231.25,8,0.1,138.48
+7b7d965b-cb94-4b52-b745-3d61ee989d25,10/24/2022,11/2/2022,Central,Georgia,Office Supplies,Binders,Binders elite,741.03,3,0.2,342.83
+9c412703-61d9-4e83-8f46-dc33b3a37359,2/10/2022,2/15/2022,Central,Georgia,Furniture,Bookcases,Bookcases factor,916.52,6,0.2,490.68
+33425910-c84f-4c3a-9459-1ab3a9d9b923,5/19/2021,5/23/2021,West,Georgia,Technology,Phones,Phones popular,263.62,5,0.3,125.25
+8a681475-574b-416c-85f6-62c8efc037b7,9/9/2022,9/14/2022,South,Ohio,Technology,Copiers,Copiers popular,309.78,2,0.2,215.27
+8f02ad49-cc5a-40a7-82af-343436108d78,5/2/2024,5/4/2024,Central,Georgia,Office Supplies,Paper,Paper factor,323.25,2,0.1,278.9
+ab1cf7d2-6c0e-4ea8-ade9-78e51ccb7ba1,2/17/2021,2/25/2021,West,California,Office Supplies,Binders,Binders manager,711.36,3,0,525.43
+43753978-cbcc-4bf4-9c25-37f27f1ba2b0,10/3/2023,10/11/2023,South,Illinois,Furniture,Chairs,Chairs soldier,271.19,2,0.15,145.91
+2f9cc5b8-525c-42b0-8db4-d937efe91859,1/11/2020,1/19/2020,Central,Washington,Furniture,Bookcases,Bookcases music,670.25,8,0.15,469.82
+90739b61-6b46-46fc-bca3-25d14e7945f7,8/15/2023,8/15/2023,East,Florida,Furniture,Chairs,Chairs will,595.43,9,0.25,415.61
+22c50550-7223-4cac-bebb-8982e7898b0d,12/11/2024,12/13/2024,Central,New York,Furniture,Bookcases,Bookcases manager,798.56,3,0.25,649.25
+0153a4d1-b844-43e6-87da-cb993c4581f8,9/3/2021,9/12/2021,South,Florida,Technology,Accessories,Accessories elite,932.03,6,0.1,575.43
+ac19c690-17dc-4aa8-af59-06217349f397,8/16/2022,8/20/2022,West,New York,Furniture,Tables,Tables popular,364.15,8,0.25,172.54
+f20fb7cc-0ea1-47b7-867b-0af733116416,6/7/2024,6/11/2024,South,Ohio,Technology,Copiers,Copiers elite,769.42,3,0.2,603.07
+51b1df6a-41f5-4aa4-b761-cd7c1afa797c,11/2/2021,11/3/2021,West,New York,Office Supplies,Binders,Binders music,140.62,3,0.15,75.18
+66da218e-8d62-4110-90a7-7346ec04ac24,2/24/2022,2/27/2022,East,Texas,Office Supplies,Pens,Pens popular,956.33,5,0.2,686.48
+d3de8ced-7a2b-477b-b6ad-371572803b43,11/19/2023,11/22/2023,Central,Illinois,Furniture,Chairs,Chairs music,162.31,5,0.05,98.59
+c306f1e8-2353-46d9-83e8-9412707965d7,1/22/2022,1/31/2022,Central,Ohio,Furniture,Tables,Tables elite,959.49,8,0.05,608.3
+5668d7b8-773c-4041-91f0-a643402c2bb0,8/22/2022,8/30/2022,South,Washington,Technology,Accessories,Accessories small,773.77,10,0.3,547.9
+fa066ded-4a92-4164-a9aa-d8a19a018740,3/1/2023,3/2/2023,West,Washington,Furniture,Chairs,Chairs elite,907.74,4,0.2,567.92
+fb87f36a-9f36-4d0f-8844-fe5f9720d8b8,6/23/2022,6/24/2022,South,New York,Technology,Accessories,Accessories prime,731.07,8,0,653.86
+a2d966c7-8ebb-4ed6-a3eb-0d8c1b62db18,9/27/2020,10/5/2020,Central,New York,Office Supplies,Pens,Pens will,585.72,9,0.15,417.19
+dfd46bfa-d980-4f7c-b55b-63496f316719,6/5/2021,6/5/2021,East,New York,Technology,Accessories,Accessories small,599.4,1,0.15,326.84
+af8c5042-fa65-49d3-93ac-63dac810094c,8/24/2022,8/24/2022,South,Washington,Office Supplies,Pens,Pens will,220.98,3,0.3,141.41
+e3ad0585-5024-4b34-8a9a-888555ef082b,7/7/2022,7/13/2022,Central,Illinois,Office Supplies,Paper,Paper soldier,698.59,9,0.05,517.28
+02a78313-fcf9-45f2-9e8b-6e6b349c8479,1/5/2023,1/11/2023,East,Texas,Technology,Accessories,Accessories prime,741.47,4,0.3,253.3
+1b2bb649-8ee2-4a67-a010-4b54a6731ca5,10/11/2023,10/19/2023,West,Texas,Office Supplies,Binders,Binders factor,410.31,4,0.05,261.37
+1243d5a3-9c5d-4b32-843c-bfa7a212c413,11/27/2024,11/28/2024,East,New York,Furniture,Chairs,Chairs prime,448.28,1,0.05,224.37
+bbd2f5ea-f85f-4437-a808-e69164cc4f13,5/9/2023,5/19/2023,West,New York,Technology,Accessories,Accessories soldier,282.5,1,0.15,167.61
+6ea4027c-e5e3-4f84-ae07-13835b4e96a9,10/28/2022,11/1/2022,Central,California,Furniture,Chairs,Chairs music,597.3,10,0.2,443.44
+5747c3f4-9715-4f27-8471-30f8a6323770,11/29/2024,12/1/2024,West,Ohio,Technology,Copiers,Copiers elite,259.99,5,0.1,107.08
+897a85a8-3817-45cf-970f-e23bc33cdf20,10/12/2022,10/12/2022,South,Florida,Office Supplies,Binders,Binders music,687.78,9,0.1,511.59
+f9e7f30a-95c0-41de-ad5c-9d849e9cdf8e,2/9/2022,2/11/2022,West,Georgia,Technology,Phones,Phones manager,278.92,4,0.1,230.96
+7a9d507f-0cc9-4f77-8a1e-236083a63989,2/25/2023,3/3/2023,Central,Illinois,Office Supplies,Binders,Binders prime,553.49,7,0.05,291.55
+e1370031-3870-43c9-9941-254673ac9e73,9/30/2024,10/5/2024,East,Illinois,Furniture,Chairs,Chairs factor,738.36,4,0,404.37
+688348e2-8a2f-4138-a6c3-e8b493013543,7/5/2024,7/14/2024,Central,Texas,Technology,Copiers,Copiers manager,580.91,8,0.05,497.41
+6082b42e-08af-435e-bebc-ce044a304afd,3/9/2021,3/12/2021,West,Ohio,Technology,Accessories,Accessories factor,759.54,8,0.05,579.55
+f2ffc486-41b5-470e-9a4b-1363449c3838,2/4/2023,2/9/2023,South,Georgia,Office Supplies,Pens,Pens small,492.94,6,0.1,254.69
+183ee08a-30f1-4e0c-a899-c6dad279dff6,7/2/2024,7/9/2024,West,Florida,Office Supplies,Paper,Paper manager,402.17,7,0,285.29
+6a5d2d5d-ce95-4103-8692-8afcb6aeb212,6/18/2021,6/26/2021,West,Ohio,Technology,Copiers,Copiers plus,734.01,5,0.05,363.49
+1c676644-01a5-491c-8fb6-ce29b05f880b,9/2/2024,9/5/2024,South,Georgia,Office Supplies,Binders,Binders prime,671.88,6,0.1,523.3
+04bfebd6-1128-44b7-9c7b-ae53ed1da3f1,12/10/2020,12/15/2020,East,New York,Furniture,Tables,Tables small,734.3,8,0.05,647.42
+5a37d38f-da81-4fb2-a0b0-53448ee4f9ab,8/2/2024,8/12/2024,East,California,Furniture,Tables,Tables elite,441.77,4,0,348.53
+569f6b62-6a53-40d3-8e18-863b456641c5,7/22/2022,7/27/2022,East,New York,Furniture,Chairs,Chairs elite,655.84,10,0.15,462.64
+21b65390-4110-4811-928a-540e5fa9d786,2/3/2023,2/9/2023,East,Ohio,Furniture,Tables,Tables soldier,552.95,5,0.2,466.61
+ba3820ce-6478-48e8-bc48-b5fd40c4b5a7,8/7/2020,8/8/2020,Central,Texas,Technology,Accessories,Accessories will,278.92,10,0.2,135.26
+301cfd1b-b160-43e0-bc95-ffc681d486f7,6/10/2020,6/15/2020,East,New York,Office Supplies,Pens,Pens small,586.75,4,0.1,432.68
+0bc77d36-1b55-45fa-ad8c-fa62ba15c3a4,4/10/2022,4/16/2022,South,Ohio,Office Supplies,Binders,Binders popular,502.2,1,0.25,217.19
+554e4052-234c-4a9e-8636-132719927a7c,3/4/2023,3/5/2023,East,Texas,Technology,Accessories,Accessories elite,268.28,10,0.15,136.26
+2b35b38a-c57f-4116-94ce-ea18e29f7299,2/28/2023,3/10/2023,West,Ohio,Furniture,Tables,Tables small,932.33,6,0,865.96
+1996c0c4-6877-43a8-958f-c5229ea9d70d,9/4/2021,9/6/2021,Central,Ohio,Technology,Accessories,Accessories soldier,588.36,7,0.25,459.78
+2caf812f-f8ee-400e-8ebe-1f5f860976b5,6/6/2024,6/7/2024,East,Washington,Technology,Copiers,Copiers plus,975.61,1,0,624.78
+77573c7f-f580-4c09-8693-2359ada002f5,4/23/2024,5/2/2024,South,Georgia,Technology,Phones,Phones factor,970.47,6,0,726.66
+79cbafc7-8e8c-48a5-a0c1-76e9d1cb1806,12/29/2021,1/6/2022,Central,California,Office Supplies,Pens,Pens small,226.45,10,0.25,120.68
+c8db75b1-0749-448e-88de-e655319326dc,6/17/2020,6/21/2020,Central,Illinois,Furniture,Bookcases,Bookcases small,726.09,3,0.25,390.28
+c943a7fe-4b5e-45af-bb15-898718a176ce,1/11/2020,1/15/2020,South,Georgia,Office Supplies,Pens,Pens elite,773.28,2,0.05,337.78
+556eebff-3845-4a7e-ac71-157278f691c2,2/10/2023,2/18/2023,Central,Ohio,Office Supplies,Paper,Paper manager,74.95,6,0.2,30.43
+5baa6ad4-0867-46f3-9d40-4ddc5297171e,8/20/2021,8/26/2021,West,Ohio,Office Supplies,Paper,Paper soldier,738.6,9,0.05,514.59
+7a31d285-4788-4467-b270-828890a36f47,10/11/2020,10/15/2020,South,Texas,Office Supplies,Pens,Pens prime,518.47,2,0.05,323.06
+d42c93e2-08de-4908-9048-97b957f712de,5/21/2024,5/22/2024,South,Illinois,Office Supplies,Pens,Pens soldier,947.01,8,0.2,630
+d62ba553-51f6-4f9a-b135-7c56000cf262,9/15/2021,9/15/2021,South,Washington,Office Supplies,Pens,Pens will,849.53,7,0.3,631.27
+39bcfb88-fc31-4479-a04a-eab2ec4d66bc,7/28/2024,8/7/2024,Central,Florida,Technology,Accessories,Accessories will,335.41,10,0.25,149.81
+d1ad232f-adb8-4bd2-a82c-536ad918b27b,10/15/2021,10/19/2021,South,Texas,Technology,Copiers,Copiers will,651.26,10,0.3,295.24
+ad313af4-120d-4f00-8251-d9c75e4992f1,1/17/2022,1/18/2022,East,Georgia,Technology,Accessories,Accessories factor,612.62,9,0.05,462.88
+c19d0ecf-d06d-4717-a359-8e963415fe3e,6/16/2022,6/20/2022,Central,California,Technology,Accessories,Accessories music,828.02,7,0.25,488.77
+71b52719-790c-48cb-8c0c-72bfb0ee0d18,9/10/2023,9/12/2023,South,Ohio,Technology,Phones,Phones elite,799.62,2,0.15,698.88
+38081914-40ef-4077-8081-fb225776a932,11/3/2022,11/9/2022,East,Illinois,Technology,Accessories,Accessories factor,801.18,6,0.25,625.69
+80a710b8-87c4-4848-8b47-5c5427220d4f,9/8/2023,9/18/2023,South,Washington,Office Supplies,Paper,Paper will,664.65,1,0.2,562.88
+f8eb818b-da98-4a71-9946-36468b420c19,8/4/2020,8/4/2020,West,Georgia,Furniture,Bookcases,Bookcases popular,260.9,9,0.2,168.9
+6ef9e113-5cbd-4201-b55f-8adae77b9d00,3/12/2022,3/19/2022,South,Illinois,Technology,Copiers,Copiers music,705.92,3,0.1,636.25
+faf33cb8-c8d7-448d-ab3d-4350871ecdd8,5/1/2022,5/2/2022,West,Georgia,Furniture,Chairs,Chairs popular,184.59,5,0.1,114.06
+8130aefb-2990-475d-b686-4fad3c9d6169,9/2/2022,9/3/2022,East,New York,Office Supplies,Binders,Binders popular,711.93,6,0,402.34
+82ab661c-0145-469a-b68a-5c470e87aacc,8/20/2023,8/21/2023,West,Washington,Technology,Accessories,Accessories elite,933.43,4,0.2,416.64
+7139e6ea-4834-4bcf-a93e-947e964a495b,5/23/2022,5/30/2022,South,New York,Furniture,Bookcases,Bookcases plus,648.27,3,0.25,431.96
+9cf52a97-e9ad-4a2f-a071-9bd5b3edfc94,12/13/2024,12/16/2024,Central,Illinois,Office Supplies,Binders,Binders plus,458.08,1,0.25,207.68
+6c65a171-c84a-4d34-a46b-b10bb2d1b8fd,7/27/2020,8/4/2020,South,Washington,Furniture,Bookcases,Bookcases plus,359.69,8,0,195.78
+799aba1c-a3dc-4cf7-82e0-888c54953c66,3/6/2022,3/15/2022,West,Texas,Office Supplies,Binders,Binders plus,158.52,6,0.3,87.83
+b19897c0-684c-42b5-9099-94384355de9b,4/23/2023,4/24/2023,Central,Florida,Technology,Accessories,Accessories elite,347.53,4,0.1,153.3
+88d639fb-cc0f-46d7-a22f-6eb5c75ee5e3,3/6/2022,3/12/2022,West,Florida,Technology,Accessories,Accessories prime,596.07,7,0.05,388.03
+6b8109ac-2530-4f6e-8c22-9728e1382138,8/14/2021,8/16/2021,East,Georgia,Furniture,Bookcases,Bookcases soldier,849.89,10,0,744.54
+e50ee665-a83f-4e07-8924-b1a434cd8aec,2/3/2021,2/9/2021,South,Georgia,Technology,Copiers,Copiers soldier,670.42,7,0.25,393.3
+4ad09818-3a15-4db9-94fe-b8794f1ef46c,6/18/2020,6/27/2020,West,Georgia,Furniture,Tables,Tables plus,327.49,5,0.05,222.13
+da40facf-6cc8-465b-bb71-fb369a260de4,2/29/2024,3/7/2024,Central,New York,Technology,Copiers,Copiers prime,157.55,2,0.1,123.68
+9189d8ba-7cb0-4005-a31b-f8e3b4b776af,1/23/2023,1/26/2023,East,Georgia,Office Supplies,Paper,Paper music,749.19,4,0.1,627.14
+eee179a7-c856-49a2-95ed-6edba7d86c5c,12/14/2021,12/15/2021,Central,Ohio,Office Supplies,Paper,Paper soldier,786.85,4,0.05,648.95
+61f44e5f-9a2c-4874-a988-fd6ba257f8be,6/15/2023,6/17/2023,West,Washington,Furniture,Tables,Tables music,815.17,10,0.1,536.48
+7e19ee8a-52ff-4bff-8c5d-a3ccc31d7f92,8/15/2021,8/24/2021,South,New York,Office Supplies,Binders,Binders music,986.21,2,0.05,893.79
+348b0c64-6b75-47bd-b9d8-e7113687ee8f,11/10/2024,11/20/2024,West,Ohio,Furniture,Chairs,Chairs prime,872.77,4,0.05,673.33
+471ae540-8887-4dea-9d3c-05cb8474b789,10/18/2020,10/27/2020,East,Ohio,Technology,Phones,Phones elite,646.42,7,0.15,264.01
+48b7222f-7422-47b8-b7e8-4daa46016255,3/15/2024,3/19/2024,East,Georgia,Technology,Phones,Phones popular,481.96,8,0.1,329.7
+6475c59f-cc00-4821-8acc-6a6237bd919d,10/7/2024,10/8/2024,Central,Washington,Technology,Phones,Phones music,256.94,7,0.3,112.81
+61c0bd22-4106-49cf-930c-3a40c34a9df7,11/22/2021,11/30/2021,East,New York,Technology,Accessories,Accessories small,587.84,8,0.3,294.33
+9b2ae25b-903b-468e-9e80-29b9016c0afe,7/6/2023,7/13/2023,South,California,Furniture,Tables,Tables soldier,932.96,3,0.15,561.88
+5f459c8e-7d68-43a0-9f11-c9343d325122,12/11/2024,12/21/2024,Central,Illinois,Office Supplies,Paper,Paper popular,880.7,5,0,669.35
+71fc5798-db05-4574-adea-846d9b04eb2e,9/22/2023,10/2/2023,West,Ohio,Furniture,Tables,Tables small,426.52,5,0.25,292.85
+00ba8cdb-032d-4455-a601-7b8b00077f3d,12/12/2023,12/13/2023,South,New York,Furniture,Tables,Tables manager,502.97,3,0.2,237.38
+9bb2ba6f-5a23-4053-986f-cd3d166f5e42,11/25/2023,11/30/2023,East,Illinois,Furniture,Bookcases,Bookcases small,709.33,8,0,373.05
+4391fac6-ec69-4371-9246-25ad60af3e2d,10/3/2021,10/8/2021,West,Illinois,Office Supplies,Paper,Paper elite,413.58,3,0.25,342.38
+e3e248fa-d635-4ba1-bf42-cb1f0cb2e4f8,2/27/2023,2/27/2023,West,Ohio,Technology,Copiers,Copiers plus,205.91,6,0.25,93.18
+4f767e5c-314b-4b54-a15d-c3a4f726ed58,11/7/2023,11/14/2023,South,Washington,Furniture,Tables,Tables will,901.76,3,0.3,358.52
+a4ef8392-b124-4953-8220-178e87d120f5,10/6/2021,10/8/2021,Central,New York,Furniture,Bookcases,Bookcases music,662.39,4,0.2,435.52
+9b8ac354-50f1-4fef-84bd-58a3cead7799,2/24/2021,3/4/2021,West,Georgia,Technology,Copiers,Copiers will,229.21,7,0.1,164.49
+1fe42337-8c66-4dd8-88f4-0f34aca6074b,8/18/2020,8/21/2020,Central,Florida,Office Supplies,Binders,Binders will,614.23,9,0,579.09
+d22bbed7-b1ee-4981-a72c-5d51ea53a687,10/28/2024,11/6/2024,East,New York,Office Supplies,Pens,Pens plus,569.04,3,0.3,318.78
+f6caeea9-7f11-4bb2-837a-a73671ee2d40,5/18/2020,5/18/2020,Central,Ohio,Office Supplies,Paper,Paper will,87.84,1,0.3,46.21
+7cfa0897-ea06-4700-b25b-485c91cec984,12/8/2023,12/14/2023,Central,Illinois,Furniture,Chairs,Chairs elite,559.74,10,0.05,301.58
+6f6617a2-dad5-4fa7-9059-e86159b523c0,2/20/2021,2/22/2021,West,New York,Technology,Phones,Phones factor,421.19,2,0.1,313.81
+4bc1f3e1-7eac-4dc4-8f83-717f065ccc02,6/25/2020,7/1/2020,West,Illinois,Furniture,Bookcases,Bookcases manager,631.68,1,0.1,459.88
+bc913c8e-ab52-4566-b24e-8b4cb2fda65c,12/20/2023,12/22/2023,Central,Florida,Technology,Accessories,Accessories popular,205.64,6,0.2,126.68
+5cc97459-939d-4d49-9b18-8a77179ad7dc,9/16/2020,9/20/2020,Central,Illinois,Technology,Accessories,Accessories music,782.86,1,0.1,627.63
+312c9092-df22-4acc-9aef-0b395cdfe5b9,12/29/2023,1/7/2024,West,Washington,Technology,Accessories,Accessories soldier,521.34,9,0.1,213.21
+18a13966-ea94-413c-84a1-20fed7868431,6/6/2021,6/7/2021,East,New York,Technology,Copiers,Copiers factor,736.64,4,0.25,438.21
+6a55323f-46a9-4124-9dc5-2453932025b0,4/4/2020,4/11/2020,South,California,Office Supplies,Pens,Pens popular,924.22,3,0.3,329.51
+4cc4e99f-7443-43d0-9ee1-acccd8109c40,5/23/2021,5/29/2021,East,Florida,Technology,Phones,Phones factor,307.7,2,0.2,167.55
+d7cf3a12-17c6-4c83-9c76-df383bb82af6,7/5/2024,7/13/2024,Central,Washington,Furniture,Bookcases,Bookcases small,115.48,8,0.3,54.5
+088a2de2-038a-47d5-9e1b-b9f405c5c376,2/6/2023,2/13/2023,West,Georgia,Furniture,Bookcases,Bookcases popular,240.64,10,0.3,116.01
+04b77e31-3282-41a2-8a98-2d4e4683b82a,4/26/2023,5/3/2023,South,New York,Furniture,Chairs,Chairs factor,905.42,4,0.05,356.21
+adb70657-0eb8-4b46-bc0b-3f625b330542,1/14/2023,1/19/2023,South,Texas,Technology,Copiers,Copiers small,883.34,6,0,722.05
+ddd9d2fb-f81a-4958-8449-55cb385b0be1,2/24/2021,3/4/2021,East,New York,Furniture,Bookcases,Bookcases factor,517.43,1,0.05,399.26
+f2743f17-eecb-4e4b-9be8-c9cb76893be3,9/27/2024,10/5/2024,East,Florida,Office Supplies,Binders,Binders will,900.8,8,0.25,352.09
+171c6e2d-630c-4251-9268-2013e66868cc,6/2/2020,6/11/2020,Central,Ohio,Technology,Accessories,Accessories popular,463.23,3,0.05,253.11
+5dee1603-d633-4775-ba68-07b41b909517,10/13/2021,10/20/2021,East,Florida,Office Supplies,Paper,Paper small,120.95,4,0.05,97.76
+1e6afb65-2630-45a9-af07-e1723cc2a51e,12/2/2020,12/9/2020,West,Georgia,Office Supplies,Pens,Pens music,436.19,9,0.1,385.6
+9809299e-e3d0-42c1-b079-4468a21040ac,8/6/2022,8/10/2022,East,California,Furniture,Tables,Tables popular,199.73,5,0.3,133.71
+28617fdf-bb35-433b-af80-0f2f87534c83,10/30/2020,10/31/2020,Central,Texas,Technology,Accessories,Accessories soldier,969.98,7,0.2,372.7
+3ef4d525-06df-49de-ac8d-08d58064ba85,3/4/2020,3/10/2020,West,Illinois,Office Supplies,Binders,Binders manager,760.67,4,0,497.57
+eb67a164-b3da-43b9-b9af-5f7f44a93fe5,5/6/2020,5/9/2020,East,Texas,Furniture,Tables,Tables small,832.49,6,0.25,543.89
+569dbd5f-8ebd-44d7-8afd-4ac91ee58848,2/14/2020,2/15/2020,Central,Illinois,Furniture,Chairs,Chairs manager,471.26,3,0,423.09
+22cc02d7-f1fe-42d8-a08b-ea5ef3947615,8/2/2022,8/2/2022,South,Florida,Furniture,Chairs,Chairs popular,461.5,7,0.15,177.68
+7494bfbf-5bbc-4dc3-9789-08432162972d,3/15/2021,3/17/2021,West,Texas,Office Supplies,Pens,Pens prime,473.71,3,0,349.48
+87bd28d6-9d15-4987-8b4e-f77fc7c778d4,4/23/2022,5/1/2022,West,New York,Office Supplies,Paper,Paper will,133.34,7,0.05,81.98
+66d3c3e9-e8dd-41a6-979a-512dd399d66b,5/20/2024,5/25/2024,South,Texas,Office Supplies,Binders,Binders soldier,792.36,6,0.2,482.3
+17ccc904-f678-4e70-b238-10dfe4beae90,2/23/2020,2/28/2020,South,Washington,Technology,Accessories,Accessories plus,77.84,5,0,65.76
+0492b513-34dc-4bad-967c-9e7ac76a62f2,4/21/2021,4/23/2021,East,California,Furniture,Tables,Tables plus,674.02,5,0.2,514.99
+279e0671-273f-4cdf-8fb1-5c51644635d6,9/29/2024,10/5/2024,Central,New York,Office Supplies,Paper,Paper popular,217.3,10,0.1,174.11
+8931e074-73a3-40de-87b2-9530ad7a720f,3/8/2023,3/17/2023,South,New York,Furniture,Chairs,Chairs small,950.95,8,0.2,487.82
+bf1c95d0-7ef3-4924-9edd-5b9363d5b6bf,4/25/2020,4/28/2020,West,Florida,Technology,Accessories,Accessories popular,68.93,8,0,40.15
+97512d96-b30f-4eea-b8f7-7366eeba37ef,1/8/2024,1/10/2024,East,Washington,Office Supplies,Paper,Paper small,70.82,10,0.25,56.05
+392bea36-fe1d-47b1-9b32-7fa2aedda481,2/4/2022,2/14/2022,West,Ohio,Office Supplies,Binders,Binders prime,145.98,5,0.1,65.88
+4bf4339d-1c0d-468e-8a47-9b91b3598bd2,8/22/2023,8/27/2023,West,Ohio,Furniture,Chairs,Chairs music,970.31,10,0.3,491.77
+c463a9f7-ce6d-4743-8e9e-525ed079a322,2/12/2024,2/16/2024,East,Florida,Furniture,Tables,Tables plus,742.39,10,0.15,596.01
+5a105869-f2e7-4b86-9590-4a94f4ed6f6d,10/13/2021,10/22/2021,East,California,Furniture,Chairs,Chairs popular,587.27,8,0.05,333.33
+3d9147ba-7cb8-45a8-afe4-0ecf1c3eb507,10/16/2021,10/18/2021,West,California,Technology,Accessories,Accessories small,830.58,6,0.15,312.13
+0d0044de-0865-4727-a63a-1f5d172930e2,12/18/2021,12/22/2021,West,Ohio,Furniture,Chairs,Chairs prime,51.22,7,0.15,38.04
+5f5e8c96-e011-404e-8b3a-ad57699c22de,12/10/2024,12/16/2024,West,Florida,Office Supplies,Binders,Binders prime,406.58,8,0.3,302.47
+18e7b969-668e-42b9-a075-22903b5789a3,5/30/2020,5/30/2020,South,Florida,Office Supplies,Paper,Paper small,352.78,2,0,207.43
+c2af6bd4-cfaa-408f-9a0b-918bb8cb8ad3,1/25/2023,1/26/2023,West,Ohio,Office Supplies,Binders,Binders soldier,986.01,8,0.25,359.81
+bf910050-50b4-4f67-a9f2-94c636a84cad,4/19/2020,4/20/2020,Central,Texas,Office Supplies,Paper,Paper music,975.68,7,0.25,601.67
+8081c5a5-2196-4f51-9438-1493075b343b,5/1/2021,5/2/2021,East,Ohio,Furniture,Bookcases,Bookcases small,593.18,8,0.05,248.68
+a1c9aa8d-ffec-4c36-a846-63e08fd488e5,8/26/2021,9/5/2021,Central,Illinois,Technology,Copiers,Copiers prime,506.31,2,0,260.15
+d919d684-fca5-4005-9cb4-04abd9cce434,9/24/2024,9/25/2024,South,Florida,Office Supplies,Pens,Pens popular,497.4,5,0,374.56
+242ca831-5b01-4eb2-a303-934271b40638,12/18/2024,12/24/2024,West,Texas,Office Supplies,Paper,Paper plus,473.49,5,0.15,287.22
+10fd45f2-e9e9-4deb-847f-5523bf7673bc,5/6/2020,5/8/2020,West,New York,Technology,Copiers,Copiers will,141.87,6,0.3,84.15
+95161cbd-dbb9-4839-b454-4511c97e7702,8/3/2024,8/11/2024,South,Texas,Office Supplies,Binders,Binders small,702.71,8,0.2,559.65
+aaa87103-c07f-4ecd-b255-2f5292bc003b,3/19/2022,3/19/2022,West,Illinois,Technology,Copiers,Copiers prime,905.43,10,0.25,745.12
+dea8372d-5ec2-47b6-a780-1bd46b779a17,12/20/2020,12/22/2020,South,California,Furniture,Tables,Tables soldier,169.88,7,0,160.29
+a6ceccaa-2c68-40de-ab09-18ddf1716bd8,9/4/2024,9/13/2024,South,Washington,Office Supplies,Pens,Pens music,915.26,2,0,561.47
+e65d48bb-61d0-44dd-bd72-edc412576707,11/30/2022,12/7/2022,South,Florida,Furniture,Chairs,Chairs soldier,641.91,9,0.3,344.17
+c2c12aa2-7832-4803-af8d-d6d2dc0e7223,3/6/2023,3/15/2023,Central,Washington,Technology,Accessories,Accessories will,928.68,10,0.3,359.6
+944cd284-2ad7-4dba-8c76-61ea6d8164f9,6/24/2021,6/30/2021,South,Florida,Technology,Phones,Phones plus,593.42,8,0,293.57
+41219d07-011e-4d4b-9752-909282ceaa78,5/31/2023,6/10/2023,South,Texas,Technology,Phones,Phones popular,86.84,6,0.25,40.32
+7e7af603-f951-4201-8406-780cd7e785fb,2/11/2020,2/16/2020,East,California,Office Supplies,Pens,Pens soldier,316.33,8,0.3,210.51
+120af20d-36fd-4fee-abdc-f987139a76fc,9/7/2021,9/14/2021,South,California,Office Supplies,Pens,Pens will,742.36,10,0.25,291.72
+661f9bc6-687e-41a5-b3d3-811e2193d7ea,2/26/2024,3/4/2024,Central,Ohio,Technology,Phones,Phones soldier,829.97,9,0.3,343.87
+b7523b9e-cb39-4f63-b27f-0ef15c52c8fa,5/17/2024,5/25/2024,East,Georgia,Technology,Accessories,Accessories manager,215.05,4,0.3,78.91
+9d0e5f64-edbb-49b2-9f26-47a3e32c61c3,1/8/2022,1/11/2022,East,New York,Office Supplies,Pens,Pens factor,832.33,9,0.15,577.03
+f831422a-ae57-4a34-bf06-7517e2dffe2f,2/1/2022,2/8/2022,Central,Florida,Technology,Phones,Phones music,218.7,8,0.2,138.42
+fd94c301-f0f8-4e9d-a2d9-94958d44d8f3,3/13/2024,3/14/2024,West,California,Office Supplies,Paper,Paper factor,417.24,3,0.3,253.49
+162e6242-6782-4919-85a3-efb6b9d03ac4,10/19/2023,10/22/2023,East,Georgia,Office Supplies,Binders,Binders soldier,439.03,1,0.3,309.42
+81d6baed-b92b-4f36-8671-ee4097418d4f,8/18/2023,8/20/2023,Central,Ohio,Technology,Accessories,Accessories will,262.58,10,0.3,205.04
+f2ab2728-b961-4bf5-a419-9e7e26a562ad,10/10/2024,10/15/2024,South,Illinois,Office Supplies,Pens,Pens manager,257.3,5,0.25,154.52
+517f086e-7648-43fa-a4fa-eea104bad8a2,11/13/2022,11/23/2022,East,Georgia,Office Supplies,Binders,Binders small,664.98,10,0.1,356.4
+53a1ec43-e377-42e5-822e-e7fa3625614e,11/19/2021,11/23/2021,Central,California,Technology,Phones,Phones soldier,868.42,5,0.25,601.13
+247169d7-0a9a-4d01-a56f-40722ca82bae,11/25/2022,11/28/2022,East,Georgia,Furniture,Chairs,Chairs music,433.89,6,0.25,181.08
+04c1405b-f1f9-41af-bca1-f60d9c677df3,6/15/2021,6/21/2021,West,Washington,Office Supplies,Pens,Pens factor,749.9,10,0.25,621.46
+5e269be2-ff43-4664-a4f3-af2becc04451,11/6/2023,11/14/2023,West,Florida,Technology,Phones,Phones music,911.2,6,0.2,463.43
+d24e6b4b-e45e-4d22-a5aa-89f3f2929eaa,7/18/2020,7/25/2020,Central,Illinois,Furniture,Chairs,Chairs factor,295.72,9,0.3,226.71
+16473714-5b82-4178-ab4c-524ac709e760,12/28/2021,12/31/2021,Central,Georgia,Technology,Phones,Phones small,449.45,6,0.1,231.98
+09cba0d4-baa9-4b68-b824-02e89469cb9e,8/21/2022,8/21/2022,West,Illinois,Technology,Copiers,Copiers will,601.3,10,0,396.69
+78b305b7-cc45-490a-b2b2-1648794ff4a6,12/21/2022,12/25/2022,Central,Ohio,Office Supplies,Paper,Paper plus,877.31,3,0.05,809.01
+89143319-4737-4593-b9fa-d1ec40217eb1,7/26/2022,7/28/2022,West,Washington,Office Supplies,Binders,Binders manager,221.34,2,0.15,119.35
+5f504070-6bfa-41e4-a26b-70035c3cd627,1/10/2020,1/17/2020,South,Illinois,Office Supplies,Paper,Paper soldier,773.13,3,0.2,570.89
+ed450c36-4ea5-4669-979c-89a7fbc04943,6/12/2023,6/18/2023,West,Washington,Technology,Phones,Phones manager,433.22,8,0.15,161.32
+254fd6d9-ae69-4fa3-a2f3-dfe0087a86d7,12/31/2024,1/5/2025,West,Washington,Technology,Accessories,Accessories music,67.02,1,0.25,47.12
+24c12443-2e8f-4ddb-a877-52560979d262,9/21/2020,9/22/2020,Central,Texas,Office Supplies,Binders,Binders prime,609.24,3,0,519.75
+0495d001-9e56-459a-8e8c-9b50d33e615f,1/30/2024,2/7/2024,South,Washington,Technology,Copiers,Copiers factor,370.94,3,0.1,334.03
+1d59cc12-cf6a-40ad-aab0-812065031d08,12/3/2020,12/9/2020,West,Illinois,Furniture,Tables,Tables popular,263.11,3,0.05,206.19
+4551abc2-bb1a-4837-a1fb-f41a2900b97c,12/27/2023,1/6/2024,East,New York,Furniture,Bookcases,Bookcases small,882.72,5,0.3,520.79
+b3b6f66c-89ee-4bef-8f7d-17cf8867f036,8/31/2023,8/31/2023,Central,Georgia,Furniture,Chairs,Chairs soldier,160,8,0.15,69.26
+0b4b9b14-acf2-40ed-b6be-676dfaee1617,2/24/2021,3/6/2021,West,Ohio,Technology,Accessories,Accessories small,336.06,2,0.25,201.77
+42179a64-0197-44ff-a7f3-de03c52be5a6,11/13/2022,11/22/2022,West,Texas,Furniture,Bookcases,Bookcases elite,158.31,2,0.15,74.57
+4211469b-f8ab-41d2-a1ce-33f84edb6fa1,2/17/2021,2/22/2021,West,Georgia,Technology,Phones,Phones popular,330.58,1,0.2,200.23
+4deccfc3-7a9b-43ab-bd07-bae0f493aa23,4/25/2021,4/25/2021,South,Florida,Furniture,Chairs,Chairs small,134.55,2,0.3,81.86
+8ee2e6a0-e8b9-416d-b3c0-bb57ae6b6f00,5/15/2024,5/23/2024,Central,Texas,Furniture,Chairs,Chairs prime,737.4,5,0.25,340.12
+0c2b6d88-9b99-413d-827a-7002fa926404,4/12/2020,4/13/2020,South,Illinois,Furniture,Tables,Tables small,859.64,6,0.3,564.26
+752cdb9d-abdf-498f-af7f-24f2f94666e7,10/9/2024,10/9/2024,South,Texas,Furniture,Tables,Tables small,680.19,3,0.1,385.54
+418755d7-a281-45e3-8298-fc8025d00e30,2/2/2022,2/7/2022,South,Ohio,Furniture,Tables,Tables soldier,430.74,8,0.1,351.77
+4b920439-21b1-4c04-aa76-37b73822cc0c,8/19/2020,8/21/2020,South,Georgia,Technology,Copiers,Copiers soldier,105.71,3,0,66.47
+eabfe435-c62a-4f33-b1ec-42e5718eb8de,6/5/2023,6/11/2023,East,Ohio,Office Supplies,Binders,Binders prime,77.38,3,0.15,64.86
+c8520f35-3ff9-495c-9b7b-f6d0a7bd2afa,4/4/2020,4/5/2020,West,Washington,Office Supplies,Binders,Binders elite,348.53,9,0.3,239.66
+325d06e2-21a7-4401-b0b6-616dd6aeebd7,12/7/2022,12/16/2022,South,Florida,Furniture,Bookcases,Bookcases elite,678.63,4,0.15,370.46
+abd6881b-cf5a-4467-97b1-a66aede0aeb5,12/31/2024,1/9/2025,South,Florida,Furniture,Tables,Tables small,661.23,3,0.2,515.88
+7665d5cc-1915-4556-b6a0-fa0179f0eb3f,3/18/2024,3/25/2024,South,Ohio,Office Supplies,Paper,Paper factor,364.35,5,0,247.32
+602074a4-3a3d-4fcd-b47f-d8da11456b03,6/10/2020,6/17/2020,South,New York,Office Supplies,Binders,Binders small,475.69,8,0.15,252.49
+f4217d3f-bf9c-428a-b914-c315b64d034f,4/6/2022,4/12/2022,Central,California,Furniture,Chairs,Chairs prime,571.64,2,0.3,355.83
+40dad521-0e5e-4797-963f-24fef71807ba,11/29/2021,12/4/2021,South,Washington,Furniture,Tables,Tables prime,852.1,6,0.2,630.44
+a58b8619-66b9-4d8f-a0a8-109324d5cc58,8/21/2020,8/22/2020,Central,Washington,Technology,Accessories,Accessories small,52.09,6,0.3,33.14
+ef3c4ffd-0c57-47c4-a074-453584b1a9b9,4/3/2020,4/5/2020,West,California,Office Supplies,Paper,Paper small,830.75,7,0,448.49
+62684550-c566-470c-a286-b5f5b305b33f,10/11/2024,10/17/2024,South,New York,Furniture,Bookcases,Bookcases plus,833.33,4,0.25,427.19
+236937c0-410e-4c89-bac2-15707c6f6bb7,9/9/2020,9/16/2020,East,New York,Office Supplies,Binders,Binders elite,609.85,9,0.05,553.05
+fbbd9284-587b-4b29-87cf-c2fc568e95d1,6/5/2022,6/14/2022,West,Illinois,Office Supplies,Binders,Binders will,792.03,3,0.25,497.73
+7a4f458e-5a26-4cbd-bb89-ce8fa603e0dc,9/8/2023,9/17/2023,West,Texas,Technology,Phones,Phones will,528.9,7,0.15,459.25
+b96626c5-d9b1-498a-a6a7-290145d40b2a,12/3/2021,12/7/2021,Central,Washington,Office Supplies,Paper,Paper elite,181.27,10,0.25,140.77
+7a250861-a1ba-4138-ae84-7a0c3df1a01f,7/19/2023,7/22/2023,West,Florida,Furniture,Tables,Tables elite,642.96,5,0.25,331.88
+e3e438c2-af2f-4b35-bea6-9bf6ce81bd55,1/16/2023,1/26/2023,South,Texas,Office Supplies,Binders,Binders will,159.63,6,0.2,95.42
+a9b0a78d-728d-4d32-92d8-8778bcb614f7,7/13/2024,7/13/2024,West,Texas,Technology,Accessories,Accessories soldier,74.01,3,0,56.89
+f2c4ec1c-2aab-4d53-9a74-64645469774e,8/9/2021,8/19/2021,East,Washington,Office Supplies,Paper,Paper prime,847.41,5,0.05,672.94
+fca3f3a0-db36-4aee-9f40-0da1b4fad71e,7/28/2020,8/6/2020,South,California,Technology,Copiers,Copiers elite,583.79,4,0.25,386.13
+dfae96a2-950d-402b-a91c-1844185460e8,5/25/2024,5/29/2024,Central,New York,Technology,Copiers,Copiers manager,94.63,7,0.15,55.07
+c04e7ce4-5640-441a-a105-fc9de62dfef1,3/3/2024,3/7/2024,Central,California,Furniture,Chairs,Chairs factor,875.41,8,0.3,389.95
+e3ad8408-e6ac-47ba-bf70-52addcc3dab7,8/25/2021,9/1/2021,South,New York,Furniture,Chairs,Chairs will,120.75,3,0.25,72.12
+e893d912-5566-4feb-889b-339c19d65f47,7/25/2021,8/2/2021,West,New York,Office Supplies,Paper,Paper soldier,202.88,5,0,118.04
+47ce8235-83c7-423a-95c4-693d3f2df260,10/22/2021,10/31/2021,Central,Illinois,Furniture,Chairs,Chairs popular,634.83,5,0.15,490
+6a74737e-9881-4003-8d7c-3b683b1795cb,12/12/2022,12/15/2022,South,Illinois,Furniture,Chairs,Chairs popular,114.77,9,0.05,70.36
+0595d448-3103-401c-b71f-e4ea38c45e03,3/29/2021,4/1/2021,South,New York,Technology,Phones,Phones small,364.51,5,0.05,327.91
+d0a2c145-184b-405f-b1e8-70694f51aa07,10/1/2023,10/6/2023,East,Washington,Office Supplies,Paper,Paper will,909.27,10,0.2,437.08
+9e15f9be-ae04-4b40-8445-24615351d6fd,6/18/2024,6/19/2024,Central,Georgia,Office Supplies,Pens,Pens prime,563.23,5,0,507.6
+d2ef5049-7ece-4a56-af3e-ec3a0638ce16,3/30/2020,4/3/2020,East,Illinois,Technology,Accessories,Accessories factor,354.3,2,0,174.34
+8c4e841f-43de-4ac5-91e4-6f181c3b39b1,10/4/2023,10/14/2023,South,Illinois,Furniture,Chairs,Chairs soldier,453,2,0.05,307.3
+78af5fd1-9165-4b53-8d8a-376aa949231c,2/18/2020,2/25/2020,Central,Illinois,Technology,Phones,Phones plus,85.99,2,0,42.81
+c2a93e44-a2a5-42d2-bc24-6f314f71dd3e,8/9/2024,8/12/2024,South,Illinois,Office Supplies,Pens,Pens elite,418.63,7,0.15,222.28
+5f85964a-6685-4596-b88a-c0f326b60b60,1/13/2020,1/23/2020,East,Washington,Technology,Copiers,Copiers elite,110.08,10,0,86.47
+e38d8f2a-1868-46b7-929c-eae7bf0224fd,8/5/2020,8/9/2020,South,Ohio,Technology,Phones,Phones manager,626.24,5,0.3,484.23
+d165c915-f9ef-4088-ba7f-65ead9238712,8/28/2022,8/30/2022,Central,Florida,Technology,Accessories,Accessories music,179.56,7,0.3,127.99
+8efb01b8-4149-45ac-93c6-dc6ac019137e,10/19/2023,10/29/2023,East,Ohio,Office Supplies,Paper,Paper elite,575.85,9,0.05,262.64
+a8a5ec14-3c93-4c3b-ad38-e5a33dcf2a5f,1/26/2023,1/27/2023,West,Florida,Office Supplies,Paper,Paper soldier,760.88,6,0.05,465.12
+5d5fbeeb-e416-4b7a-8a8a-64461aeac6f3,3/28/2021,4/6/2021,South,Illinois,Office Supplies,Paper,Paper music,158.89,10,0.3,58.06
+629242c0-984d-43cf-9da7-0050856cc9cf,10/7/2023,10/8/2023,Central,Florida,Office Supplies,Paper,Paper factor,237.55,10,0.15,202.89
+ab7924ac-1bed-4a0a-b535-b31e3db4a0ad,7/23/2020,7/27/2020,Central,Florida,Technology,Accessories,Accessories plus,905.11,6,0.15,542.4
+128ba67b-6880-4a42-9815-c0e27b4f96c5,3/6/2023,3/11/2023,South,Texas,Office Supplies,Pens,Pens popular,210.21,6,0.05,170.55
+2b5d14e6-2e59-4983-be96-d755db637ec8,10/2/2020,10/12/2020,Central,Georgia,Technology,Phones,Phones elite,883.99,8,0.15,488.41
+3865d3a1-26d4-4f72-aede-30440f3e79ee,8/10/2020,8/12/2020,West,Texas,Technology,Copiers,Copiers small,127.88,5,0.3,92.89
+579d65b7-2f3e-44b1-802d-794f887b3d57,1/29/2024,1/30/2024,West,New York,Furniture,Chairs,Chairs elite,650.05,10,0.2,364.38
+c787b13d-0c8e-4827-a85e-0f5933e62a9b,6/17/2021,6/25/2021,Central,Florida,Technology,Phones,Phones prime,671.21,3,0.1,392.71
+1c1f8eaa-f2df-45b5-b763-5be0c195e0b4,10/23/2022,10/31/2022,West,Florida,Furniture,Bookcases,Bookcases prime,395.67,1,0.25,183.97
+a58aaef8-03f0-4a0d-bbd2-eec4e9d60b20,11/22/2020,11/24/2020,Central,New York,Technology,Copiers,Copiers factor,676.44,3,0.25,475.05
+03c5f5ba-753d-4a5c-9cd4-7ecce2c9f02b,4/8/2024,4/15/2024,Central,Ohio,Furniture,Tables,Tables prime,301.14,4,0,231.19
+7f9abf44-639a-4c15-84e7-ee8610efbec9,7/20/2022,7/20/2022,Central,Florida,Furniture,Chairs,Chairs will,357.87,9,0.25,268.14
+4ea0dd9d-9d38-4b6c-bb1f-a51d39fa65d1,8/31/2023,9/6/2023,West,Ohio,Office Supplies,Binders,Binders popular,670.67,2,0.2,324.96
+b9eb76ad-d1ad-4281-a197-68a65a23c24b,7/31/2024,8/5/2024,South,Florida,Office Supplies,Pens,Pens factor,892.81,1,0.2,711.22
+d4fcc30b-210b-4a44-807a-55eb159589fd,6/6/2020,6/14/2020,East,California,Technology,Phones,Phones will,250.94,3,0.05,146.61
+03803b95-b3dc-4f8a-9b78-d7bc81d87429,7/19/2024,7/24/2024,West,Ohio,Technology,Accessories,Accessories manager,507.44,8,0.15,242.15
+036ce516-ada2-4399-8d2f-a93ab18cef45,5/14/2021,5/14/2021,West,New York,Furniture,Chairs,Chairs soldier,612.73,3,0.25,365.62
+25595686-9217-4ce2-a152-886fe7ebbaa3,6/12/2021,6/14/2021,Central,Illinois,Technology,Phones,Phones factor,619.39,10,0.25,222.34
+7b445b3e-b6eb-4a14-9d5f-96cd722d5084,7/8/2022,7/17/2022,West,Texas,Office Supplies,Pens,Pens soldier,212.04,7,0.2,91.31
+fe604a51-58c2-4138-ae7c-1bee90fc970a,1/23/2024,2/2/2024,West,Illinois,Office Supplies,Pens,Pens manager,616.71,2,0.05,365.6
+954e24c2-e7ef-4275-877c-daad3de8d4a5,2/18/2021,2/26/2021,South,New York,Technology,Copiers,Copiers elite,448.81,3,0.2,182.97
+cf024034-c7db-4f35-abf9-cfcc93e6f5a5,10/27/2022,10/28/2022,South,Ohio,Furniture,Bookcases,Bookcases popular,676.42,10,0.2,520.59
+5493ed8b-65cc-4aa3-a1a9-9236c727f127,11/26/2024,11/26/2024,Central,Illinois,Technology,Copiers,Copiers will,457.51,8,0.3,319.96
+8f343d8e-708a-4c4e-80c3-ea467f1868bd,10/1/2020,10/5/2020,South,Texas,Office Supplies,Paper,Paper factor,914.58,2,0.1,633.45
+fc348588-b26c-4240-bbd9-b398a23b57ba,1/12/2020,1/12/2020,Central,Ohio,Technology,Copiers,Copiers popular,161.94,1,0.15,113.84
+c33ad7eb-0223-409e-b779-f717ac0b31ae,8/6/2020,8/8/2020,Central,Texas,Office Supplies,Binders,Binders will,606.1,5,0.3,357.98
+644900f2-74ed-4c2c-9d24-25f32ef2ccd3,3/26/2024,3/29/2024,South,Texas,Office Supplies,Binders,Binders music,794.6,8,0.05,467.64
+026db4e5-729f-4971-84a2-c442a1851248,3/29/2023,4/3/2023,West,Illinois,Technology,Phones,Phones factor,748.99,2,0.25,344.97
+f8f70dba-4932-4136-b9f5-765673c4f05a,11/7/2022,11/13/2022,East,Illinois,Office Supplies,Binders,Binders soldier,633.32,1,0.05,379.14
+e70c55ca-6144-4644-a193-6809c08b7eb6,8/23/2022,9/1/2022,East,Ohio,Office Supplies,Paper,Paper will,110.88,4,0.1,46.77
+db286a74-3168-4263-b718-8eb6267c4c38,6/11/2023,6/21/2023,West,Georgia,Technology,Phones,Phones prime,726.03,10,0,668.05
+1829a48f-2221-4e5f-b1c3-497400370630,1/22/2020,1/25/2020,West,Florida,Technology,Copiers,Copiers manager,321.71,1,0.3,199.55
+ba53405a-86dc-446e-b6da-75171ad67534,1/6/2022,1/9/2022,Central,Ohio,Technology,Accessories,Accessories will,976.86,2,0.1,769.16
+48f22650-9860-41a9-9a5a-5160d7c7d7c7,4/15/2023,4/18/2023,Central,Washington,Technology,Accessories,Accessories music,750.08,2,0,526.76
+8f0f69a0-bebe-49ba-92c3-596617a6ce2e,4/8/2021,4/17/2021,South,Illinois,Furniture,Bookcases,Bookcases elite,933.23,10,0,507.31
+f9a7797a-849a-4615-bb89-60f89f5dcaa5,5/28/2020,6/5/2020,Central,Georgia,Office Supplies,Pens,Pens will,949.66,9,0.1,795.6
+82543cd3-2bf7-45fc-8b69-37f3b8378e36,2/27/2023,3/6/2023,East,Georgia,Furniture,Bookcases,Bookcases small,963.18,8,0.25,550.67
+459cd004-ccb8-4b59-a356-b0b56aeffe5e,6/12/2021,6/13/2021,Central,Ohio,Office Supplies,Binders,Binders popular,799.22,4,0.25,549.42
+53c0889b-4fc6-4729-bb4b-29620b0bdc40,11/23/2022,12/1/2022,Central,Illinois,Furniture,Chairs,Chairs elite,840.57,4,0.1,360.27
+8f8894e2-4d36-461d-b7b5-3b9dcf5e5dde,12/31/2020,1/7/2021,West,Georgia,Office Supplies,Pens,Pens factor,257.64,10,0.1,122.51
+5f7b9600-8298-4e3e-9fbc-c32911821dc9,4/25/2021,4/28/2021,West,Illinois,Office Supplies,Paper,Paper small,267.75,4,0.3,168.47
+c684300d-ccbc-4b25-bd82-69c9074448e8,6/9/2020,6/19/2020,Central,Washington,Technology,Phones,Phones prime,633.14,9,0,548.56
+6ea0872b-d21a-4751-9df0-59e849dbf0a2,12/9/2024,12/18/2024,West,New York,Office Supplies,Pens,Pens elite,223.73,9,0.1,131.53
+cbc7a34e-43bf-4818-b643-76452111d633,6/24/2024,6/30/2024,West,Georgia,Office Supplies,Binders,Binders small,80.93,6,0.15,65.37
+7e82688b-985f-44db-9f3a-ce9876cdeace,12/1/2023,12/9/2023,East,Washington,Office Supplies,Pens,Pens popular,704.75,1,0.25,318.14
+962d72e2-7914-461d-9d72-7c201ecb980f,6/8/2023,6/12/2023,Central,Washington,Furniture,Chairs,Chairs soldier,299.71,5,0.15,257.05
+567a026d-22fa-4fce-ae39-00722449cc75,10/18/2022,10/24/2022,Central,Georgia,Furniture,Bookcases,Bookcases soldier,715.68,6,0.1,591.43
+e8118adc-303b-48e0-a75f-de150d756496,3/16/2023,3/18/2023,West,Ohio,Technology,Copiers,Copiers will,267.14,2,0.25,128.2
+2ec3711e-0ac8-40f0-bf6e-05ceaf4b4737,2/5/2021,2/7/2021,West,Washington,Technology,Accessories,Accessories prime,499.34,1,0.05,307.61
+c482c885-e215-4e25-80f2-9e165789ecbc,9/6/2021,9/10/2021,West,Texas,Technology,Copiers,Copiers prime,95.32,2,0.25,40.85
+293d11e5-c0cf-40db-ad8d-92a1b3c172bb,9/14/2024,9/24/2024,Central,Washington,Furniture,Bookcases,Bookcases manager,757.36,5,0.1,430.38
+f29057bc-def1-4c76-8a24-fa5003affb0f,4/23/2022,4/24/2022,West,Texas,Office Supplies,Binders,Binders popular,964.96,4,0.2,622.46
+8cf378ca-a173-4c47-a32b-eeb7af105e26,10/27/2021,11/6/2021,Central,Georgia,Technology,Phones,Phones soldier,786.01,8,0,479.14
+3d434526-e9d5-488b-9ec1-65eeb5a60a42,11/13/2024,11/15/2024,East,Illinois,Technology,Phones,Phones soldier,450.73,10,0.2,252.57
+b4550ca9-4457-4b61-8a6a-d96195ecedb0,12/4/2021,12/7/2021,Central,Georgia,Office Supplies,Pens,Pens popular,670.36,5,0.2,455.24
+1d8bdeac-364e-42c9-87be-cacbaf765a63,3/11/2024,3/20/2024,West,Texas,Technology,Phones,Phones small,443.29,3,0.3,155.51
+13a7ff17-4365-4ffb-a8c1-cd1eb8229dda,3/7/2021,3/9/2021,South,Illinois,Office Supplies,Paper,Paper small,140.78,8,0.2,54.43
+e800c4a6-2ce5-4635-824a-c8e397a982f4,6/21/2021,6/30/2021,Central,Georgia,Furniture,Tables,Tables soldier,672.09,7,0.1,335.94
+bee0a2bd-22f1-4e4d-aac8-03bbb628dfc0,9/25/2020,10/3/2020,South,Georgia,Furniture,Tables,Tables elite,83.4,6,0.3,64.04
+3bb85b0c-575e-4039-8767-ffc3ad807672,7/11/2021,7/19/2021,South,Ohio,Office Supplies,Paper,Paper elite,971.07,9,0.05,686.38
+8e2faa72-c63d-4860-b574-25c483175bff,8/3/2023,8/13/2023,East,Georgia,Technology,Phones,Phones music,913.48,8,0.2,431.55
+ec037921-c021-49fb-88d8-14c7fc627d75,1/19/2022,1/25/2022,West,Washington,Office Supplies,Paper,Paper music,338.39,1,0.2,258.4
+e61ca98b-a2b2-4d33-91b8-3adb6dfff14c,8/18/2022,8/26/2022,South,Texas,Furniture,Chairs,Chairs plus,925.98,8,0.1,356.29
+d9ec0d2b-b23f-405c-8367-4cbd9a784a40,4/18/2021,4/18/2021,West,Ohio,Technology,Phones,Phones will,229.14,9,0.15,130.8
+c02f8454-1cfe-4741-ba1b-20d201fb209f,3/27/2021,3/31/2021,Central,Texas,Furniture,Bookcases,Bookcases elite,644.06,9,0.3,459.85
+c092b826-df6a-47e5-8996-7d73b6991294,7/14/2024,7/18/2024,South,Georgia,Office Supplies,Paper,Paper music,860.81,3,0.05,469.4
+9dee4793-63bd-4ea8-a3ee-9227c6eff438,12/5/2023,12/14/2023,East,Florida,Office Supplies,Paper,Paper small,354.61,3,0,330.97
+83ef383e-9354-4c36-810f-08966e83235c,7/31/2021,8/4/2021,East,Georgia,Furniture,Chairs,Chairs factor,466.5,1,0.05,204.5
+39268ca9-2c98-424c-98f9-24b600e1a126,12/1/2021,12/7/2021,Central,Illinois,Office Supplies,Pens,Pens soldier,998.07,8,0.25,729.46
+993d24ef-951d-4f0e-9fd2-ebbdd3d2caaf,4/24/2020,4/28/2020,Central,Ohio,Office Supplies,Paper,Paper manager,566.03,3,0.05,492.63
+e02dd0d0-d78a-4b3a-a3a4-ef040ca7a60c,9/6/2020,9/9/2020,East,California,Office Supplies,Pens,Pens prime,284.8,1,0.05,181.45
+cb791c71-0719-43bd-a9d1-bff25c8fad9a,3/7/2022,3/17/2022,East,Texas,Office Supplies,Pens,Pens prime,200.68,1,0.25,160.77
+97a94584-5a32-4a11-9a21-886ba74f030f,7/31/2023,8/4/2023,South,Washington,Furniture,Bookcases,Bookcases manager,893.14,4,0,473.17
+725ceed0-c820-41e6-9b57-3fa8c6bdd138,12/8/2020,12/12/2020,South,Florida,Technology,Accessories,Accessories popular,426.02,4,0,397.42
+7d876eca-6fe0-4025-9eb9-ffb149c25c3a,4/27/2024,4/28/2024,East,New York,Furniture,Tables,Tables popular,524.92,10,0.1,454.77
+7951ab6c-0fbf-49d1-9773-3832830cc41e,8/13/2023,8/15/2023,Central,Georgia,Technology,Copiers,Copiers factor,801.89,3,0.15,391.62
+080d1b86-d553-40ab-b9f6-3563b0bff167,2/13/2020,2/19/2020,Central,Georgia,Office Supplies,Binders,Binders factor,178,1,0.15,129.85
+c884ba49-59e3-445c-a5ac-f79d31e6948d,3/6/2023,3/8/2023,West,Illinois,Technology,Phones,Phones elite,357.5,8,0.1,297.92
+4b6be16e-8596-4ef9-9529-49b12a617cb0,11/13/2020,11/20/2020,South,Florida,Office Supplies,Pens,Pens manager,564.53,8,0,466.73
+5c14746b-730b-4b30-a489-a56d39564631,6/23/2023,6/28/2023,South,California,Technology,Accessories,Accessories elite,354.66,2,0.25,289.21
+5c73ae2e-9f3c-4a0e-8149-b59ea66acd87,10/31/2023,11/7/2023,East,Illinois,Technology,Accessories,Accessories elite,632.39,6,0.15,440.18
+9889e691-83f4-42c3-80e1-27b3fc9bfaac,9/11/2023,9/12/2023,West,Illinois,Furniture,Tables,Tables manager,219.71,1,0.05,98.3
+463a638b-8322-4929-bf81-18e998a9f0c1,3/15/2023,3/25/2023,East,Washington,Office Supplies,Binders,Binders factor,515.41,10,0.25,326.81
+5dccae79-a263-48db-9dc1-3e579458e456,5/25/2023,5/26/2023,East,Washington,Furniture,Tables,Tables elite,672.96,2,0.15,523.24
+4fe756ed-6f6f-42f9-910d-08c43a32378e,3/2/2024,3/8/2024,East,Texas,Office Supplies,Binders,Binders small,105.39,10,0.1,69.18
+6a52b228-3c87-459a-9d0e-eb07a72eb882,3/18/2021,3/26/2021,West,Florida,Furniture,Tables,Tables elite,738.91,9,0.15,344.62
+002b6cb5-b251-4d1e-8b32-0fb309313f18,3/14/2024,3/22/2024,South,Illinois,Office Supplies,Binders,Binders soldier,150.24,10,0.1,110.04
+20c49d86-b1f7-4eef-93d6-f3702661ad00,6/10/2024,6/12/2024,South,Washington,Technology,Phones,Phones popular,529.46,3,0.2,452.28
+d8d37cf6-4c15-4da8-8645-4b8e5825ce4d,1/31/2023,2/5/2023,West,California,Office Supplies,Pens,Pens will,775.98,7,0.3,527.16
+12799368-c917-4d6f-a77d-cc88942d0de2,4/17/2024,4/25/2024,East,New York,Technology,Phones,Phones music,392.01,8,0.15,336.47
+69dc502c-e7ab-411c-9145-5cab378534d6,5/5/2023,5/5/2023,West,California,Technology,Accessories,Accessories popular,993.74,5,0,561.65
+a48d443f-2774-4a81-b297-e98917837a48,2/14/2020,2/18/2020,South,Washington,Technology,Copiers,Copiers soldier,578.51,10,0.05,254.87
+333315fe-b7fc-455c-94a6-47ef46e102dc,10/10/2020,10/14/2020,South,California,Office Supplies,Binders,Binders small,287.36,5,0.3,138.05
+37973c6d-1951-43ee-b904-50d3fa0c0160,1/21/2024,1/26/2024,Central,New York,Office Supplies,Paper,Paper plus,513.86,10,0.3,392.76
+88bbf27b-9db8-4260-ba03-a6277780c0da,2/20/2022,2/21/2022,East,California,Furniture,Bookcases,Bookcases plus,380.53,7,0.15,320.89
+a308ce7a-6857-4139-9d14-8519a082c05c,1/24/2020,2/3/2020,West,Washington,Technology,Phones,Phones elite,101.42,9,0,58.38
+757fda0e-9246-4624-aace-845d9cd43f76,11/30/2023,12/3/2023,East,California,Furniture,Tables,Tables will,689.95,7,0.15,519.54
+51eaa5fc-2b46-4684-924a-0b6c503f97b1,8/16/2021,8/22/2021,South,Texas,Furniture,Tables,Tables small,369.36,8,0.2,269.24
+dd77ff09-e2a8-4454-9525-995dcde2ae87,3/27/2022,4/4/2022,South,Ohio,Office Supplies,Binders,Binders plus,173.86,3,0.15,113.8
+f2adf201-0fc2-4004-a8e2-f3f2294ba2c1,2/5/2021,2/13/2021,South,Washington,Technology,Copiers,Copiers plus,548.04,4,0,299.47
+541a1db4-7e16-424a-bc69-39c02f5516f9,7/2/2020,7/3/2020,East,Texas,Technology,Phones,Phones soldier,452.36,6,0.05,254.22
+e6158b1f-8fab-4e5a-94a7-82ab535b377f,12/17/2021,12/26/2021,Central,Florida,Office Supplies,Binders,Binders small,188.53,1,0.3,84.68
+5c9dc0b2-5a7e-47ae-820a-a993d7756888,8/18/2020,8/18/2020,East,Texas,Furniture,Chairs,Chairs prime,930.39,5,0,547.81
+d18286e4-df8e-438b-8a26-6eb1c4a51bb6,8/22/2022,8/22/2022,Central,Georgia,Office Supplies,Paper,Paper plus,753.01,4,0.05,514.32
+1f9fdf47-06ee-448f-9a0c-d8555e733f31,2/3/2024,2/5/2024,East,Texas,Technology,Copiers,Copiers soldier,684.85,7,0.2,553.69
+2cce3b56-9005-47b7-8736-25ce4f91b5ce,5/3/2020,5/7/2020,East,Illinois,Furniture,Chairs,Chairs will,637.07,1,0.15,447.93
+16ebf299-f85b-463c-b4e7-25d35a2dd916,9/14/2023,9/18/2023,South,California,Technology,Copiers,Copiers will,392.21,2,0,219.98
+0969faa0-3014-4fa5-8056-38bb353738de,11/7/2022,11/8/2022,South,New York,Office Supplies,Pens,Pens manager,873.43,9,0,438.92
+b15aa9e1-48e5-40b6-81d7-4b886f7699a7,5/21/2021,5/29/2021,Central,Washington,Office Supplies,Pens,Pens music,515.44,3,0,304.49
+eb1b1afd-5661-48af-9ca3-de73f5f3f8a9,4/28/2021,5/6/2021,Central,California,Office Supplies,Paper,Paper soldier,644.5,7,0.3,517.53
+783175a5-940b-41d4-8af8-afaece1b6ff8,11/30/2021,12/6/2021,West,Ohio,Technology,Accessories,Accessories factor,133.41,7,0.2,111.46
+37f54d88-cbca-49bb-93e4-23003f93e812,3/19/2023,3/21/2023,West,Florida,Office Supplies,Pens,Pens plus,914.25,6,0.15,590.48
+5dfb7407-ef4e-41ac-90a7-2fc25ff453e2,1/13/2023,1/23/2023,West,Florida,Furniture,Tables,Tables popular,343.55,9,0.05,213.21
+86545201-40ad-4ee3-89e9-b6830bc76c78,5/18/2020,5/26/2020,East,Washington,Technology,Copiers,Copiers will,162.47,6,0.3,122.05
+e732c58c-d20d-4437-9f3b-1ed19896a423,4/22/2022,4/26/2022,East,Florida,Office Supplies,Binders,Binders soldier,937.08,5,0.05,756.97
+413e30f0-4669-4825-a89d-b3e321456257,2/23/2020,3/3/2020,West,New York,Technology,Phones,Phones popular,625.32,10,0.05,443.85
+de973bdb-0f27-453c-995a-b3632810d164,6/11/2020,6/18/2020,West,Ohio,Furniture,Chairs,Chairs prime,853.83,8,0.25,565.75
+c0274587-ca66-4bb0-b576-798c8d9aba44,8/28/2022,8/30/2022,Central,Ohio,Furniture,Tables,Tables factor,264.96,7,0.3,210.09
+98c66ae6-9130-4071-82f6-e5f96052047a,2/29/2024,3/10/2024,Central,Georgia,Furniture,Tables,Tables factor,112.83,8,0.3,70.91
+414919d0-46cb-4532-bd08-452a9e392884,5/25/2022,5/31/2022,East,Illinois,Furniture,Chairs,Chairs prime,748.57,7,0.25,374.72
+65aed630-c900-4398-9f78-ad9125bad798,7/24/2022,7/24/2022,East,California,Furniture,Chairs,Chairs music,560.98,1,0.2,309.53
+899833de-06f1-4dde-8591-df4d72ec4003,6/19/2022,6/25/2022,East,Florida,Office Supplies,Pens,Pens prime,488.28,7,0.1,341.97
+688742a5-3e93-48bb-8a6a-cfc7b46d6dbd,8/26/2024,9/5/2024,West,Ohio,Office Supplies,Paper,Paper will,736.51,2,0.05,594.8
+04d481bc-8d1c-42db-ab8a-c88bb8436b8a,10/24/2021,10/31/2021,Central,Florida,Furniture,Tables,Tables small,481,4,0.15,200.04
+2766bfe7-80bd-4cde-8021-ae20ac10c713,7/5/2020,7/6/2020,West,Ohio,Technology,Phones,Phones elite,652.37,2,0.2,463.25
+3dbc0269-e431-4bbf-8b20-709fd127cd7b,2/18/2022,2/18/2022,West,New York,Furniture,Bookcases,Bookcases will,587.22,3,0.05,502.6
+39718db8-ca0c-40bc-87ff-17889cf3cea2,9/22/2021,9/26/2021,West,New York,Technology,Phones,Phones plus,324.34,3,0,290.02
+1c40c67a-5dee-4993-a57a-466942589f88,4/16/2024,4/20/2024,South,California,Furniture,Bookcases,Bookcases factor,522.75,8,0.2,397.13
+58bb621e-60e9-4a76-a077-e77c9f89197e,4/20/2023,4/30/2023,West,Texas,Office Supplies,Pens,Pens plus,439.64,2,0.2,288.87
+1151d04e-ef47-4ab6-b480-2a61027196b9,7/11/2023,7/19/2023,West,New York,Furniture,Tables,Tables plus,225.6,1,0.25,116.85
+1f4697a6-d907-431d-bc83-764c5c51af60,9/12/2024,9/21/2024,West,Florida,Office Supplies,Pens,Pens music,924.37,1,0,581.73
+9775a2d0-141c-4b54-8b66-715164063cc4,6/5/2023,6/15/2023,Central,New York,Technology,Copiers,Copiers small,615.22,9,0.05,558.73
+d934768a-a46d-4548-9ea4-64ae549a0d61,4/22/2024,4/26/2024,East,Texas,Office Supplies,Pens,Pens prime,902.65,2,0.3,487.23
+fc4633b1-1dc1-418e-8be3-a2ab20f6f17d,10/2/2020,10/3/2020,West,New York,Technology,Phones,Phones small,362.75,7,0.2,168.27
+fdc5f968-3c9d-4b4b-b3b4-9fbaa3bf8629,3/16/2023,3/26/2023,Central,Ohio,Technology,Accessories,Accessories plus,509.48,10,0.3,408.14
+930b6b83-5a7e-459f-9ff3-3ffbfb479e1a,10/2/2024,10/7/2024,South,Georgia,Office Supplies,Binders,Binders prime,596.39,10,0.1,515.53
+5df44eda-70e9-4fb8-a42e-ba43a6690140,7/12/2024,7/14/2024,South,Illinois,Technology,Accessories,Accessories factor,723.16,4,0,336.28
+3233ec1e-c85d-4b74-bf12-43e78ffa8826,6/25/2024,7/4/2024,West,New York,Office Supplies,Pens,Pens factor,93.22,6,0.2,70.75
+3fb5ebd7-8269-4ae2-88fa-9143ff7e635e,11/14/2023,11/18/2023,East,Illinois,Office Supplies,Paper,Paper popular,342.38,9,0.2,178.15
+068b026e-2ced-44d5-b8e3-ee49ca5f6de1,11/30/2021,12/6/2021,Central,Washington,Technology,Copiers,Copiers prime,635.19,1,0.3,268.12
+43f71ea6-1c8b-4b6a-ab2e-d29cc64e1300,8/29/2022,8/29/2022,Central,Georgia,Technology,Accessories,Accessories will,507.42,8,0.3,299.9
+5efdbd93-357a-4c9e-a5f1-f25c63c4511c,2/29/2024,2/29/2024,West,Washington,Technology,Phones,Phones popular,586.7,6,0.2,366.84
+54fd1d4d-8143-46d1-be0c-279981b33419,5/15/2020,5/17/2020,West,Ohio,Office Supplies,Paper,Paper soldier,372.19,7,0.25,225.96
+c1a7087e-e5db-48c7-948c-f022f0e2635a,5/3/2023,5/4/2023,South,California,Office Supplies,Binders,Binders popular,864.93,1,0.1,515.71
+8e5c4d77-bc6b-4b91-9997-9e095830ef38,7/14/2022,7/18/2022,West,Illinois,Furniture,Chairs,Chairs prime,337.2,2,0.1,266.43
+a95eaecb-8434-419e-9293-6413e673e0c7,11/2/2022,11/2/2022,Central,Washington,Office Supplies,Binders,Binders soldier,196.37,6,0.15,145.83
+ff864030-f0b1-44af-9df1-1cf5cf3a8dd4,4/24/2024,4/25/2024,South,Illinois,Technology,Copiers,Copiers manager,993.08,4,0.25,365.05
+77b38328-4423-49fa-99a8-78a8b37e5ffd,9/28/2021,9/28/2021,East,Texas,Technology,Copiers,Copiers manager,878.28,6,0.15,722.27
+8ae10c66-99ed-4ffa-b915-aa2900bc3ebf,3/28/2023,4/1/2023,Central,Georgia,Technology,Accessories,Accessories small,354.84,4,0.1,186.13
+bb2c1b4e-2df9-4dc6-afb0-9d84a200e90d,7/12/2021,7/14/2021,West,Washington,Furniture,Bookcases,Bookcases elite,158.74,10,0.2,97.54
+817abd83-d2b9-47a6-910f-d3870bc6776c,10/14/2021,10/18/2021,Central,Washington,Furniture,Chairs,Chairs elite,813.8,10,0.05,392.13
+f5d5dfb9-2eaf-475a-8159-a383c50b66a7,6/27/2022,6/27/2022,East,Ohio,Furniture,Tables,Tables will,497.2,1,0,303.78
+50bc0a46-704d-4a01-8dbe-04c3fa0ac22a,1/1/2021,1/10/2021,Central,California,Technology,Copiers,Copiers elite,844.37,8,0.2,452.61
+23818d06-036b-48f2-bd71-5032f3b7a076,6/9/2020,6/16/2020,South,Georgia,Technology,Accessories,Accessories factor,138.27,8,0,89.95
+bfd06156-3825-4957-8462-8d960888b254,4/3/2021,4/5/2021,Central,Washington,Technology,Phones,Phones prime,917.22,7,0.05,701.83
+a2207bfc-0e4a-407c-a143-04c2ab39bbf4,9/25/2022,9/25/2022,Central,Washington,Furniture,Bookcases,Bookcases plus,157.24,8,0.15,125.84
+a7f7b899-8ab2-4b68-b8d5-1027203db9bb,3/22/2023,3/24/2023,East,Texas,Technology,Accessories,Accessories elite,435.4,2,0.1,291.97
+f0a99a94-6bdb-477c-bf6e-f359cad4e269,8/2/2022,8/8/2022,South,Ohio,Technology,Phones,Phones small,276.65,4,0.2,121.37
+d1534917-f6ff-497e-8aab-b2616aca1ba1,11/28/2021,12/1/2021,West,Florida,Technology,Copiers,Copiers small,459.59,7,0.2,344.57
+d421c4e2-06ca-4538-b315-659a462b5e87,2/23/2024,3/3/2024,South,Florida,Office Supplies,Paper,Paper music,612.55,8,0.1,410.43
+2146b268-961e-49ec-bf1f-ae2c57abb1cb,4/11/2022,4/12/2022,Central,Georgia,Technology,Accessories,Accessories manager,701.23,10,0.3,507.19
+51e078b7-fb41-4b44-85cb-450e90560aad,7/4/2020,7/7/2020,West,Georgia,Furniture,Chairs,Chairs elite,908.09,1,0.3,371.04
+a9ecef97-dbe7-44e9-b740-e1c9915351f5,8/19/2021,8/25/2021,Central,Texas,Technology,Copiers,Copiers will,474.8,4,0.25,366.67
+7c67c2d7-40e7-4f24-bbc5-43d9f6ac0cd6,1/10/2024,1/15/2024,Central,New York,Furniture,Chairs,Chairs popular,57.71,9,0.15,46.24
+c368dba6-8654-4b6b-b373-241a4e101dfd,1/29/2023,1/29/2023,East,California,Furniture,Chairs,Chairs will,582.03,6,0,508.51
+ce73b462-fc83-4e79-a81a-215dc8cb9f28,12/9/2023,12/18/2023,West,Florida,Office Supplies,Binders,Binders prime,352.22,7,0.15,198.69
+8c4d9e1d-62cc-4082-adfd-1be87bc4f851,10/11/2020,10/14/2020,Central,Florida,Technology,Phones,Phones soldier,851.16,6,0.3,455.42
+98c450a1-f46f-412c-8731-7d9bdbdeca1b,1/24/2020,1/25/2020,West,Illinois,Technology,Accessories,Accessories soldier,186.8,8,0.25,104.64
+def9de2b-6848-400b-82ec-f1139f8eb60f,8/8/2023,8/14/2023,South,Georgia,Office Supplies,Binders,Binders will,624.21,7,0.2,280.27
+74560b7e-843b-434f-9d9c-cc83f64f5aab,12/28/2021,12/31/2021,West,Texas,Furniture,Bookcases,Bookcases will,624.34,10,0.15,499.98
+912567bd-71e0-4189-8c94-34ca2cc9370f,1/23/2023,2/1/2023,East,Georgia,Office Supplies,Paper,Paper small,979.32,10,0.15,713.54
+992bc9f3-0bf0-4cce-a3f6-d8a9a450b73f,10/17/2020,10/25/2020,South,Illinois,Office Supplies,Pens,Pens elite,541.1,9,0.2,218.49
+a3527ec7-bb86-40ab-9eb9-66faaed9dbe2,6/22/2024,7/1/2024,South,Georgia,Office Supplies,Binders,Binders elite,100.14,6,0.2,74.64
+a3b058d8-c888-48fc-8af4-621481192f63,8/18/2022,8/27/2022,Central,Texas,Technology,Phones,Phones manager,449.97,5,0.1,210.37
+53279afc-2a25-406f-859c-0181a8fd6a75,7/12/2023,7/19/2023,East,Texas,Technology,Accessories,Accessories prime,594.22,5,0.3,406.88
+2263e62c-6275-4465-81af-623824e91f2c,6/17/2020,6/19/2020,Central,Texas,Technology,Accessories,Accessories music,858.87,5,0.1,385.85
+f62e4751-db54-4665-9196-68b13c2c88b2,1/30/2020,1/31/2020,West,Texas,Technology,Accessories,Accessories factor,914.62,3,0.25,516.72
+862d8ca0-5d2b-4f27-97bf-50873dbbc71b,9/20/2022,9/22/2022,West,Georgia,Technology,Accessories,Accessories will,375.71,2,0.05,266.51
+bb74ac6d-317d-45b5-9e9d-463d8d6c4ef7,4/26/2024,5/2/2024,Central,New York,Furniture,Chairs,Chairs music,468.18,3,0.05,327.64
+a7f5e124-8065-4c45-aef0-aa86215c35ba,3/27/2024,3/28/2024,West,Ohio,Furniture,Tables,Tables will,490.81,8,0.1,308.65
+9562502a-92a3-4800-b1f9-f2638037aa33,8/29/2022,9/2/2022,South,Ohio,Furniture,Chairs,Chairs popular,876.76,1,0.1,757.94
+a9224b71-20f0-4ff0-bd99-2a564eeb01a1,12/21/2022,12/31/2022,Central,Washington,Furniture,Tables,Tables music,921.83,6,0.3,499.5
+7d0df765-b833-4da3-b062-74b33b1eaaeb,6/30/2021,7/1/2021,West,California,Office Supplies,Binders,Binders elite,604.97,8,0.3,396.68
+f9269888-df4f-4cbd-a978-5d4d1664be92,11/22/2021,12/2/2021,East,New York,Technology,Accessories,Accessories will,347.61,1,0.25,123.08
+2e260c36-442d-4358-a223-a5e16bb9de3d,7/19/2020,7/27/2020,West,New York,Furniture,Chairs,Chairs manager,473.65,4,0.25,230.35
+14b58971-7a97-44ae-8a78-52a291d577f7,6/22/2023,6/23/2023,East,Illinois,Furniture,Chairs,Chairs plus,673.78,4,0.2,455.37
+72509a4a-0683-4429-ba31-ce6ee7f2bf96,9/23/2020,9/29/2020,Central,Texas,Technology,Copiers,Copiers prime,587.77,3,0,459.99
+61963fbb-cd2d-42e6-8a9a-7ec6bf26a054,9/14/2023,9/15/2023,Central,Texas,Technology,Phones,Phones soldier,926.56,5,0.3,499.99
+3d7c9665-81ca-48aa-9dfa-133b8a1c71f4,5/17/2024,5/18/2024,Central,Florida,Office Supplies,Paper,Paper prime,413.66,6,0,224.22
+2b8c881a-dddf-404f-b0cb-d8f8b1acdf2a,5/22/2020,5/29/2020,South,California,Furniture,Chairs,Chairs plus,423,8,0,202.67
+c706a169-73d7-430f-9f4f-c39f9dab1436,8/10/2023,8/11/2023,Central,Georgia,Office Supplies,Binders,Binders manager,296.05,1,0,129.89
+6b5b12f3-85d7-4fcd-998b-5d7176635dde,10/16/2022,10/18/2022,West,Washington,Technology,Copiers,Copiers will,50.82,1,0.25,27.34
+b66df3b7-205b-42f2-b98d-8392352f4e18,3/22/2023,3/22/2023,East,California,Technology,Copiers,Copiers manager,942.92,8,0.15,558.06
+602c9988-f2e5-4b79-8f4b-48a00eef359d,2/26/2022,3/5/2022,South,New York,Furniture,Chairs,Chairs small,558.54,6,0.1,411.23
+49dfe34f-1f14-49cc-b032-b1fa88945e46,1/18/2022,1/26/2022,East,Ohio,Office Supplies,Paper,Paper factor,849.12,5,0.25,380.19
+99a52792-b802-4868-aebf-1dca6cb0e04c,9/4/2021,9/10/2021,South,California,Furniture,Chairs,Chairs soldier,704.4,8,0,624.71
+bfa32e34-8e7b-4145-b360-e467ceb66d0b,3/14/2020,3/17/2020,Central,Georgia,Furniture,Chairs,Chairs elite,996.56,4,0.15,565.83
+676edc07-db2f-4368-a27b-24a9f9a5d63f,9/4/2024,9/11/2024,South,Illinois,Furniture,Tables,Tables factor,372.32,6,0.3,252.09
+5e702c7c-7f4f-4ab3-ad41-28d54bd64b9f,7/10/2024,7/20/2024,West,Illinois,Technology,Copiers,Copiers manager,485.45,9,0.05,382.24
+b2b2bdf5-ac31-4fca-a703-44e9e5c1a731,2/15/2024,2/17/2024,West,New York,Office Supplies,Binders,Binders soldier,68.11,10,0,36.34
+6236fe6e-cedc-44b3-b679-e6ac14361455,7/19/2023,7/19/2023,East,Illinois,Office Supplies,Paper,Paper prime,483.38,3,0.3,297.91
+134a59ff-7ea8-4088-92a6-5f8f5dc8bc3c,5/3/2023,5/12/2023,South,Washington,Furniture,Tables,Tables small,814.23,7,0.1,654.66
+c2a4ebec-1bb6-433f-a9d3-a24da408aab5,11/2/2023,11/11/2023,West,Washington,Technology,Accessories,Accessories small,355.51,4,0.3,128.45
+4d6aaf1a-8cdd-45b8-93ef-0b32528d5c4c,9/4/2020,9/8/2020,West,New York,Furniture,Bookcases,Bookcases soldier,209.65,6,0.2,92.6
+72c3cc1e-1bbd-442c-9b79-9a8e3096d223,7/23/2020,8/2/2020,East,Florida,Technology,Phones,Phones small,788.78,1,0.15,324.24
+674d49ad-cbad-4696-92e2-622bf6e41ea5,12/18/2023,12/28/2023,West,Texas,Technology,Phones,Phones elite,445.41,8,0.25,183.09
+7437aab5-c7eb-4753-a280-db98447c5a8e,7/11/2022,7/17/2022,South,Illinois,Furniture,Tables,Tables music,630.01,1,0.2,282.94
+bfa15942-1d7c-48f7-955e-2426e2f8598d,12/13/2021,12/19/2021,Central,California,Furniture,Chairs,Chairs prime,273.86,2,0.2,231
+7cf74eaf-ab6a-4188-9c40-5ce142f67762,4/26/2024,5/6/2024,South,Georgia,Technology,Accessories,Accessories soldier,312.61,4,0,262.01
+aab82af6-fe13-4b7a-968c-b4a8b8fe7a77,11/23/2020,12/3/2020,Central,Georgia,Furniture,Tables,Tables manager,662.62,5,0.05,412.87
+2849f284-2d49-4bdf-89e3-8ee0b3017639,8/1/2020,8/1/2020,East,California,Technology,Accessories,Accessories prime,200.14,1,0.15,126.48
+60746119-bf0d-4a06-a7f1-52307165c9a1,4/28/2023,5/7/2023,Central,California,Office Supplies,Pens,Pens small,238.81,6,0.05,192.89
+339fde8f-30d4-4350-a3ac-907b8e982c69,4/30/2021,5/6/2021,East,Ohio,Furniture,Bookcases,Bookcases soldier,896.8,2,0.15,598.76
+7976965b-168e-438d-b597-b5bdabe640dd,3/18/2021,3/27/2021,Central,Texas,Office Supplies,Paper,Paper factor,417.96,3,0.15,307.71
+2772eb07-3094-423f-a3ca-6852f8715918,11/18/2021,11/20/2021,South,Georgia,Furniture,Chairs,Chairs will,590.23,5,0.05,265.36
+e7a88f13-5841-43ef-8bee-5154f6982071,12/16/2020,12/21/2020,West,Illinois,Furniture,Bookcases,Bookcases will,623.45,10,0.05,436.43
+e166c715-9082-4986-ae2f-4c71772c8b3b,10/21/2024,10/29/2024,South,California,Office Supplies,Paper,Paper factor,612,8,0.1,237.2
+adf4a360-ace8-483d-b5b3-881c39dfa383,11/1/2021,11/7/2021,East,Ohio,Technology,Accessories,Accessories manager,897.23,10,0.05,789.56
+b150d827-612c-449b-aca5-bd119ad60b59,3/23/2020,3/30/2020,East,Georgia,Technology,Copiers,Copiers prime,81.94,9,0.15,50.3
+9a14cf5b-3885-48b3-a8af-e5c5b9071cbe,5/7/2021,5/8/2021,Central,California,Technology,Accessories,Accessories small,708.5,7,0.05,326.74
+c87bc3b2-84d5-4b89-a773-fddefee9bd00,2/2/2020,2/9/2020,East,Georgia,Technology,Phones,Phones prime,203.71,8,0.3,123.58
+58878863-8bb5-4ef7-a3cb-7aa6c465c4b7,4/29/2024,5/1/2024,East,Illinois,Technology,Phones,Phones will,225.7,6,0.25,129.43
+3a19d8cf-4ee3-46a7-9fda-eea281727a45,11/15/2023,11/20/2023,West,Illinois,Technology,Accessories,Accessories plus,331.76,5,0.25,267.17
+b489e924-01af-41f2-a41d-81c34297cbf0,12/8/2024,12/13/2024,Central,Georgia,Technology,Accessories,Accessories plus,539,6,0,248.5
+109f404c-e9e6-49c1-b0ef-54527d6284b2,3/24/2020,3/29/2020,West,Florida,Office Supplies,Paper,Paper popular,665.76,2,0.2,473.44
+86cddb9f-a721-4e9e-b8fd-1634e02f94c3,5/3/2021,5/11/2021,West,California,Furniture,Chairs,Chairs popular,504.57,10,0.3,397.79
+3d702509-009a-4ada-ba0e-66b43d4c080e,12/23/2021,12/27/2021,South,Georgia,Technology,Copiers,Copiers elite,451.78,1,0,273.35
+f504ca15-8a93-446b-aded-2d654b869d00,12/14/2022,12/15/2022,Central,Illinois,Office Supplies,Binders,Binders factor,555.31,9,0.1,342.16
+f0292ba5-ead4-4741-914b-588cfbcc24b4,12/31/2024,1/7/2025,East,Illinois,Furniture,Tables,Tables soldier,421.15,3,0.1,370.9
+4c4ba0f1-08bf-40c3-8a89-234e6bdeb28a,7/19/2021,7/20/2021,East,Texas,Technology,Accessories,Accessories will,521.51,4,0.2,433.53
+cd13bfab-31da-42fa-8353-0fb5e5055ea4,10/29/2023,11/6/2023,Central,California,Furniture,Bookcases,Bookcases small,379.37,8,0.25,250.48
+0c2ab6fc-2212-4499-af51-69780b760d71,2/15/2020,2/18/2020,Central,Georgia,Technology,Copiers,Copiers plus,369.08,10,0.1,266.71
+be3d526e-c349-49fb-9477-f54c99e4e642,9/25/2023,10/3/2023,Central,Florida,Technology,Phones,Phones music,485.11,10,0.05,422.87
+57c773ff-00d5-46ca-b1de-08f3cf3b0063,4/9/2021,4/16/2021,South,Florida,Office Supplies,Pens,Pens plus,781.26,1,0.05,452.63
+4601237a-3e54-498c-ba34-f7a7fc84e102,11/25/2020,12/3/2020,East,Washington,Office Supplies,Paper,Paper plus,974.55,3,0.05,504.4
+a7be84be-077a-4c55-8bcc-0ce7061a2a7d,9/16/2020,9/23/2020,Central,Washington,Office Supplies,Pens,Pens soldier,225.27,9,0.25,82.61
+2c9ec00a-a52d-4435-b7cc-31b8daf8be93,2/2/2022,2/9/2022,South,Florida,Technology,Accessories,Accessories prime,556.96,2,0,346.71
+09255412-a7a6-4f19-a709-e209b7b6e5b2,10/17/2021,10/19/2021,Central,Georgia,Furniture,Chairs,Chairs music,568.84,9,0.1,408.53
+aa65e99f-5f90-46d8-ba6b-ae1c161fea7d,3/24/2024,4/2/2024,South,New York,Technology,Accessories,Accessories soldier,809.6,8,0.1,599.17
+56261c8b-b207-429b-ad36-1c0dc63843a9,10/20/2023,10/28/2023,Central,Illinois,Furniture,Bookcases,Bookcases popular,73.56,10,0.3,32.59
+b2d6c19c-1f98-450a-9da2-396810ec3100,4/22/2020,5/1/2020,Central,California,Technology,Accessories,Accessories manager,604.26,4,0.3,469.77
+9c5b10bd-b6b1-4d39-824d-b49ab242e79d,6/20/2020,6/28/2020,South,Washington,Office Supplies,Binders,Binders plus,687.98,2,0.2,381.99
+75eca457-3ce8-431b-a06c-4ca4a8f7e64b,5/24/2023,6/1/2023,Central,Ohio,Furniture,Chairs,Chairs popular,393.01,3,0.25,299.04
+6d0f77c5-6c27-4356-9c3d-8d2e4c5a7dc0,1/25/2020,1/29/2020,West,Georgia,Office Supplies,Pens,Pens will,342.68,8,0.3,206.39
+2ea8c8da-ea14-499f-a4cb-11d106dcaef3,7/3/2024,7/10/2024,West,Illinois,Office Supplies,Paper,Paper soldier,815.39,7,0.25,637.15
+3d9bdee6-7238-4d1f-bb95-2d38729ef25e,3/1/2021,3/5/2021,East,New York,Office Supplies,Binders,Binders will,987.31,2,0.2,724.96
+b4a5bacf-2b50-4062-be9d-eaf156077a2a,8/1/2023,8/5/2023,West,Florida,Office Supplies,Paper,Paper will,578.02,10,0.3,443.75
+0424a954-ee65-4b76-94d2-57adf3a8f99f,8/15/2021,8/23/2021,South,Georgia,Office Supplies,Paper,Paper factor,831.66,5,0.3,510.29
+23f4c50e-93e5-4f4a-a684-af8167a5f661,2/24/2020,2/24/2020,Central,Ohio,Furniture,Bookcases,Bookcases soldier,335.16,8,0,254.59
+b7b7ad34-d4a5-446f-8ad5-86304c1f6b70,10/4/2022,10/14/2022,East,Washington,Furniture,Tables,Tables plus,163.39,5,0.15,143.11
+fe6552bd-314d-4d71-97c6-6c3d93f711c8,9/11/2022,9/20/2022,Central,New York,Office Supplies,Pens,Pens music,646.6,8,0.25,480.94
+7796c0cc-3531-4cc9-90aa-005f9e8ce3c8,11/29/2020,12/8/2020,Central,Washington,Furniture,Tables,Tables will,353.7,3,0.1,164.59
+1126eed4-077c-4bce-b3aa-7dfa567a5ca5,7/27/2023,8/1/2023,West,Illinois,Furniture,Bookcases,Bookcases plus,327.08,2,0.2,149.13
+e07e7677-f4ef-455c-9eaa-883a0ffb9b7d,3/21/2024,3/23/2024,Central,Illinois,Technology,Phones,Phones elite,878.82,5,0.1,648.7
+9a913655-9490-4013-b8af-9f12d4b2c5bf,4/2/2023,4/7/2023,South,Washington,Furniture,Tables,Tables soldier,180.1,5,0.1,141.73
+baf481f6-c5e0-4190-afe1-4add2615ca73,7/28/2020,7/31/2020,East,Ohio,Furniture,Chairs,Chairs prime,260.06,4,0.3,197.48
+85d600b9-9063-48aa-b1cf-5ed5da530166,6/5/2020,6/6/2020,South,Washington,Furniture,Tables,Tables soldier,505.54,5,0.25,265.15
+f72aed8a-8821-47a8-9d8f-7e0ffa40ab9a,12/24/2023,12/28/2023,West,California,Furniture,Chairs,Chairs music,823.85,4,0.05,699.83
+eb7d38b6-7d08-4bb5-a9b8-3a61e3ca4591,9/13/2020,9/16/2020,South,Ohio,Furniture,Tables,Tables manager,453.56,2,0,186.12
+cbd8974e-ce2b-4d7e-99d6-0b2f28e88e8b,2/6/2021,2/7/2021,Central,New York,Furniture,Chairs,Chairs small,537.81,1,0.15,231.53
+3c7e002f-3675-4e43-a570-861489ae731b,9/9/2021,9/19/2021,West,Florida,Furniture,Tables,Tables popular,793.25,10,0.05,559.32
+2f16ba19-69f6-47e1-a0d5-8bae61cc5fac,2/29/2020,3/1/2020,West,Illinois,Furniture,Chairs,Chairs small,944.75,10,0.1,532.86
+d058a380-b17d-44cd-a272-8a7391419444,8/5/2024,8/14/2024,East,Illinois,Furniture,Chairs,Chairs factor,256.15,4,0.1,120.33
+51dc26c4-4688-42a8-980d-785c14ac0b58,10/29/2022,11/5/2022,West,Washington,Office Supplies,Binders,Binders will,609.91,8,0.25,494.59
+c8e3a024-dfb8-473f-86a5-7b62f953b39f,5/18/2022,5/21/2022,West,Georgia,Technology,Accessories,Accessories popular,437.2,6,0,286.91
+1241fe57-75a7-4c14-b115-a06d6f9ae398,12/14/2023,12/18/2023,Central,Georgia,Technology,Copiers,Copiers plus,88.58,6,0.15,37.99
+6757e4d0-74ad-4e59-9c12-0cc9dc4cf70e,2/16/2024,2/20/2024,South,California,Technology,Phones,Phones small,264.58,7,0.1,236.7
+70d53d14-61e8-4783-b997-46873948d205,9/18/2024,9/25/2024,South,Illinois,Technology,Phones,Phones small,220.33,8,0.25,88.27
+4d79691d-1162-4689-bc3f-6d78744e2193,10/20/2020,10/26/2020,West,Illinois,Office Supplies,Binders,Binders popular,611.03,2,0.25,485.95
+22a5b425-6852-4348-adad-e6c0ecc66a9e,2/11/2021,2/16/2021,South,Georgia,Furniture,Chairs,Chairs music,851.83,7,0,449.83
+1d2a769f-f718-45e4-b9a3-2d153df7b4e6,4/15/2024,4/24/2024,South,Georgia,Technology,Phones,Phones elite,768.49,7,0.1,483.09
+cba426c1-6664-48f3-b194-02f28568d171,7/25/2021,7/27/2021,West,New York,Office Supplies,Paper,Paper small,166.08,8,0.15,80.95
+a97cdf20-0c8c-4fe8-8196-69641653711e,2/20/2024,2/20/2024,Central,Florida,Furniture,Bookcases,Bookcases music,694.2,3,0.15,470.38
+4f65a27d-d896-4a9f-b178-f42c5b503019,6/27/2023,7/6/2023,South,California,Furniture,Tables,Tables music,678.03,9,0.3,386.54
+d8603c03-d3e4-46ef-8ae6-b258cacefbdc,9/17/2023,9/24/2023,East,New York,Office Supplies,Binders,Binders will,298.58,6,0.3,221.52
+8e58fa54-0e8f-4025-bf79-2b9b0b153202,12/7/2024,12/8/2024,East,Florida,Office Supplies,Pens,Pens elite,348.83,7,0.15,210.64
+b8a414b1-1b7b-49bd-a677-46afb2c40c96,9/12/2023,9/16/2023,South,Illinois,Technology,Accessories,Accessories plus,516.91,3,0.1,389.73
+de4aaead-d6df-49a8-bc4b-ac88c52b89cf,10/14/2023,10/21/2023,West,New York,Technology,Copiers,Copiers will,701.11,10,0.15,429.16
+97c8d165-facd-40fd-98ac-7ba251b39c52,6/23/2021,6/30/2021,Central,New York,Technology,Phones,Phones manager,636.09,6,0.3,507.04
+664ddeb1-780e-46f2-b793-816148eb76d2,4/24/2023,4/24/2023,Central,Ohio,Furniture,Bookcases,Bookcases small,381.43,10,0,313.1
+b648bdfe-8528-46c6-957d-b00e210b4256,5/26/2022,5/31/2022,Central,Illinois,Office Supplies,Pens,Pens small,383.71,4,0.05,197.92
+7022af0e-a41e-41be-8cd0-c1f44b8128bc,11/14/2024,11/18/2024,South,Ohio,Furniture,Bookcases,Bookcases music,211.29,9,0.1,84.42
+b8ee45b2-8349-4775-840e-9a0c58edd447,2/11/2020,2/18/2020,East,Georgia,Technology,Accessories,Accessories small,986.48,7,0.2,545.72
+f7b09575-c088-457f-85f7-0f2738f990c3,11/15/2023,11/25/2023,Central,Ohio,Furniture,Bookcases,Bookcases factor,521.89,6,0.05,375.6
+70993827-9a91-42de-9845-de920b910eb7,10/14/2022,10/24/2022,South,California,Furniture,Chairs,Chairs plus,253.38,5,0,142.79
+ddc4d71c-d799-41a6-b742-3983fc08e8a5,3/1/2024,3/2/2024,South,Ohio,Technology,Copiers,Copiers factor,140,6,0.1,58.12
+aa59d047-3d99-4cdf-bb2d-b27774c65081,12/12/2021,12/13/2021,Central,California,Technology,Phones,Phones will,529.41,5,0.15,374.58
+3593a5c0-3b0b-4df8-b705-f0cea4c6fbcc,4/3/2022,4/7/2022,West,Georgia,Technology,Copiers,Copiers factor,480.57,9,0.05,414.43
+c1851e3e-f908-46f1-b948-b3e67c04751b,9/15/2023,9/22/2023,South,New York,Office Supplies,Binders,Binders elite,556.08,10,0.3,389.01
+75a4d981-669e-4812-8936-8af926d3cd1b,2/14/2021,2/19/2021,Central,Illinois,Office Supplies,Paper,Paper factor,278.36,5,0.3,151.3
+91c137d3-3be5-4878-9111-96489ac1c4eb,9/28/2024,10/4/2024,South,California,Office Supplies,Pens,Pens small,663.74,5,0.25,424.36
+058465fc-1e4d-4a26-a826-c04ddb50a3de,11/3/2020,11/6/2020,South,Ohio,Furniture,Tables,Tables manager,807.19,5,0.15,497.99
+4b9127be-d76a-46f4-95ea-eebfbbc0be1c,2/17/2021,2/19/2021,East,Georgia,Office Supplies,Paper,Paper manager,77.68,5,0.25,47.78
+f3373664-5a05-4196-8568-1bd4e663ec3b,4/23/2020,4/24/2020,East,Ohio,Office Supplies,Binders,Binders soldier,333.08,2,0.15,275.2
+2da1e3e7-c5b9-46bb-af5f-14b14ce8678c,4/28/2021,4/29/2021,Central,Georgia,Technology,Copiers,Copiers small,525.24,2,0.2,361.78
+e61a33c2-8672-4304-8adf-01f762b7e07b,5/2/2021,5/11/2021,West,Ohio,Furniture,Bookcases,Bookcases factor,362.82,10,0.25,195.08
+3b0e2649-792b-4d8a-bf6a-1cefbf912057,10/22/2020,10/23/2020,East,Georgia,Furniture,Tables,Tables elite,971.43,8,0.15,485.11
+cdfebb9e-0cc3-4a46-bf4e-38b9f86bb5c0,2/6/2022,2/7/2022,West,Washington,Office Supplies,Binders,Binders prime,452.59,4,0.1,379.95
+f7515196-33b2-4988-b1ab-a4aab4bc0a86,1/5/2024,1/10/2024,East,California,Office Supplies,Paper,Paper music,663.13,10,0,572.16
+5739e71f-d39b-4c1e-9fdb-16c43f381a93,2/5/2023,2/11/2023,West,Georgia,Office Supplies,Binders,Binders will,960.56,6,0.3,634.31
+19827b6b-a028-45ba-88be-d4808850282c,1/17/2020,1/23/2020,West,Georgia,Office Supplies,Pens,Pens popular,135.74,4,0.1,66.5
+e2d0e198-8a24-495a-860d-d6785888aaf5,12/6/2024,12/16/2024,South,Georgia,Office Supplies,Paper,Paper will,310.33,2,0.3,218.6
+63fb455e-2f44-4e92-9bd1-274501397f69,9/18/2024,9/23/2024,Central,Illinois,Technology,Phones,Phones popular,882.92,2,0.3,366.38
+58e9d9bc-2807-4448-b281-b8ef04486719,5/11/2022,5/20/2022,East,Florida,Technology,Copiers,Copiers prime,750.9,8,0.25,272.7
+553b7298-7fc9-4f1a-b6de-ff0ee8132ca9,6/8/2024,6/18/2024,East,Florida,Furniture,Tables,Tables factor,430.63,5,0.1,293.2
+72c1e4e7-5ebb-45e2-9cec-5ce0a97f35e8,11/23/2022,12/3/2022,West,Texas,Furniture,Chairs,Chairs soldier,701.47,6,0.15,430.26
+b58d7b79-accf-4ce5-822f-11d18702dd8c,11/8/2023,11/17/2023,South,California,Office Supplies,Pens,Pens manager,238.73,7,0.1,113.41
+bbaacc0c-559f-4c3f-bff1-350140c84de9,2/17/2020,2/25/2020,West,New York,Technology,Copiers,Copiers will,645.3,2,0.15,303.85
+9d538726-d60a-4839-9c31-ca5ff898bdef,6/19/2023,6/25/2023,East,New York,Technology,Phones,Phones elite,191.79,6,0.05,172.22
+647882f1-c54c-4284-ae27-fdeefbdc865b,6/10/2022,6/17/2022,Central,Texas,Technology,Phones,Phones prime,162.59,4,0.05,145.9
+e7b3fcc3-0345-4449-b2e6-bfccedbf2b2b,2/21/2022,2/23/2022,South,Florida,Office Supplies,Paper,Paper will,620.08,5,0.25,419.11
+7b4ca1cf-b25a-475a-b9c3-a890e8fff418,6/10/2024,6/12/2024,West,Washington,Furniture,Bookcases,Bookcases plus,977.32,4,0.2,570.01
+ffdb082f-b1a1-400c-a077-2716c22594d3,11/2/2023,11/12/2023,South,California,Office Supplies,Paper,Paper will,59.8,3,0.3,29.37
+3a7b0fe9-cc0f-4f2c-b301-bff3560f3e61,12/21/2023,12/27/2023,Central,California,Technology,Copiers,Copiers prime,293.41,2,0.2,114.16
+9a9e6498-66a6-4079-834e-deeffd8c75b7,12/26/2021,1/4/2022,South,Texas,Technology,Copiers,Copiers will,724.09,1,0,390.65
+cefc4d7a-0f13-44d7-b97c-f98137131c0f,10/6/2023,10/11/2023,South,Washington,Furniture,Chairs,Chairs prime,89.07,3,0.1,41.75
+0773cf19-f10c-4b2b-b6ce-61b430367a61,9/27/2020,9/28/2020,East,Florida,Office Supplies,Binders,Binders prime,553.9,3,0.1,244.3
+f7f3c802-bd77-4a76-9fe2-ecba86c1d543,11/20/2024,11/24/2024,Central,Washington,Technology,Phones,Phones will,929.93,5,0.1,651.19
+bfc5cbdc-bfe1-4509-85cc-0c053ddbe048,12/3/2020,12/8/2020,South,New York,Technology,Phones,Phones factor,775.49,3,0.2,606.63
+2999fd4c-6478-4615-9f79-1c3042bcfc14,10/31/2020,10/31/2020,South,Illinois,Furniture,Tables,Tables prime,84.07,5,0.05,64.61
+ddc562a9-48e2-48f0-a255-ba0e099d9b9d,3/24/2020,3/31/2020,West,Illinois,Office Supplies,Binders,Binders popular,582.81,8,0.15,248.99
+ec987ad3-82a0-492e-a7c6-87b8cdf745cf,7/10/2020,7/13/2020,West,New York,Office Supplies,Paper,Paper elite,843.21,9,0.3,394.23
+ad7be198-1aaa-44d4-b79f-5442203b5703,4/19/2024,4/28/2024,East,Washington,Furniture,Bookcases,Bookcases manager,924.39,4,0.3,529.55
+ffb30e13-e04e-470b-9750-50dcc20a309a,8/5/2021,8/15/2021,West,New York,Technology,Accessories,Accessories small,424.46,10,0,365.18
+e0d99996-9d26-44ea-b90e-c0eb587405b7,7/31/2022,8/10/2022,Central,New York,Office Supplies,Pens,Pens plus,646.94,5,0.2,443.62
+afde57cd-cfb6-45f3-a56c-4d98b2c5a6b0,7/16/2022,7/21/2022,East,Texas,Technology,Copiers,Copiers popular,911.53,10,0.05,458.81
+7be0fb66-8278-400d-bd4e-848410e8e484,6/22/2024,6/22/2024,Central,Florida,Technology,Accessories,Accessories factor,569.8,10,0.15,237.66
+c7346d9f-55c1-4a66-ac6a-c8569685fe32,4/27/2024,5/3/2024,Central,Florida,Furniture,Tables,Tables small,859.73,3,0.15,659.04
+95c1db3b-01df-4f3e-ae62-5c3ecac2a9ff,9/3/2021,9/10/2021,Central,Illinois,Office Supplies,Binders,Binders popular,816.04,5,0.25,522.63
+8a9af38e-9be6-4290-9fed-cdfed0ca184c,11/15/2022,11/18/2022,South,Illinois,Office Supplies,Pens,Pens will,891.14,8,0.1,600.8
+88cd3f2b-19fe-4c72-ad24-74ee4429cef1,7/18/2024,7/23/2024,Central,Georgia,Technology,Accessories,Accessories factor,462.4,7,0,195.24
+19fbfb51-8490-42f9-9c16-9a7b5bb0e7d4,8/19/2023,8/29/2023,East,Texas,Technology,Accessories,Accessories prime,934.13,9,0.25,617.91
+d4cb4f4b-5b5e-47fc-9aec-441896f791bc,6/14/2022,6/15/2022,West,Ohio,Office Supplies,Pens,Pens music,191.18,3,0.25,149.98
+7346bb8e-b8ee-47a1-8ffa-4f1779ae5150,3/10/2023,3/10/2023,South,Illinois,Technology,Accessories,Accessories prime,921.44,9,0,627.37
+1acc3e9a-3081-4214-aa3c-884fc4c0b5c7,9/15/2023,9/24/2023,East,Georgia,Office Supplies,Pens,Pens soldier,292.12,2,0.3,168.07
+bbd3c8fb-fc51-4629-b7ee-70646c81b869,5/29/2024,5/31/2024,South,Georgia,Office Supplies,Paper,Paper plus,129.13,5,0.1,88.69
+397f1e0c-522b-475e-9864-96a956059e33,7/12/2024,7/16/2024,Central,Illinois,Office Supplies,Paper,Paper will,250.51,2,0.25,206.09
+3e3e4170-9eb3-4eaa-8e67-f28e92344e6e,12/30/2022,12/30/2022,South,Georgia,Furniture,Bookcases,Bookcases music,160.84,3,0.25,93.23
+d7e95cde-319c-41e6-a7b6-570cd39887df,6/20/2023,6/29/2023,West,Florida,Office Supplies,Binders,Binders manager,690.11,7,0.3,332.28
+6284e2e0-1de5-4b9e-bd14-e5b993504d3d,1/25/2021,1/26/2021,West,California,Furniture,Chairs,Chairs will,971.99,1,0.05,629.85
+d2c15223-00b1-4570-a971-eac84059e633,9/20/2024,9/30/2024,East,Illinois,Technology,Accessories,Accessories soldier,131.79,8,0.05,84.9
+afccb2e8-eff6-422c-a85e-bba0e0a3e0a9,11/8/2020,11/15/2020,Central,Ohio,Office Supplies,Pens,Pens manager,68.65,8,0.2,32.96
+325dbbe9-49f1-4266-a44e-82181e1bca9b,11/14/2021,11/14/2021,Central,New York,Furniture,Chairs,Chairs prime,855.25,7,0.15,685.68
+65e62364-59ff-4563-8b6f-dbafebbc1f81,3/29/2022,4/5/2022,East,Ohio,Technology,Copiers,Copiers plus,738.38,8,0.05,570.8
+9ab3d98b-ccfc-4036-942b-088befecd240,10/8/2021,10/16/2021,Central,Georgia,Furniture,Bookcases,Bookcases will,898.23,7,0.15,385.78
+f3dc5f88-57e1-4acb-b35e-b8b944dfc3cd,2/12/2020,2/14/2020,West,Washington,Office Supplies,Binders,Binders plus,232.59,6,0.15,113.52
+cfc33647-e6f9-428a-a512-509d7341d986,10/13/2024,10/23/2024,Central,Georgia,Office Supplies,Paper,Paper soldier,889.01,7,0.15,705.72
+a2e27ebc-fbd5-4072-8729-ff7d5bfba752,6/27/2023,6/30/2023,West,Georgia,Office Supplies,Binders,Binders small,761.79,8,0.05,367.89
+6c9d5427-6fc2-453a-8ec9-95cd16b96dfe,6/13/2024,6/19/2024,Central,Texas,Office Supplies,Pens,Pens popular,272.98,9,0,259.22
+a8c35515-a2d2-45fc-8401-b2140928b26b,10/18/2023,10/20/2023,West,Illinois,Furniture,Chairs,Chairs elite,80.37,2,0.1,48.62
+b3d9a19b-b855-41c0-b64c-fdbe37273665,4/3/2021,4/10/2021,Central,Florida,Office Supplies,Pens,Pens elite,795.64,1,0.3,596.99
+4484cadb-6ea0-45a0-bebc-43d8e9378587,5/22/2023,6/1/2023,East,Illinois,Furniture,Chairs,Chairs plus,97.9,8,0.3,54.21
+bd632a26-b716-4815-9545-20314309e2c7,6/2/2023,6/3/2023,West,Washington,Technology,Accessories,Accessories soldier,531.94,3,0.25,216.4
+f44937ae-e893-49ba-9d07-7fa514af476a,1/31/2024,2/4/2024,West,Washington,Technology,Phones,Phones popular,773.87,8,0.25,595.05
+aeb925b4-0afd-487b-87fc-e1af77ccf366,8/4/2024,8/6/2024,West,Georgia,Furniture,Tables,Tables popular,467.15,7,0.3,326.78
+846310d6-5ac0-49f0-b8d7-488b8f64a09c,8/10/2021,8/18/2021,West,Florida,Furniture,Tables,Tables elite,302.71,7,0.1,214.59
+514db596-d5d0-481f-8703-eec9065bb976,5/13/2022,5/16/2022,Central,New York,Furniture,Bookcases,Bookcases prime,442.74,7,0.15,378.21
+4b654b20-a015-4c40-a332-57f5e2b8629a,10/25/2020,10/25/2020,West,Ohio,Technology,Copiers,Copiers manager,946.46,2,0.1,515.33
+6313aeda-0c0d-4f21-9b6f-85a9223a7619,3/16/2022,3/16/2022,Central,Ohio,Technology,Copiers,Copiers will,193.4,10,0,181.36
+3a34b3cb-7b83-4da7-8af7-33b354bf0623,12/19/2024,12/29/2024,Central,Florida,Technology,Copiers,Copiers will,879.87,6,0.1,337.98
+ea109ce1-61f5-4775-bba4-f5f88bc8bb3a,7/2/2022,7/12/2022,Central,Ohio,Furniture,Chairs,Chairs factor,643.14,10,0.25,361.95
+2ca3ce78-759d-48c6-bb19-d3e482e1f3e5,12/9/2024,12/13/2024,West,Texas,Furniture,Tables,Tables factor,560.56,7,0.25,390.13
+23f19311-7663-45fc-b9e5-ba9613b2dfb9,7/9/2020,7/17/2020,Central,California,Technology,Phones,Phones music,545.27,3,0,226.47
+b214aa6a-6143-4d36-9491-0a6de8f1224b,1/27/2024,2/2/2024,Central,Illinois,Technology,Accessories,Accessories manager,745.39,6,0.1,527.44
+6f2919bf-04ec-452f-a219-9cc3c120c123,3/29/2024,4/8/2024,West,California,Furniture,Bookcases,Bookcases popular,333.06,1,0.15,180.67
+a49e5b8b-1a9c-4817-9245-1f1da0a26c25,9/4/2021,9/8/2021,West,Illinois,Technology,Copiers,Copiers popular,594.13,3,0.25,315.93
+41da33ca-aa18-4fc3-a5c3-40284bf6f5c6,11/23/2022,12/2/2022,South,Illinois,Furniture,Bookcases,Bookcases small,481.59,3,0.25,267.22
+f5aa0897-5621-4faf-86c0-077dbad27c4b,5/7/2020,5/13/2020,South,Ohio,Furniture,Bookcases,Bookcases music,254.05,2,0.1,186.38
+c0ca0ed1-c6e0-4d58-9b1c-914c407c9500,4/11/2023,4/18/2023,West,Florida,Technology,Phones,Phones elite,996.69,8,0.25,815.68
+4d204733-e40a-4b5c-9b33-b7ea530793bc,9/17/2020,9/24/2020,West,Georgia,Technology,Phones,Phones prime,172.92,9,0.3,101.57
+9cb85ff0-301a-4a40-84a4-4e75c66f4ae0,3/7/2020,3/9/2020,East,Illinois,Technology,Phones,Phones popular,925.61,2,0.2,723.73
+c9482b67-ca7e-4f62-8ccc-ae1ca12e1acd,3/16/2023,3/20/2023,Central,Texas,Furniture,Chairs,Chairs prime,195.64,6,0.1,175.65
+150555dc-0e2c-4cec-b547-650312b4794b,2/27/2020,2/29/2020,South,New York,Furniture,Chairs,Chairs small,450.67,5,0.1,222.02
+63a4f341-3c67-42a1-89fa-02146a6a9080,1/26/2023,1/31/2023,Central,Ohio,Furniture,Tables,Tables prime,446.7,10,0.1,301.8
+7602f755-33f8-433c-8f89-df98b754c371,9/4/2024,9/13/2024,South,Florida,Furniture,Tables,Tables popular,529.53,8,0.3,291.42
+85274565-c664-49fc-8678-45da73c061f4,7/1/2020,7/10/2020,East,Georgia,Technology,Copiers,Copiers music,439.15,4,0.15,238.22
+9ac6b457-a2e7-420a-8f25-dabc504e2a76,8/15/2023,8/16/2023,East,California,Furniture,Chairs,Chairs plus,73.56,5,0.2,49.97
+bce74df7-0dab-4a3c-9c55-533629fb0615,1/14/2023,1/23/2023,East,Florida,Furniture,Chairs,Chairs manager,545.67,8,0.2,438.69
+bbdaeb85-09fd-42e0-9ab9-5c43143b881c,7/17/2021,7/20/2021,Central,Ohio,Furniture,Chairs,Chairs plus,846.97,10,0.15,349.85
+d71b0d3b-fa3c-4524-8a50-a37eb3edae7d,4/2/2020,4/9/2020,Central,Ohio,Furniture,Bookcases,Bookcases music,465.17,7,0,406
+f92c1c6f-6683-4325-8715-dc37c9911dc1,7/5/2020,7/6/2020,East,Florida,Furniture,Chairs,Chairs music,209.75,3,0.05,110.55
+7f58f72a-eda5-470a-b4ea-d9c381271416,4/14/2022,4/24/2022,East,Texas,Furniture,Tables,Tables will,633.75,6,0.05,256.4
+975b8826-3f60-4305-9383-d64d783990dc,7/21/2020,7/26/2020,East,New York,Furniture,Bookcases,Bookcases factor,898.36,5,0.15,762.73
+2420d6b0-c7bc-4e2e-8bf6-dc779df40329,5/5/2021,5/14/2021,Central,New York,Technology,Accessories,Accessories popular,518.33,9,0.15,442.13
+dc2347c6-3886-486b-9878-38594de626c1,8/9/2022,8/17/2022,East,Texas,Office Supplies,Paper,Paper elite,509.96,7,0.25,235.85
+264422b0-15d7-4e97-93fe-a59e6b0c88e0,4/15/2023,4/25/2023,South,Illinois,Furniture,Tables,Tables elite,774.83,3,0.1,524.49
+71bb52c3-0a8c-47fe-bf13-0551ed5621ac,2/20/2021,2/22/2021,South,New York,Office Supplies,Binders,Binders manager,986.04,4,0.2,819.93
+526b748d-65db-4b05-b78f-2ac7226f343e,7/22/2024,7/29/2024,South,Texas,Technology,Phones,Phones plus,670.41,3,0,290.35
+800dad69-d7db-46fe-9c74-3cb944343e41,5/28/2021,6/7/2021,Central,New York,Office Supplies,Pens,Pens soldier,850.32,4,0.2,659.97
+60f2b754-7058-46b2-b897-47dc5c0fce3d,2/22/2024,3/1/2024,West,Texas,Technology,Accessories,Accessories will,335.61,7,0.25,137.33
+7f008be5-adb6-4b77-b227-3eb8e42dfe7f,3/7/2021,3/16/2021,South,Texas,Technology,Phones,Phones factor,889.74,6,0.25,423.32
+b9a10a6f-0882-427f-8e2b-8f6d95ad6658,9/18/2023,9/23/2023,West,New York,Office Supplies,Paper,Paper plus,486.81,10,0.1,189.03
+564ecb2b-1cf0-4e81-91e2-54d40c4dba7e,9/2/2022,9/2/2022,South,Illinois,Furniture,Chairs,Chairs small,214.86,9,0.25,147.92
+c51b4fef-cee4-48a9-ae34-197f814da68a,1/8/2023,1/8/2023,Central,Ohio,Technology,Phones,Phones soldier,688.63,6,0.3,355.3
+143bff58-42d9-4c3f-8937-e4c94b64a05f,9/14/2024,9/14/2024,East,Texas,Furniture,Bookcases,Bookcases popular,401.96,4,0.15,150.64
+9adf3de8-c27d-43ca-9065-f6ebfd82677b,1/27/2021,1/28/2021,Central,New York,Technology,Copiers,Copiers music,338.02,4,0.05,309.49
+1fa43d2e-52f6-45d0-8ef2-115bbcde6436,10/6/2022,10/15/2022,South,Florida,Furniture,Tables,Tables elite,236.28,7,0,207.56
+4938a1e1-bf41-4ac4-920c-e4a4cbf72369,1/31/2021,2/10/2021,West,Illinois,Technology,Copiers,Copiers soldier,688.57,10,0.2,307.71
+40cebf8a-d68f-4d43-a7f5-ab2debbeb00d,6/15/2021,6/24/2021,East,Texas,Furniture,Chairs,Chairs elite,742.45,5,0.05,627.04
+20554e4b-8674-4287-b5d4-e9d1cbd0967e,12/13/2024,12/20/2024,South,Ohio,Furniture,Bookcases,Bookcases music,658.92,1,0.3,513.21
+95c0bccf-7947-445d-ad68-78cd5d20434d,9/6/2020,9/16/2020,West,New York,Technology,Phones,Phones music,520.8,9,0.3,187.65
+9176064c-22a8-4e47-ac7b-92d66c59fb0a,5/10/2022,5/18/2022,East,California,Office Supplies,Pens,Pens will,54.9,4,0.1,23.21
+3b80ffe3-7a10-40fe-b264-9da35e6645cd,6/1/2020,6/4/2020,East,Georgia,Furniture,Tables,Tables will,362.76,2,0.25,236.13
+0b9ec742-9879-435c-aa66-1e24fc003662,7/12/2024,7/12/2024,West,Washington,Technology,Copiers,Copiers manager,938.31,5,0.05,420.2
+67fa9439-1638-4a1c-808e-f1437b409c35,8/9/2024,8/14/2024,East,Georgia,Technology,Accessories,Accessories plus,946.37,10,0.2,546.12
+3dc3d938-7977-4dc4-9089-d0577378211a,9/12/2020,9/13/2020,South,New York,Furniture,Tables,Tables music,408.53,2,0.3,163.26
+f7f2c4fd-d739-46a5-b3f6-0775f79d52de,6/4/2023,6/14/2023,South,Ohio,Office Supplies,Paper,Paper small,146.74,1,0.2,56.62
+e5dd861f-acc8-43ea-95b8-aee1cf3291e1,6/18/2023,6/24/2023,South,Ohio,Furniture,Chairs,Chairs plus,798.1,10,0,518.27
+ad2657ab-7aec-4e9b-be6b-711a89e85946,6/22/2023,6/23/2023,West,Illinois,Office Supplies,Binders,Binders small,940.71,1,0.15,595.59
+d819f836-a7ac-4005-9c30-d7cd08a18964,1/26/2020,2/4/2020,Central,Washington,Technology,Accessories,Accessories will,613.24,4,0.2,259.01
+9ee1162e-0163-43be-9349-d58071769a67,9/12/2022,9/21/2022,South,Washington,Office Supplies,Paper,Paper music,280.99,1,0,132.13
+c3d6ef38-94fc-45b8-8be6-015d7a55467e,4/10/2023,4/18/2023,East,Florida,Furniture,Tables,Tables manager,496.05,10,0.1,263.94
+79a7f73e-142a-4330-a956-cbd86cf580ad,5/1/2021,5/9/2021,West,Illinois,Technology,Accessories,Accessories popular,450.96,4,0.05,330.78
+74249a9c-2f18-464f-8843-515fa5b414ec,1/22/2021,2/1/2021,Central,Texas,Office Supplies,Binders,Binders will,707.25,8,0.2,497.02
+7686da77-0139-4c68-9cf9-c470ba711252,11/4/2021,11/6/2021,East,California,Furniture,Bookcases,Bookcases factor,882.3,1,0.15,424.94
+12d19e28-3878-4c3c-b056-077d85a49688,8/13/2022,8/22/2022,West,Ohio,Furniture,Tables,Tables soldier,506.71,6,0.3,347.6
+53478a23-5ed7-4f06-9fe2-3d457ce6e325,8/18/2024,8/18/2024,Central,Georgia,Office Supplies,Paper,Paper factor,120.04,1,0.2,50.06
+21e8a492-cd0a-4a44-bf98-66ceb17462f7,7/16/2023,7/25/2023,West,Texas,Office Supplies,Paper,Paper soldier,976.54,4,0.05,529.63
+0e5772f4-1655-4732-957c-c7cf078a2c5a,11/26/2021,12/4/2021,East,New York,Furniture,Tables,Tables soldier,236.19,3,0.3,109.21
+9d154453-74b3-41cb-a423-95de25005415,2/15/2022,2/25/2022,Central,Florida,Furniture,Bookcases,Bookcases elite,939.31,5,0.15,462.31
+9d5e3682-add5-4940-8e5a-f292d2521290,6/24/2024,7/3/2024,West,Ohio,Office Supplies,Binders,Binders popular,112.11,3,0.05,91.51
+6769f1db-49b8-46cc-9658-5e7bc7bcbc23,10/13/2021,10/22/2021,West,Texas,Office Supplies,Binders,Binders soldier,282.32,1,0.3,177.3
+92c7c8ce-0d4a-4371-b456-d670e91799a6,11/2/2021,11/5/2021,South,California,Furniture,Chairs,Chairs small,805.83,3,0.3,465.46
+ec71d43f-4628-4219-af64-181eb1808cdb,5/25/2024,6/1/2024,Central,Georgia,Technology,Copiers,Copiers elite,111.63,9,0.15,83.97
+e5c9dd39-4d3a-409b-ae79-94aa08d0384d,8/8/2022,8/10/2022,South,Texas,Office Supplies,Binders,Binders plus,405.18,8,0.25,328.18
+c9d8b96c-b1a3-4992-8d05-eac19315effa,4/1/2022,4/11/2022,West,Ohio,Technology,Copiers,Copiers factor,84.77,4,0.05,53.61
+ca7e7b2c-8034-4999-aaac-c2c796746085,9/18/2021,9/24/2021,West,Illinois,Office Supplies,Binders,Binders music,199.35,6,0.1,133.1
+e9a169e3-a1d5-4f5d-9a02-b46a4c7f0c83,6/29/2022,7/7/2022,South,Georgia,Office Supplies,Paper,Paper prime,604.76,8,0.2,403.65
+e86c93fe-950b-4fc8-b40d-fc770fe97043,6/4/2022,6/10/2022,West,Texas,Office Supplies,Pens,Pens small,351.17,7,0,175.15
+5f69b650-e30e-4760-9932-a3a3c3f65ee2,1/5/2022,1/6/2022,West,Illinois,Office Supplies,Binders,Binders small,537.15,2,0.3,252.05
+6fab0866-53bc-45ba-87f6-b33b45f1c6ab,5/26/2020,5/31/2020,Central,Texas,Furniture,Chairs,Chairs factor,240.29,4,0.25,122.17
+1e115473-7a4b-4af8-8835-14fb8b75a5b2,12/16/2023,12/25/2023,Central,Washington,Furniture,Chairs,Chairs will,752.83,5,0,619.99
+8650e62a-253e-413d-a739-5516ad55a2ad,4/10/2022,4/19/2022,South,California,Technology,Accessories,Accessories factor,498.4,9,0.3,391.15
+e4f6b0ba-92f4-4c59-a2af-7291780a1735,1/21/2024,1/24/2024,South,Washington,Office Supplies,Paper,Paper small,540.03,9,0.3,301.95
+767e7e84-6be3-44d1-946f-d809bf91927d,10/3/2021,10/6/2021,East,Washington,Office Supplies,Binders,Binders soldier,446.8,8,0.15,359.2
+283dcb98-b791-47da-89d1-086ac04fe427,3/28/2023,3/30/2023,South,Ohio,Office Supplies,Binders,Binders elite,59.2,6,0.1,29.47
+a3c778b7-aa17-42c0-9292-f3696bbbf60a,9/5/2021,9/10/2021,Central,Ohio,Technology,Accessories,Accessories will,589.2,1,0.05,278.35
+0f047cbd-3e27-49c9-abe6-f897af35cee9,2/22/2021,2/28/2021,South,Texas,Furniture,Chairs,Chairs small,417.11,8,0,242.28
+f81ffc3a-a9b8-4e78-8b37-95a57bb5d00a,12/17/2020,12/18/2020,West,Illinois,Technology,Copiers,Copiers will,218.75,10,0.15,83.92
+2bbce605-ccbb-433a-87bc-13c0d877f735,8/4/2021,8/7/2021,East,Florida,Furniture,Bookcases,Bookcases popular,676.59,2,0.15,270.11
+827d888d-ce77-4023-ad81-3de809e0292b,10/26/2024,11/1/2024,East,Ohio,Office Supplies,Paper,Paper factor,990.12,3,0.2,561.51
+13ffb6da-ed91-4483-b032-94e77c560214,9/23/2020,9/26/2020,Central,California,Office Supplies,Pens,Pens elite,827,8,0.05,590.26
+d49c9eab-bbb8-4f86-b27a-04a6bbdf5521,1/7/2024,1/17/2024,South,California,Office Supplies,Pens,Pens elite,241.62,3,0.15,97.26
+268128c0-23c2-4b9e-b9cd-d85231dc918a,11/4/2021,11/13/2021,South,Washington,Office Supplies,Pens,Pens music,489.56,1,0.25,192.81
+df9e87bc-19e6-4625-a141-ca3add954015,3/11/2022,3/20/2022,South,Florida,Furniture,Bookcases,Bookcases plus,286.68,10,0.25,159.95
+2aae8be0-826c-4bf1-9c7d-6c64b5e60563,7/14/2020,7/20/2020,Central,Illinois,Technology,Accessories,Accessories factor,277.71,3,0.1,233.59
+7dd5964f-71f0-453b-8825-4c8b1b61ad51,10/7/2022,10/13/2022,Central,Ohio,Technology,Accessories,Accessories prime,995.55,2,0.3,387.46
+6a391305-3201-46bc-8df4-d8521e163e32,12/3/2020,12/7/2020,South,Ohio,Furniture,Chairs,Chairs popular,92.4,1,0,69.43
+140a3cd4-b82c-455c-89d6-13d62e2d78c8,3/7/2024,3/13/2024,West,Washington,Furniture,Bookcases,Bookcases prime,85.89,5,0,67.85
+73edf270-4572-47fe-b346-9b875b20c70f,9/19/2022,9/26/2022,West,Georgia,Furniture,Tables,Tables music,571.01,4,0.25,460.92
+342192cd-2a79-4e2c-8fc5-7de37088dda3,9/19/2024,9/21/2024,South,Florida,Furniture,Tables,Tables small,626.64,3,0.1,278.77
+373f2f97-b16c-42ba-ad05-3f0fd864147f,10/7/2023,10/7/2023,East,California,Technology,Phones,Phones prime,195.82,6,0.05,99.12
+9e434bd8-af95-4b6c-8179-5d9e88fb4926,11/27/2023,11/27/2023,South,New York,Technology,Copiers,Copiers plus,658.96,2,0.15,475.25
+f159ab1e-36e6-4e52-8dcc-d010694a18e0,1/10/2020,1/10/2020,East,Ohio,Office Supplies,Paper,Paper manager,932.38,6,0.05,463.62
+12e31d49-2d85-47d2-8b94-be7e184746d5,1/30/2020,2/4/2020,West,Florida,Furniture,Chairs,Chairs manager,685.5,4,0,574.66
+bf3d6eef-c243-48b9-8c29-0092493a6bcf,5/1/2022,5/9/2022,South,Ohio,Furniture,Bookcases,Bookcases small,356.55,4,0.2,164.91
+6578e2d2-d442-4965-a56e-42ae20bb9b1f,4/20/2021,4/23/2021,East,Ohio,Furniture,Bookcases,Bookcases factor,357.2,1,0.15,251.01
+0c6d2ec1-3b1a-4778-8a2e-ebe9a2497db0,7/28/2022,7/31/2022,West,Ohio,Furniture,Chairs,Chairs music,824.33,10,0.1,332.17
+2393aea9-4c1e-403f-9fa5-5df423deb57c,4/20/2024,4/29/2024,East,Washington,Office Supplies,Paper,Paper will,726.9,10,0.05,381.7
+962ac505-7754-4c8c-8fc3-388daa7ad7f4,10/20/2023,10/22/2023,East,Washington,Office Supplies,Paper,Paper manager,653.59,6,0.3,425.83
+fa6f469f-78d8-4094-9178-23b55310c866,5/31/2023,6/9/2023,East,California,Office Supplies,Pens,Pens manager,535.47,4,0.2,348.48
+05c7894c-dcd3-4583-92e7-164235d32467,6/16/2023,6/17/2023,West,Washington,Office Supplies,Paper,Paper prime,751.02,4,0.2,299.88
+d96063c9-84be-477d-a2bf-448f6ef77218,8/30/2021,9/2/2021,South,Washington,Furniture,Bookcases,Bookcases soldier,244.17,1,0.05,216.13
+970ddd38-210d-4ba3-9916-0ab4f849cba5,7/23/2021,7/28/2021,East,California,Technology,Accessories,Accessories popular,544.83,7,0.25,403.78
+09e1e489-f17c-4932-8d06-f09f6894e3df,12/2/2021,12/5/2021,West,Ohio,Furniture,Chairs,Chairs elite,101.37,4,0.3,67.04
+0b53c6b2-87f4-4f57-94c5-79593522e53c,10/20/2021,10/22/2021,East,Florida,Office Supplies,Binders,Binders factor,55.74,8,0,51.53
+b8dd9ca4-861a-4903-8743-6cd06eff2f9e,9/14/2020,9/15/2020,South,Georgia,Furniture,Chairs,Chairs music,571.4,4,0.05,378.33
+e51c8eb0-7316-47ba-9ac0-04fb82e30e26,12/2/2020,12/5/2020,South,California,Furniture,Bookcases,Bookcases music,217.61,4,0.1,115.14
+78557abe-3dfd-4c5c-a0c5-ddc6384affdb,11/1/2024,11/8/2024,South,Florida,Furniture,Bookcases,Bookcases prime,428.33,3,0.15,254.66
+a21b305d-6877-4375-8e1d-13bf8382697a,2/10/2020,2/16/2020,West,Texas,Office Supplies,Paper,Paper will,770.92,5,0.2,482.53
+241f1534-8fa2-451d-976a-3603632efe49,8/7/2022,8/11/2022,West,Georgia,Office Supplies,Pens,Pens factor,406.39,10,0.15,165.24
+5617f7a3-19da-4202-bf41-cabe575ba760,11/12/2020,11/15/2020,South,Ohio,Furniture,Tables,Tables popular,868.57,6,0.15,500.14
+d7ef5f93-c700-4fd2-b15c-0c68bfbf904c,2/25/2022,3/4/2022,East,Ohio,Office Supplies,Binders,Binders plus,988.15,2,0.15,810.52
+6f901ad9-8c0d-459d-b267-c9da2e40fc4d,11/28/2020,12/1/2020,Central,New York,Office Supplies,Pens,Pens will,782.71,6,0.2,556.52
+5879aace-b4b5-4e36-8c31-9e4421e20b12,5/18/2022,5/21/2022,East,Florida,Furniture,Bookcases,Bookcases music,82.78,6,0.25,57.12
+696907a6-37a4-4d0d-9ad8-22ab382404b2,5/24/2023,5/31/2023,West,New York,Technology,Accessories,Accessories small,291.57,10,0.2,242.33
+0c8b23c6-221d-4811-a9c7-440d03bd036d,4/27/2024,4/28/2024,East,California,Technology,Copiers,Copiers will,921.04,7,0.25,582.18
+8e6f6468-04d3-49b2-bf0e-1a617e2f79c9,12/5/2020,12/11/2020,Central,Ohio,Office Supplies,Binders,Binders small,337.11,9,0.25,261.83
+3038811e-b107-447c-a1a5-c39d27dc578e,8/11/2020,8/21/2020,South,Texas,Technology,Phones,Phones manager,823.52,5,0.25,371.27
+4d891d86-3f53-4722-9e66-b322af5cb95f,12/10/2020,12/17/2020,Central,Ohio,Furniture,Tables,Tables soldier,116.35,7,0.2,65.89
+7378957e-8dc1-415a-9b49-16dcf8c0142a,12/27/2020,1/1/2021,East,Georgia,Furniture,Chairs,Chairs plus,177.62,8,0.05,117.15
+89ca0bef-5172-46b7-a09e-12251842b179,7/25/2024,7/28/2024,Central,Ohio,Furniture,Tables,Tables prime,106.03,3,0.3,73.68
+5e64e9a1-72c3-4dcd-83d9-b632bf38371f,7/7/2023,7/16/2023,Central,Illinois,Furniture,Chairs,Chairs popular,207.82,5,0,126.3
+afc6f069-a652-407b-9093-cb8640a1c109,3/1/2020,3/10/2020,East,New York,Furniture,Bookcases,Bookcases small,510.93,2,0,221.53
+714b1ff3-b2fc-4f61-bfb4-832b7a5ddc25,3/8/2021,3/16/2021,Central,Ohio,Furniture,Bookcases,Bookcases popular,622.84,5,0.15,380.4
+191c2263-b439-43f3-a161-502eacfc73e0,1/29/2022,2/8/2022,East,Washington,Office Supplies,Pens,Pens popular,826,6,0.25,447.5
+ef154bb7-fa22-4aed-a077-46df650da426,7/9/2024,7/10/2024,West,New York,Furniture,Bookcases,Bookcases plus,877.01,7,0.25,659.55
+c8a3f62a-3dcd-4f3c-a1fd-cc8810a60a3a,9/8/2020,9/16/2020,South,Ohio,Office Supplies,Binders,Binders factor,763.87,4,0.1,470.64
+8d0a7ee0-c22b-47bc-b3df-3061967db2f5,1/7/2020,1/17/2020,South,California,Office Supplies,Paper,Paper plus,652.09,1,0.3,446.02
+faf1ad54-d21c-4f55-a314-dc35962b43cd,9/19/2022,9/25/2022,South,Illinois,Technology,Copiers,Copiers will,804.26,6,0.15,681.82
+2a179db0-c432-4cf8-aac7-bf2afabf5c95,8/24/2021,9/2/2021,East,Florida,Furniture,Chairs,Chairs prime,186,9,0.2,139.22
+b2b1352b-7e00-4205-b0cb-744648f77690,6/19/2024,6/20/2024,East,Georgia,Office Supplies,Binders,Binders elite,996.49,8,0.05,867.64
+fd2d5069-df83-4c2f-806c-3d181e98d895,5/8/2021,5/11/2021,East,Florida,Furniture,Tables,Tables popular,765.59,2,0,489.36
+03adee30-2df7-48ef-bfa0-dfc79eb3c869,2/24/2022,2/28/2022,West,Georgia,Furniture,Chairs,Chairs small,294.75,8,0.25,120.62
+0ae6c9b1-daf7-4b45-bf35-501593ca335e,6/17/2024,6/22/2024,South,Ohio,Furniture,Chairs,Chairs elite,778.02,10,0,586.78
+f6a2d678-d732-4e05-9ff9-fdb7730c4460,10/19/2024,10/25/2024,Central,California,Furniture,Tables,Tables small,296.14,5,0,136.6
+a3f97ecf-4408-4fbb-818c-2549cbaf617b,3/19/2023,3/24/2023,East,California,Furniture,Bookcases,Bookcases will,956.37,10,0.25,335.5
+9e3a49f1-3be1-4cdb-b8b6-86c72356b8c5,5/17/2022,5/22/2022,West,Illinois,Office Supplies,Binders,Binders will,937.23,3,0.2,645.33
+8edb906b-1914-4062-9204-b965e7b85e22,1/19/2020,1/27/2020,South,Florida,Office Supplies,Pens,Pens plus,187.47,5,0.3,82.93
+ea1b3559-de2b-46e3-8611-e9d053235d04,8/3/2021,8/5/2021,East,Texas,Technology,Copiers,Copiers plus,856.67,1,0.2,444.16
+38e91eca-46ed-47b2-86fb-3b4eaef6b0d0,9/6/2022,9/16/2022,Central,Florida,Furniture,Bookcases,Bookcases factor,326.92,7,0,307.18
+120d00b5-7f5a-45e2-91e2-0d8461f78a9b,10/2/2024,10/5/2024,South,Texas,Technology,Copiers,Copiers soldier,99.94,3,0.3,56.76
+76d3ca15-9a28-496c-ad6a-6255a661686b,2/14/2020,2/22/2020,South,Illinois,Office Supplies,Pens,Pens elite,451.32,8,0.1,350.18
+a7678628-5f2f-4465-8298-4a3f703df458,1/28/2024,2/1/2024,Central,New York,Office Supplies,Binders,Binders music,926.91,9,0.15,388.85
+36620b4b-90a0-4ff3-9ec6-404107fcead3,7/26/2022,8/5/2022,West,California,Furniture,Chairs,Chairs factor,180.68,8,0.1,153.36
+f8793615-b5dc-4373-94d6-9b659b0c71d7,2/14/2024,2/24/2024,West,Ohio,Furniture,Bookcases,Bookcases will,739.66,10,0,571.81
+02ec7d98-a305-41af-ab9f-d4df3827620a,10/23/2023,10/25/2023,East,Washington,Furniture,Tables,Tables plus,387.8,8,0.05,347.78
+ee8d38ef-b5e4-4d99-a17d-35dd8b14217b,6/7/2022,6/9/2022,South,Texas,Technology,Copiers,Copiers plus,433.79,1,0,230.98
+3836bb80-f4ea-42c3-9270-4b35907888db,12/19/2020,12/29/2020,South,Texas,Technology,Phones,Phones prime,787.06,2,0.3,438.21
+477bbc26-fe09-40c7-8be4-1bd8cfa5da96,1/22/2022,1/22/2022,West,New York,Furniture,Tables,Tables plus,128.51,8,0.25,86.34
+94bcfdf0-c4b6-41a5-9fb5-baab9f634bef,3/19/2023,3/28/2023,South,Georgia,Office Supplies,Pens,Pens will,709.04,2,0.3,437.6
+a5c90179-2ee9-4630-a918-bd72f3fd6abf,9/3/2021,9/12/2021,East,Ohio,Furniture,Tables,Tables elite,358.97,9,0.05,218.02
+0be30c3c-c40c-4f78-b286-54707705a605,8/1/2024,8/9/2024,East,California,Technology,Phones,Phones small,110.74,10,0.2,78.99
+25cc544f-5c87-49e3-93a4-590ef2669afb,1/5/2021,1/14/2021,East,Florida,Technology,Accessories,Accessories plus,55.06,8,0.3,26.81
+8e8e8511-b57c-4ffe-a707-c470886175d3,2/26/2021,3/8/2021,Central,Washington,Furniture,Tables,Tables elite,584.37,1,0,548.7
+146707f2-bfd4-454c-bb9b-a3d3362843f4,12/17/2020,12/23/2020,Central,Georgia,Technology,Accessories,Accessories soldier,285.92,1,0.2,230.96
+ae452ffa-9071-494d-aedc-920da1b44c6d,3/27/2023,4/3/2023,West,Illinois,Technology,Phones,Phones manager,546.53,6,0.2,342.35
+ed2adc16-f389-4004-bd21-15f311d9ab62,4/30/2021,4/30/2021,West,Washington,Furniture,Tables,Tables music,334.72,4,0.05,238.62
+c0c301c7-6bea-4bde-b8ee-faf9582ced8f,9/20/2020,9/29/2020,West,Ohio,Office Supplies,Paper,Paper prime,572.36,5,0.15,400.98
+60e09849-082a-458e-b7d8-8c94dc7d4da2,6/19/2020,6/23/2020,Central,California,Technology,Phones,Phones popular,943.19,3,0.2,434.68
+c9db073e-8990-4606-ab41-7fd71325fdda,2/28/2023,3/10/2023,South,Ohio,Technology,Copiers,Copiers manager,624.7,7,0.3,257.22
+adcb5029-be9a-4fb5-bec2-6c3a1b60d0a8,5/21/2023,5/24/2023,East,Washington,Furniture,Bookcases,Bookcases small,168.39,2,0.25,103.38
+85203a78-eaec-4823-8e08-84a24c3e51e4,1/13/2022,1/18/2022,South,California,Office Supplies,Paper,Paper will,875.41,4,0.1,337.17
+4f975331-e1c3-4e22-96df-a647527764ee,8/3/2020,8/4/2020,South,Illinois,Furniture,Chairs,Chairs elite,741.91,5,0.2,568.72
+7a5ee01f-cccd-4dfd-ad04-942976cf3b0b,12/15/2021,12/24/2021,South,Florida,Office Supplies,Binders,Binders popular,307.5,2,0,151.88
+3bdb04d5-ea54-4035-87b2-f4ab5a17c9a8,7/8/2024,7/18/2024,Central,New York,Technology,Copiers,Copiers elite,614.89,7,0.15,412.8
+63531d4f-138e-4e54-94b1-95b021abca09,12/31/2023,1/2/2024,Central,California,Technology,Accessories,Accessories plus,185.54,10,0.25,88.81
+437b429d-a901-4bac-b8f8-2457a9ac790f,5/6/2022,5/13/2022,South,California,Furniture,Bookcases,Bookcases music,986.93,8,0.2,495.41
+6f95fb4c-9c92-4096-a7a4-e229e71a9aad,7/25/2023,7/26/2023,West,Illinois,Office Supplies,Pens,Pens soldier,782.05,2,0.25,303.63
+b29ee9fa-29bf-4892-8908-56638e0ddcc3,3/24/2023,3/24/2023,South,Florida,Furniture,Chairs,Chairs prime,321.56,8,0.3,240.77
+8b381059-8f3d-4b6a-8dd9-a6e400e7ef69,10/16/2022,10/24/2022,West,New York,Technology,Copiers,Copiers will,893.68,2,0.15,336.98
+13bcb0c7-b030-44d9-8002-f792bd5ed442,12/9/2023,12/17/2023,South,Florida,Technology,Phones,Phones elite,282.01,9,0.25,181.38
+c8d23d8e-8e35-414a-a571-503317e21a2c,4/5/2021,4/7/2021,South,Georgia,Furniture,Bookcases,Bookcases will,847.44,9,0.1,743.77
+988f65ae-610a-4e66-9a8f-c3d8ff3ebfec,12/15/2020,12/20/2020,East,Texas,Furniture,Bookcases,Bookcases music,918.34,4,0.3,543.69
+43b2e15f-69ac-4f0e-9e0b-1faad88b7d63,9/16/2022,9/20/2022,Central,New York,Office Supplies,Paper,Paper prime,52.12,10,0.15,25.05
+3dc6ad0f-f647-41b4-a617-6206cc37e9e3,6/19/2023,6/26/2023,East,New York,Furniture,Bookcases,Bookcases popular,55.6,8,0.1,29.8
+19a78632-9548-4803-872c-088ec39600bc,12/28/2024,12/30/2024,West,Ohio,Office Supplies,Pens,Pens small,58.42,7,0.15,27.49
+25c84c93-fb90-4436-ae91-f0d22d9476c0,9/25/2022,9/25/2022,Central,Ohio,Furniture,Chairs,Chairs soldier,287.63,8,0.15,161.2
+32f8bf01-e666-485b-9c38-d797617edb45,1/3/2023,1/7/2023,South,New York,Furniture,Bookcases,Bookcases popular,673.47,8,0.05,313.17
+6f640db7-4c73-4c0e-a384-37e6acd818d2,12/14/2024,12/17/2024,Central,New York,Furniture,Tables,Tables soldier,320.65,3,0.15,187.33
+1ba69fed-eda3-452a-9502-a338a8f7d934,9/26/2023,9/29/2023,South,Florida,Office Supplies,Binders,Binders popular,983.78,2,0.15,608.78
+bea568da-7f98-4126-97f1-5f4b02ae7a5b,3/18/2024,3/24/2024,East,New York,Technology,Copiers,Copiers soldier,927.38,7,0.05,416.25
+37e58809-25d2-4b28-834a-48823b402dac,11/14/2020,11/19/2020,Central,Ohio,Technology,Accessories,Accessories plus,779.02,4,0,602.24
+e9b73ade-65ee-42b4-8955-f9ac48ac48a6,2/19/2024,2/19/2024,West,Florida,Office Supplies,Pens,Pens elite,324.99,8,0,266
+e04d77bd-65b6-4e9f-b44a-20e1aef6843e,1/17/2021,1/20/2021,West,Georgia,Office Supplies,Paper,Paper small,870.96,4,0.25,648.79
+3cb5cefc-40cc-45c0-9eb6-5df1ba1b115e,12/6/2023,12/14/2023,West,Illinois,Technology,Accessories,Accessories soldier,229.24,10,0.25,150.23
+6b3a0131-f3cb-403f-ac22-9818606c9d1b,4/1/2022,4/1/2022,East,New York,Office Supplies,Paper,Paper will,932.64,7,0,689.27
+cc3fe7ba-9f3f-4389-9b5c-2029cff34aed,4/14/2022,4/22/2022,South,New York,Office Supplies,Binders,Binders elite,651.64,4,0.05,371.61
+136229e4-342d-47d4-bded-98ed211ea1aa,5/24/2022,6/3/2022,South,California,Furniture,Bookcases,Bookcases popular,154.55,6,0.1,134.88
+06df7cc7-abdc-42ec-b5db-5e3a89ca564a,4/7/2020,4/9/2020,Central,Illinois,Furniture,Tables,Tables will,99.52,6,0.05,54.04
+d5520a66-317b-4200-9ebd-6b0e1a735bdf,1/13/2021,1/17/2021,West,Washington,Office Supplies,Pens,Pens popular,367.57,2,0,282.26
+32e4ab3b-9263-466e-b0ea-9107189a1c9e,2/27/2024,3/3/2024,West,Ohio,Technology,Copiers,Copiers small,552.42,6,0.05,408.07
+40ac5942-fb32-4a5f-a504-8d474e3c9572,12/21/2024,12/22/2024,West,California,Furniture,Chairs,Chairs prime,755.46,2,0,545.9
+1828a2af-9fdc-45aa-848d-127e3b815479,7/21/2020,7/22/2020,West,New York,Technology,Copiers,Copiers soldier,375.75,8,0.3,163.24
+02bd162c-0f0d-43b9-a8e2-1e3974f0a034,1/27/2021,2/2/2021,South,Illinois,Technology,Copiers,Copiers will,289.9,9,0.1,245.72
+91ea77fd-a055-4dd3-8b55-81257c016140,5/18/2020,5/25/2020,Central,Florida,Office Supplies,Binders,Binders music,934.77,9,0.3,327.38
+a03c9c40-c5f9-484a-aa0b-3774ad7e3d8c,4/3/2020,4/12/2020,East,Florida,Furniture,Chairs,Chairs prime,230.68,7,0.15,165.71
+363d122e-a35a-4e18-8b46-496711604de1,3/17/2024,3/25/2024,West,New York,Office Supplies,Binders,Binders soldier,790.4,7,0.2,390.77
+0bfe2093-8a12-435e-b03c-5069e52572b6,3/17/2023,3/20/2023,Central,Texas,Technology,Copiers,Copiers factor,58.42,9,0.15,36.59
+efee76f7-33ec-4830-9ad1-ae2a4f5a28fd,8/29/2021,9/2/2021,East,Florida,Technology,Accessories,Accessories music,212.55,1,0.2,101.58
+59ca17b2-c965-4469-9bd4-3c3c238a0285,9/29/2020,10/3/2020,Central,Washington,Furniture,Chairs,Chairs popular,981.02,4,0.2,409.59
+95db583e-a0d4-4592-95df-a5a7e35276a5,6/19/2020,6/27/2020,East,New York,Office Supplies,Binders,Binders popular,176.93,10,0.1,97.24
+67993ea0-3866-4d60-8302-6267bd1d380c,3/25/2021,3/29/2021,East,Ohio,Furniture,Bookcases,Bookcases music,973.02,9,0.25,798.88
+2723f228-c39e-4eb3-9901-f2ba41cd0180,11/16/2024,11/26/2024,West,Ohio,Technology,Copiers,Copiers soldier,573.33,8,0.05,323.29
+3e056a0f-7a6d-4595-927c-14b3ebc8959e,7/2/2022,7/5/2022,West,Georgia,Technology,Copiers,Copiers soldier,462.21,3,0.15,193.05
+ebb2c80a-49b2-4b93-9df1-abc4dd2c8369,7/28/2024,7/30/2024,Central,Florida,Furniture,Chairs,Chairs soldier,515.99,3,0.25,250.63
+be85d26a-a5dc-451a-ba8d-79f7b7e2a183,8/1/2024,8/7/2024,South,Ohio,Technology,Copiers,Copiers small,228.46,3,0,144.96
+a3ab09e9-055f-4a59-ad0a-b23c321356d6,1/23/2024,1/31/2024,South,New York,Furniture,Chairs,Chairs small,762.92,1,0.2,312.31
+077b740c-0444-4175-8dba-b6636142c681,8/19/2024,8/19/2024,East,New York,Technology,Accessories,Accessories small,175.57,2,0.1,79.8

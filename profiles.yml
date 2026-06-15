@@ -1,0 +1,12 @@
+globalmart:      # <-- This perfectly matches the profile in Step 1
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      threads: 4
+      host: localhost
+      port: 5432
+      user: postgres
+      password: Bonny@98 # Put your actual password here
+      dbname: postgres  # <-- This connects to the 'postgres' database
+      schema: postgres     #

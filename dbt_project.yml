@@ -1,0 +1,34 @@
+name: 'globalmart'
+version: '1.0'
+config-version: 2
+profile: 'globalmart'
+
+
+
+
+
+# Paths
+model-paths: ["models"]       # renamed from source-paths
+analysis-paths: ["postgres"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]         # renamed from data-paths
+macro-paths: ["macros"]
+
+# Where compiled SQL and artifacts go
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
+
+# Default materializations
+models:
+  globalmart:
+    staging:
+      +materialized: table
+    marts:
+      +materialized: table
+    dimensions:
+      +materialized: table
+    fact:
+      +materialized: table
+      

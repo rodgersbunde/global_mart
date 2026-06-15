@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw       # this is the source name you use in {{ source(...) }}
+    database: postgres
+    schema: postgres  # this is the actual schema in your database
+    tables:
+      - name: globalsales
+  
