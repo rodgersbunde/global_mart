@@ -40,7 +40,7 @@ jobs:
       # 3. Install dbt
       - name: Install dbt
         run: |
-          pip install dbt-postgres
+          pip install dbt_core dbt-postgres
 
       # 4. Set environment variables for dbt connection
       - name: Set DBT env vars
@@ -56,7 +56,7 @@ jobs:
         run: dbt deps
 
       # 6. Seed data
-      - name: dbt seed
+      - name: Run dbt seed
         run: dbt seed --target dev
 
       # 7. Run models (BEST PRACTICE: build instead of run)
