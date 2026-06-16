@@ -3,6 +3,7 @@ materialized='view')
 }}
 
 SELECT DISTINCT
-    category_id,
-    category as category_name
+    state_id,
+    region_id,
+    state as state_name
 FROM {{ref('stg_orders') }}
