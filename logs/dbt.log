@@ -8286,3 +8286,1249 @@ drop view if exists "postgres"."postgres"."dim_state__dbt_backup" cascade
 [0m22:42:53.848897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015601DBE8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156002579D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001560431FB80>]}
 [0m22:42:53.848897 [debug] [MainThread]: Flushing usage events
 [0m22:42:55.155080 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:32:06.825512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEDEB0E920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEDFE54BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEDFE549D0>]}
+
+
+============================== 05:32:06.838709 | ff96b720-66fa-42d4-a367-569060024ad0 ==============================
+[0m05:32:06.838709 [info ] [MainThread]: Running with dbt=1.11.6
+[0m05:32:06.840403 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Administrator\\Documents\\global', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run --select stg_orders dim_state', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Administrator\\Documents\\global\\logs'}
+[0m05:32:07.284154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ff96b720-66fa-42d4-a367-569060024ad0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEDC767A30>]}
+[0m05:32:07.416896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ff96b720-66fa-42d4-a367-569060024ad0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEDF58DE40>]}
+[0m05:32:07.426018 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m05:32:08.271251 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m05:32:08.812916 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m05:32:08.814919 [debug] [MainThread]: Partial parsing: updated file: globalmart://models\dimensions\dim_state.sql
+[0m05:32:09.574717 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.globalmart.marts
+[0m05:32:09.603554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ff96b720-66fa-42d4-a367-569060024ad0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEE1880130>]}
+[0m05:32:09.883837 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:32:09.907290 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:32:10.012736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ff96b720-66fa-42d4-a367-569060024ad0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEE18836D0>]}
+[0m05:32:10.022336 [info ] [MainThread]: Found 7 models, 1 seed, 22 data tests, 1 source, 580 macros
+[0m05:32:10.034983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ff96b720-66fa-42d4-a367-569060024ad0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEE18836A0>]}
+[0m05:32:10.040006 [info ] [MainThread]: 
+[0m05:32:10.048608 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m05:32:10.048608 [info ] [MainThread]: 
+[0m05:32:10.048608 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:32:10.068545 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m05:32:10.681652 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m05:32:10.686882 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:32:10.686882 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:32:10.927708 [debug] [ThreadPool]: SQL status: SELECT 89 in 0.238 seconds
+[0m05:32:10.931764 [debug] [ThreadPool]: On list_postgres: Close
+[0m05:32:10.939144 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_postgres'
+[0m05:32:10.956257 [debug] [ThreadPool]: Using postgres connection "list_postgres_postgres"
+[0m05:32:10.958321 [debug] [ThreadPool]: On list_postgres_postgres: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "list_postgres_postgres"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'postgres'
+  
+[0m05:32:10.958321 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:32:11.184891 [debug] [ThreadPool]: SQL status: SELECT 21 in 0.225 seconds
+[0m05:32:11.184891 [debug] [ThreadPool]: On list_postgres_postgres: ROLLBACK
+[0m05:32:11.184891 [debug] [ThreadPool]: On list_postgres_postgres: Close
+[0m05:32:11.217857 [debug] [MainThread]: Using postgres connection "master"
+[0m05:32:11.217857 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m05:32:11.222615 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:32:11.319802 [debug] [MainThread]: SQL status: SELECT 17 in 0.097 seconds
+[0m05:32:11.324716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ff96b720-66fa-42d4-a367-569060024ad0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEE18E6800>]}
+[0m05:32:11.324716 [debug] [MainThread]: On master: ROLLBACK
+[0m05:32:11.326720 [debug] [MainThread]: On master: COMMIT
+[0m05:32:11.326720 [debug] [MainThread]: Using postgres connection "master"
+[0m05:32:11.326720 [debug] [MainThread]: On master: COMMIT
+[0m05:32:11.328723 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m05:32:11.328723 [debug] [MainThread]: On master: Close
+[0m05:32:11.336044 [debug] [Thread-1 (]: Began running node model.globalmart.stg_orders
+[0m05:32:11.336585 [info ] [Thread-1 (]: 1 of 2 START sql view model postgres.stg_orders ................................ [RUN]
+[0m05:32:11.336585 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.globalmart.stg_orders'
+[0m05:32:11.336585 [debug] [Thread-1 (]: Began compiling node model.globalmart.stg_orders
+[0m05:32:11.365599 [debug] [Thread-1 (]: Writing injected SQL for node "model.globalmart.stg_orders"
+[0m05:32:11.376046 [debug] [Thread-1 (]: Began executing node model.globalmart.stg_orders
+[0m05:32:11.422625 [debug] [Thread-1 (]: Writing runtime sql for node "model.globalmart.stg_orders"
+[0m05:32:11.422625 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:32:11.422625 [debug] [Thread-1 (]: On model.globalmart.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.stg_orders"} */
+
+  create view "postgres"."postgres"."stg_orders__dbt_tmp"
+    
+    
+  as (
+    
+
+with source as (
+
+    select *
+    from "postgres"."postgres"."globalsales"
+
+)
+
+select
+
+    order_id::text as order_id,
+    ---cast(order_date as date) as order_date,
+	order_date,
+    cast(ship_date as date) as ship_date,
+
+    trim(region) as region,
+    trim(state) as state,
+    trim(category) as category,
+    trim(sub_category) as sub_category,
+    trim(product_name) as product_name,
+
+    sales,
+    quantity,
+    discount,
+    profit,
+
+    md5(cast(coalesce(cast(region as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as region_id,
+
+    md5(cast(coalesce(cast(state as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as state_id,
+
+    md5(cast(coalesce(cast(category as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as category_id,
+
+    md5(cast(coalesce(cast(category as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(sub_category as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as subcategory_id,
+
+    md5(cast(coalesce(cast(product_name as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as product_id
+
+from source
+  );
+[0m05:32:11.422625 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m05:32:11.566265 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.136 seconds
+[0m05:32:11.585486 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:32:11.585486 [debug] [Thread-1 (]: On model.globalmart.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.stg_orders"} */
+alter table "postgres"."postgres"."stg_orders" rename to "stg_orders__dbt_backup"
+[0m05:32:11.593714 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.004 seconds
+[0m05:32:11.602135 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:32:11.602135 [debug] [Thread-1 (]: On model.globalmart.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.stg_orders"} */
+alter table "postgres"."postgres"."stg_orders__dbt_tmp" rename to "stg_orders"
+[0m05:32:11.610562 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m05:32:11.637884 [debug] [Thread-1 (]: On model.globalmart.stg_orders: COMMIT
+[0m05:32:11.643394 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:32:11.643394 [debug] [Thread-1 (]: On model.globalmart.stg_orders: COMMIT
+[0m05:32:11.648986 [debug] [Thread-1 (]: SQL status: COMMIT in 0.004 seconds
+[0m05:32:11.667819 [debug] [Thread-1 (]: Applying DROP to: "postgres"."postgres"."stg_orders__dbt_backup"
+[0m05:32:11.682448 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:32:11.684543 [debug] [Thread-1 (]: On model.globalmart.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.stg_orders"} */
+drop view if exists "postgres"."postgres"."stg_orders__dbt_backup" cascade
+[0m05:32:11.699083 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.013 seconds
+[0m05:32:11.701755 [debug] [Thread-1 (]: On model.globalmart.stg_orders: Close
+[0m05:32:11.715424 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ff96b720-66fa-42d4-a367-569060024ad0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEE1C772B0>]}
+[0m05:32:11.717743 [info ] [Thread-1 (]: 1 of 2 OK created sql view model postgres.stg_orders ........................... [[32mCREATE VIEW[0m in 0.37s]
+[0m05:32:11.717743 [debug] [Thread-1 (]: Finished running node model.globalmart.stg_orders
+[0m05:32:11.717743 [debug] [Thread-3 (]: Began running node model.globalmart.dim_state
+[0m05:32:11.725348 [info ] [Thread-3 (]: 2 of 2 START sql view model postgres.dim_state ................................. [RUN]
+[0m05:32:11.725348 [debug] [Thread-3 (]: Acquiring new postgres connection 'model.globalmart.dim_state'
+[0m05:32:11.725348 [debug] [Thread-3 (]: Began compiling node model.globalmart.dim_state
+[0m05:32:11.740319 [debug] [Thread-3 (]: Writing injected SQL for node "model.globalmart.dim_state"
+[0m05:32:11.749327 [debug] [Thread-3 (]: Began executing node model.globalmart.dim_state
+[0m05:32:11.764935 [debug] [Thread-3 (]: Writing runtime sql for node "model.globalmart.dim_state"
+[0m05:32:11.768271 [debug] [Thread-3 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:32:11.770147 [debug] [Thread-3 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+
+  create view "postgres"."postgres"."dim_state__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT DISTINCT
+    state_id,
+    region_id,
+    state as state_name
+FROM "postgres"."postgres"."stg_orders"
+  );
+[0m05:32:11.772153 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m05:32:11.836880 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.069 seconds
+[0m05:32:11.850462 [debug] [Thread-3 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:32:11.850462 [debug] [Thread-3 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+alter table "postgres"."postgres"."dim_state__dbt_tmp" rename to "dim_state"
+[0m05:32:11.853705 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m05:32:11.853705 [debug] [Thread-3 (]: On model.globalmart.dim_state: COMMIT
+[0m05:32:11.853705 [debug] [Thread-3 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:32:11.853705 [debug] [Thread-3 (]: On model.globalmart.dim_state: COMMIT
+[0m05:32:11.853705 [debug] [Thread-3 (]: SQL status: COMMIT in 0.002 seconds
+[0m05:32:11.864603 [debug] [Thread-3 (]: Applying DROP to: "postgres"."postgres"."dim_state__dbt_backup"
+[0m05:32:11.866599 [debug] [Thread-3 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:32:11.866599 [debug] [Thread-3 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+drop view if exists "postgres"."postgres"."dim_state__dbt_backup" cascade
+[0m05:32:11.866599 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.000 seconds
+[0m05:32:11.870215 [debug] [Thread-3 (]: On model.globalmart.dim_state: Close
+[0m05:32:11.870215 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ff96b720-66fa-42d4-a367-569060024ad0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEE1E200A0>]}
+[0m05:32:11.872236 [info ] [Thread-3 (]: 2 of 2 OK created sql view model postgres.dim_state ............................ [[32mCREATE VIEW[0m in 0.14s]
+[0m05:32:11.874650 [debug] [Thread-3 (]: Finished running node model.globalmart.dim_state
+[0m05:32:11.874650 [debug] [MainThread]: On master: COMMIT
+[0m05:32:11.877822 [debug] [MainThread]: Using postgres connection "master"
+[0m05:32:11.877822 [debug] [MainThread]: On master: COMMIT
+[0m05:32:11.877822 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:32:11.924902 [debug] [MainThread]: SQL status: COMMIT in 0.048 seconds
+[0m05:32:11.928193 [debug] [MainThread]: On master: Close
+[0m05:32:11.928193 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:32:11.928193 [debug] [MainThread]: Connection 'list_postgres' was properly closed.
+[0m05:32:11.928193 [debug] [MainThread]: Connection 'list_postgres_postgres' was properly closed.
+[0m05:32:11.931291 [debug] [MainThread]: Connection 'model.globalmart.stg_orders' was properly closed.
+[0m05:32:11.932055 [debug] [MainThread]: Connection 'model.globalmart.dim_state' was properly closed.
+[0m05:32:11.932641 [info ] [MainThread]: 
+[0m05:32:11.932641 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 1.88 seconds (1.88s).
+[0m05:32:11.932641 [debug] [MainThread]: Command end result
+[0m05:32:12.067003 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:32:12.075032 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:32:12.091143 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Administrator\Documents\global\target\run_results.json
+[0m05:32:12.091143 [info ] [MainThread]: 
+[0m05:32:12.091143 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m05:32:12.091143 [info ] [MainThread]: 
+[0m05:32:12.097931 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m05:32:12.099151 [debug] [MainThread]: Command `dbt run` succeeded at 05:32:12.099151 after 5.43 seconds
+[0m05:32:12.099151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEDEB0E920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEDEE840A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEE1E06AA0>]}
+[0m05:32:12.099151 [debug] [MainThread]: Flushing usage events
+[0m05:32:13.367274 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:32:21.263865 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8ABDFA8F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AE118D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AE118B80>]}
+
+
+============================== 05:32:21.268406 | 1d3b6842-d8cf-40cb-b723-d8b9a6f4144c ==============================
+[0m05:32:21.268406 [info ] [MainThread]: Running with dbt=1.11.6
+[0m05:32:21.268406 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Administrator\\Documents\\global', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt build --select dim_state', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Administrator\\Documents\\global\\logs'}
+[0m05:32:21.555573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1d3b6842-d8cf-40cb-b723-d8b9a6f4144c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AA207A00>]}
+[0m05:32:21.669520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1d3b6842-d8cf-40cb-b723-d8b9a6f4144c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AD84F670>]}
+[0m05:32:21.678762 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m05:32:22.159015 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m05:32:22.608967 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m05:32:22.608967 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m05:32:22.611020 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m05:32:22.617357 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.globalmart.marts
+[0m05:32:22.716653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1d3b6842-d8cf-40cb-b723-d8b9a6f4144c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AF854130>]}
+[0m05:32:22.971010 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:32:22.975858 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:32:23.100531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1d3b6842-d8cf-40cb-b723-d8b9a6f4144c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AE38BFD0>]}
+[0m05:32:23.100531 [info ] [MainThread]: Found 7 models, 1 seed, 22 data tests, 1 source, 580 macros
+[0m05:32:23.111001 [info ] [MainThread]: 
+[0m05:32:23.111001 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m05:32:23.111001 [info ] [MainThread]: 
+[0m05:32:23.117055 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:32:23.118092 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m05:32:23.628640 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m05:32:23.632314 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:32:23.632314 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:32:23.738521 [debug] [ThreadPool]: SQL status: SELECT 89 in 0.106 seconds
+[0m05:32:23.745247 [debug] [ThreadPool]: On list_postgres: Close
+[0m05:32:23.755584 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_postgres'
+[0m05:32:23.764050 [debug] [ThreadPool]: Using postgres connection "list_postgres_postgres"
+[0m05:32:23.764050 [debug] [ThreadPool]: On list_postgres_postgres: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "list_postgres_postgres"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'postgres'
+  
+[0m05:32:23.764050 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:32:23.815395 [debug] [ThreadPool]: SQL status: SELECT 21 in 0.051 seconds
+[0m05:32:23.821804 [debug] [ThreadPool]: On list_postgres_postgres: ROLLBACK
+[0m05:32:23.821804 [debug] [ThreadPool]: On list_postgres_postgres: Close
+[0m05:32:23.839465 [debug] [MainThread]: Using postgres connection "master"
+[0m05:32:23.839465 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m05:32:23.839465 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:32:23.893872 [debug] [MainThread]: SQL status: SELECT 17 in 0.056 seconds
+[0m05:32:23.900439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1d3b6842-d8cf-40cb-b723-d8b9a6f4144c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AD84E380>]}
+[0m05:32:23.900764 [debug] [MainThread]: On master: ROLLBACK
+[0m05:32:23.900764 [debug] [MainThread]: On master: COMMIT
+[0m05:32:23.902588 [debug] [MainThread]: Using postgres connection "master"
+[0m05:32:23.902588 [debug] [MainThread]: On master: COMMIT
+[0m05:32:23.902588 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m05:32:23.902588 [debug] [MainThread]: On master: Close
+[0m05:32:23.907032 [debug] [Thread-1 (]: Began running node model.globalmart.dim_state
+[0m05:32:23.910603 [info ] [Thread-1 (]: 1 of 3 START sql view model postgres.dim_state ................................. [RUN]
+[0m05:32:23.910603 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.globalmart.dim_state'
+[0m05:32:23.913055 [debug] [Thread-1 (]: Began compiling node model.globalmart.dim_state
+[0m05:32:23.931714 [debug] [Thread-1 (]: Writing injected SQL for node "model.globalmart.dim_state"
+[0m05:32:23.933719 [debug] [Thread-1 (]: Began executing node model.globalmart.dim_state
+[0m05:32:24.027952 [debug] [Thread-1 (]: Writing runtime sql for node "model.globalmart.dim_state"
+[0m05:32:24.027952 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:32:24.032524 [debug] [Thread-1 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+
+  create view "postgres"."postgres"."dim_state__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT DISTINCT
+    state_id,
+    region_id,
+    state as state_name
+FROM "postgres"."postgres"."stg_orders"
+  );
+[0m05:32:24.032524 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m05:32:24.084320 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.053 seconds
+[0m05:32:24.098547 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:32:24.098547 [debug] [Thread-1 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+alter table "postgres"."postgres"."dim_state" rename to "dim_state__dbt_backup"
+[0m05:32:24.100552 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:32:24.106754 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:32:24.106754 [debug] [Thread-1 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+alter table "postgres"."postgres"."dim_state__dbt_tmp" rename to "dim_state"
+[0m05:32:24.110595 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:32:24.137545 [debug] [Thread-1 (]: On model.globalmart.dim_state: COMMIT
+[0m05:32:24.137545 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:32:24.139547 [debug] [Thread-1 (]: On model.globalmart.dim_state: COMMIT
+[0m05:32:24.141551 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m05:32:24.147601 [debug] [Thread-1 (]: Applying DROP to: "postgres"."postgres"."dim_state__dbt_backup"
+[0m05:32:24.161130 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:32:24.161130 [debug] [Thread-1 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+drop view if exists "postgres"."postgres"."dim_state__dbt_backup" cascade
+[0m05:32:24.164062 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.002 seconds
+[0m05:32:24.164062 [debug] [Thread-1 (]: On model.globalmart.dim_state: Close
+[0m05:32:24.172537 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '1d3b6842-d8cf-40cb-b723-d8b9a6f4144c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AFCD6FE0>]}
+[0m05:32:24.173724 [info ] [Thread-1 (]: 1 of 3 OK created sql view model postgres.dim_state ............................ [[32mCREATE VIEW[0m in 0.25s]
+[0m05:32:24.173724 [debug] [Thread-1 (]: Finished running node model.globalmart.dim_state
+[0m05:32:24.177593 [debug] [Thread-3 (]: Began running node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:32:24.177945 [debug] [Thread-4 (]: Began running node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:32:24.179421 [info ] [Thread-3 (]: 2 of 3 START test not_null_dim_state_state_id .................................. [RUN]
+[0m05:32:24.179421 [info ] [Thread-4 (]: 3 of 3 START test unique_dim_state_state_id .................................... [RUN]
+[0m05:32:24.180933 [debug] [Thread-3 (]: Acquiring new postgres connection 'test.globalmart.not_null_dim_state_state_id.f30014acba'
+[0m05:32:24.180933 [debug] [Thread-4 (]: Acquiring new postgres connection 'test.globalmart.unique_dim_state_state_id.4fe0241f5a'
+[0m05:32:24.180933 [debug] [Thread-3 (]: Began compiling node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:32:24.184260 [debug] [Thread-4 (]: Began compiling node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:32:24.197374 [debug] [Thread-3 (]: Writing injected SQL for node "test.globalmart.not_null_dim_state_state_id.f30014acba"
+[0m05:32:24.218765 [debug] [Thread-4 (]: Writing injected SQL for node "test.globalmart.unique_dim_state_state_id.4fe0241f5a"
+[0m05:32:24.221685 [debug] [Thread-3 (]: Began executing node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:32:24.235826 [debug] [Thread-4 (]: Began executing node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:32:24.254385 [debug] [Thread-3 (]: Writing runtime sql for node "test.globalmart.not_null_dim_state_state_id.f30014acba"
+[0m05:32:24.261249 [debug] [Thread-4 (]: Writing runtime sql for node "test.globalmart.unique_dim_state_state_id.4fe0241f5a"
+[0m05:32:24.262820 [debug] [Thread-3 (]: Using postgres connection "test.globalmart.not_null_dim_state_state_id.f30014acba"
+[0m05:32:24.264219 [debug] [Thread-4 (]: Using postgres connection "test.globalmart.unique_dim_state_state_id.4fe0241f5a"
+[0m05:32:24.264219 [debug] [Thread-3 (]: On test.globalmart.not_null_dim_state_state_id.f30014acba: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_dim_state_state_id.f30014acba"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select state_id
+from "postgres"."postgres"."dim_state"
+where state_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:32:24.266223 [debug] [Thread-4 (]: On test.globalmart.unique_dim_state_state_id.4fe0241f5a: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.unique_dim_state_state_id.4fe0241f5a"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    state_id as unique_field,
+    count(*) as n_records
+
+from "postgres"."postgres"."dim_state"
+where state_id is not null
+group by state_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:32:24.266223 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m05:32:24.268109 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m05:32:24.327802 [debug] [Thread-3 (]: SQL status: SELECT 1 in 0.060 seconds
+[0m05:32:24.334826 [debug] [Thread-3 (]: On test.globalmart.not_null_dim_state_state_id.f30014acba: ROLLBACK
+[0m05:32:24.334826 [debug] [Thread-4 (]: SQL status: SELECT 1 in 0.069 seconds
+[0m05:32:24.334826 [debug] [Thread-3 (]: On test.globalmart.not_null_dim_state_state_id.f30014acba: Close
+[0m05:32:24.341160 [debug] [Thread-4 (]: On test.globalmart.unique_dim_state_state_id.4fe0241f5a: ROLLBACK
+[0m05:32:24.342261 [info ] [Thread-3 (]: 2 of 3 PASS not_null_dim_state_state_id ........................................ [[32mPASS[0m in 0.16s]
+[0m05:32:24.344248 [debug] [Thread-4 (]: On test.globalmart.unique_dim_state_state_id.4fe0241f5a: Close
+[0m05:32:24.344699 [debug] [Thread-3 (]: Finished running node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:32:24.344699 [error] [Thread-4 (]: 3 of 3 FAIL 8 unique_dim_state_state_id ........................................ [[31mFAIL 8[0m in 0.16s]
+[0m05:32:24.344699 [debug] [Thread-4 (]: Finished running node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:32:24.350297 [debug] [Thread-7 (]: Marking all children of 'test.globalmart.unique_dim_state_state_id.4fe0241f5a' to be skipped because of status 'fail'.  Reason: Got 8 results, configured to fail if != 0.
+[0m05:32:24.352069 [debug] [MainThread]: On master: COMMIT
+[0m05:32:24.352069 [debug] [MainThread]: Using postgres connection "master"
+[0m05:32:24.352069 [debug] [MainThread]: On master: COMMIT
+[0m05:32:24.352069 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:32:24.402629 [debug] [MainThread]: SQL status: COMMIT in 0.048 seconds
+[0m05:32:24.404632 [debug] [MainThread]: On master: Close
+[0m05:32:24.404632 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:32:24.404632 [debug] [MainThread]: Connection 'list_postgres' was properly closed.
+[0m05:32:24.404632 [debug] [MainThread]: Connection 'list_postgres_postgres' was properly closed.
+[0m05:32:24.404632 [debug] [MainThread]: Connection 'model.globalmart.dim_state' was properly closed.
+[0m05:32:24.408796 [debug] [MainThread]: Connection 'test.globalmart.not_null_dim_state_state_id.f30014acba' was properly closed.
+[0m05:32:24.408796 [debug] [MainThread]: Connection 'test.globalmart.unique_dim_state_state_id.4fe0241f5a' was properly closed.
+[0m05:32:24.410872 [info ] [MainThread]: 
+[0m05:32:24.411356 [info ] [MainThread]: Finished running 2 data tests, 1 view model in 0 hours 0 minutes and 1.29 seconds (1.29s).
+[0m05:32:24.413213 [debug] [MainThread]: Command end result
+[0m05:32:24.473738 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:32:24.481114 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:32:24.490377 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Administrator\Documents\global\target\run_results.json
+[0m05:32:24.492382 [info ] [MainThread]: 
+[0m05:32:24.494139 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m05:32:24.494458 [info ] [MainThread]: 
+[0m05:32:24.494458 [error] [MainThread]: [31mFailure in test unique_dim_state_state_id (models\dimensions\dimensions.yml)[0m
+[0m05:32:24.497456 [error] [MainThread]:   Got 8 results, configured to fail if != 0
+[0m05:32:24.497456 [info ] [MainThread]: 
+[0m05:32:24.498464 [info ] [MainThread]:   compiled code at target\compiled\globalmart\models\dimensions\dimensions.yml\unique_dim_state_state_id.sql
+[0m05:32:24.499470 [info ] [MainThread]: 
+[0m05:32:24.500659 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=3
+[0m05:32:24.501688 [debug] [MainThread]: Command `dbt build` failed at 05:32:24.501688 after 3.39 seconds
+[0m05:32:24.501688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8ABDFA8F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AE38AA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AD13D390>]}
+[0m05:32:24.501688 [debug] [MainThread]: Flushing usage events
+[0m05:32:25.649567 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:34:38.139204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023844F0E8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023847224B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023847224970>]}
+
+
+============================== 05:34:38.148704 | 8fbb260a-40d2-4b35-95fd-b066f39bf33f ==============================
+[0m05:34:38.148704 [info ] [MainThread]: Running with dbt=1.11.6
+[0m05:34:38.149032 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Administrator\\Documents\\global', 'invocation_command': 'dbt run --select stg_orders dim_state', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Administrator\\Documents\\global\\logs'}
+[0m05:34:38.415563 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8fbb260a-40d2-4b35-95fd-b066f39bf33f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238433079D0>]}
+[0m05:34:38.503802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8fbb260a-40d2-4b35-95fd-b066f39bf33f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023847227940>]}
+[0m05:34:38.503802 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m05:34:38.843335 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m05:34:39.300644 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m05:34:39.300644 [debug] [MainThread]: Partial parsing: updated file: globalmart://models\dimensions\dim_state.sql
+[0m05:34:40.020510 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.globalmart.marts
+[0m05:34:40.053402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8fbb260a-40d2-4b35-95fd-b066f39bf33f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023848C50130>]}
+[0m05:34:40.249242 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:34:40.249242 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:34:40.289398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8fbb260a-40d2-4b35-95fd-b066f39bf33f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238488FC130>]}
+[0m05:34:40.289398 [info ] [MainThread]: Found 7 models, 1 seed, 22 data tests, 1 source, 580 macros
+[0m05:34:40.289398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8fbb260a-40d2-4b35-95fd-b066f39bf33f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023848C5E9B0>]}
+[0m05:34:40.292675 [info ] [MainThread]: 
+[0m05:34:40.294680 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m05:34:40.294680 [info ] [MainThread]: 
+[0m05:34:40.294680 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:34:40.298368 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m05:34:40.817797 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m05:34:40.817797 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:34:40.817797 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:34:40.886399 [debug] [ThreadPool]: SQL status: SELECT 89 in 0.067 seconds
+[0m05:34:40.886399 [debug] [ThreadPool]: On list_postgres: Close
+[0m05:34:40.892079 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_postgres'
+[0m05:34:40.903027 [debug] [ThreadPool]: Using postgres connection "list_postgres_postgres"
+[0m05:34:40.911055 [debug] [ThreadPool]: On list_postgres_postgres: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "list_postgres_postgres"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'postgres'
+  
+[0m05:34:40.913550 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:34:41.001032 [debug] [ThreadPool]: SQL status: SELECT 21 in 0.090 seconds
+[0m05:34:41.001032 [debug] [ThreadPool]: On list_postgres_postgres: ROLLBACK
+[0m05:34:41.001032 [debug] [ThreadPool]: On list_postgres_postgres: Close
+[0m05:34:41.025311 [debug] [MainThread]: Using postgres connection "master"
+[0m05:34:41.025311 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m05:34:41.025311 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:34:41.087813 [debug] [MainThread]: SQL status: SELECT 17 in 0.058 seconds
+[0m05:34:41.091441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8fbb260a-40d2-4b35-95fd-b066f39bf33f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023848C92E90>]}
+[0m05:34:41.091441 [debug] [MainThread]: On master: ROLLBACK
+[0m05:34:41.098556 [debug] [MainThread]: On master: COMMIT
+[0m05:34:41.099655 [debug] [MainThread]: Using postgres connection "master"
+[0m05:34:41.099655 [debug] [MainThread]: On master: COMMIT
+[0m05:34:41.101660 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m05:34:41.101660 [debug] [MainThread]: On master: Close
+[0m05:34:41.108078 [debug] [Thread-1 (]: Began running node model.globalmart.stg_orders
+[0m05:34:41.115473 [info ] [Thread-1 (]: 1 of 2 START sql view model postgres.stg_orders ................................ [RUN]
+[0m05:34:41.117715 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.globalmart.stg_orders'
+[0m05:34:41.117715 [debug] [Thread-1 (]: Began compiling node model.globalmart.stg_orders
+[0m05:34:41.185919 [debug] [Thread-1 (]: Writing injected SQL for node "model.globalmart.stg_orders"
+[0m05:34:41.185919 [debug] [Thread-1 (]: Began executing node model.globalmart.stg_orders
+[0m05:34:41.240327 [debug] [Thread-1 (]: Writing runtime sql for node "model.globalmart.stg_orders"
+[0m05:34:41.240327 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:34:41.240327 [debug] [Thread-1 (]: On model.globalmart.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.stg_orders"} */
+
+  create view "postgres"."postgres"."stg_orders__dbt_tmp"
+    
+    
+  as (
+    
+
+with source as (
+
+    select *
+    from "postgres"."postgres"."globalsales"
+
+)
+
+select
+
+    order_id::text as order_id,
+    ---cast(order_date as date) as order_date,
+	order_date,
+    cast(ship_date as date) as ship_date,
+
+    trim(region) as region,
+    trim(state) as state,
+    trim(category) as category,
+    trim(sub_category) as sub_category,
+    trim(product_name) as product_name,
+
+    sales,
+    quantity,
+    discount,
+    profit,
+
+    md5(cast(coalesce(cast(region as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as region_id,
+
+    md5(cast(coalesce(cast(state as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as state_id,
+
+    md5(cast(coalesce(cast(category as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as category_id,
+
+    md5(cast(coalesce(cast(category as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(sub_category as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as subcategory_id,
+
+    md5(cast(coalesce(cast(product_name as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as product_id
+
+from source
+  );
+[0m05:34:41.240327 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m05:34:41.370827 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.127 seconds
+[0m05:34:41.387086 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:34:41.395139 [debug] [Thread-1 (]: On model.globalmart.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.stg_orders"} */
+alter table "postgres"."postgres"."stg_orders" rename to "stg_orders__dbt_backup"
+[0m05:34:41.398441 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:34:41.403210 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:34:41.403210 [debug] [Thread-1 (]: On model.globalmart.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.stg_orders"} */
+alter table "postgres"."postgres"."stg_orders__dbt_tmp" rename to "stg_orders"
+[0m05:34:41.409397 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m05:34:41.431181 [debug] [Thread-1 (]: On model.globalmart.stg_orders: COMMIT
+[0m05:34:41.431181 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:34:41.431181 [debug] [Thread-1 (]: On model.globalmart.stg_orders: COMMIT
+[0m05:34:41.437568 [debug] [Thread-1 (]: SQL status: COMMIT in 0.003 seconds
+[0m05:34:41.447962 [debug] [Thread-1 (]: Applying DROP to: "postgres"."postgres"."stg_orders__dbt_backup"
+[0m05:34:41.452574 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:34:41.452574 [debug] [Thread-1 (]: On model.globalmart.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.stg_orders"} */
+drop view if exists "postgres"."postgres"."stg_orders__dbt_backup" cascade
+[0m05:34:41.463810 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.004 seconds
+[0m05:34:41.469197 [debug] [Thread-1 (]: On model.globalmart.stg_orders: Close
+[0m05:34:41.475387 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8fbb260a-40d2-4b35-95fd-b066f39bf33f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238490471F0>]}
+[0m05:34:41.477293 [info ] [Thread-1 (]: 1 of 2 OK created sql view model postgres.stg_orders ........................... [[32mCREATE VIEW[0m in 0.35s]
+[0m05:34:41.477293 [debug] [Thread-1 (]: Finished running node model.globalmart.stg_orders
+[0m05:34:41.481801 [debug] [Thread-3 (]: Began running node model.globalmart.dim_state
+[0m05:34:41.482929 [info ] [Thread-3 (]: 2 of 2 START sql view model postgres.dim_state ................................. [RUN]
+[0m05:34:41.484032 [debug] [Thread-3 (]: Acquiring new postgres connection 'model.globalmart.dim_state'
+[0m05:34:41.485806 [debug] [Thread-3 (]: Began compiling node model.globalmart.dim_state
+[0m05:34:41.493841 [debug] [Thread-3 (]: Writing injected SQL for node "model.globalmart.dim_state"
+[0m05:34:41.493841 [debug] [Thread-3 (]: Began executing node model.globalmart.dim_state
+[0m05:34:41.502273 [debug] [Thread-3 (]: Writing runtime sql for node "model.globalmart.dim_state"
+[0m05:34:41.502273 [debug] [Thread-3 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:34:41.510277 [debug] [Thread-3 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+
+  create view "postgres"."postgres"."dim_state__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT DISTINCT
+    state_id,
+    --region_id,
+    state as state_name
+FROM "postgres"."postgres"."stg_orders"
+  );
+[0m05:34:41.510277 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m05:34:41.588220 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.078 seconds
+[0m05:34:41.598579 [debug] [Thread-3 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:34:41.601309 [debug] [Thread-3 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+alter table "postgres"."postgres"."dim_state__dbt_tmp" rename to "dim_state"
+[0m05:34:41.601309 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:34:41.609470 [debug] [Thread-3 (]: On model.globalmart.dim_state: COMMIT
+[0m05:34:41.609470 [debug] [Thread-3 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:34:41.609470 [debug] [Thread-3 (]: On model.globalmart.dim_state: COMMIT
+[0m05:34:41.618442 [debug] [Thread-3 (]: SQL status: COMMIT in 0.004 seconds
+[0m05:34:41.625140 [debug] [Thread-3 (]: Applying DROP to: "postgres"."postgres"."dim_state__dbt_backup"
+[0m05:34:41.631258 [debug] [Thread-3 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:34:41.631876 [debug] [Thread-3 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+drop view if exists "postgres"."postgres"."dim_state__dbt_backup" cascade
+[0m05:34:41.633754 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m05:34:41.633754 [debug] [Thread-3 (]: On model.globalmart.dim_state: Close
+[0m05:34:41.641770 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8fbb260a-40d2-4b35-95fd-b066f39bf33f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238490469E0>]}
+[0m05:34:41.641770 [info ] [Thread-3 (]: 2 of 2 OK created sql view model postgres.dim_state ............................ [[32mCREATE VIEW[0m in 0.15s]
+[0m05:34:41.647177 [debug] [Thread-3 (]: Finished running node model.globalmart.dim_state
+[0m05:34:41.650394 [debug] [MainThread]: On master: COMMIT
+[0m05:34:41.650394 [debug] [MainThread]: Using postgres connection "master"
+[0m05:34:41.650394 [debug] [MainThread]: On master: COMMIT
+[0m05:34:41.650394 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:34:41.730519 [debug] [MainThread]: SQL status: COMMIT in 0.075 seconds
+[0m05:34:41.731503 [debug] [MainThread]: On master: Close
+[0m05:34:41.733373 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:34:41.733373 [debug] [MainThread]: Connection 'list_postgres' was properly closed.
+[0m05:34:41.735836 [debug] [MainThread]: Connection 'list_postgres_postgres' was properly closed.
+[0m05:34:41.735836 [debug] [MainThread]: Connection 'model.globalmart.stg_orders' was properly closed.
+[0m05:34:41.735836 [debug] [MainThread]: Connection 'model.globalmart.dim_state' was properly closed.
+[0m05:34:41.735836 [info ] [MainThread]: 
+[0m05:34:41.741528 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 1.44 seconds (1.44s).
+[0m05:34:41.744153 [debug] [MainThread]: Command end result
+[0m05:34:41.882083 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:34:41.889152 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:34:41.898495 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Administrator\Documents\global\target\run_results.json
+[0m05:34:41.898495 [info ] [MainThread]: 
+[0m05:34:41.898495 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m05:34:41.898495 [info ] [MainThread]: 
+[0m05:34:41.898495 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m05:34:41.898495 [debug] [MainThread]: Command `dbt run` succeeded at 05:34:41.898495 after 3.91 seconds
+[0m05:34:41.898495 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023844F0E8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238491D96F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238491DA950>]}
+[0m05:34:41.907032 [debug] [MainThread]: Flushing usage events
+[0m05:34:43.071680 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:34:49.964175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B6CFA890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B8048CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B8048AC0>]}
+
+
+============================== 05:34:49.977657 | fad49a5e-9d23-4f33-923f-2e4151d49b1b ==============================
+[0m05:34:49.977657 [info ] [MainThread]: Running with dbt=1.11.6
+[0m05:34:49.980919 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Administrator\\Documents\\global', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt build --select dim_state', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Administrator\\Documents\\global\\logs'}
+[0m05:34:50.294698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fad49a5e-9d23-4f33-923f-2e4151d49b1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B7FF7F10>]}
+[0m05:34:50.394838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fad49a5e-9d23-4f33-923f-2e4151d49b1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B80182B0>]}
+[0m05:34:50.394838 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m05:34:50.761298 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m05:34:51.161295 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m05:34:51.161295 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m05:34:51.161295 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m05:34:51.167873 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.globalmart.marts
+[0m05:34:51.339526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fad49a5e-9d23-4f33-923f-2e4151d49b1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B9784130>]}
+[0m05:34:51.593633 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:34:51.597017 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:34:51.663494 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fad49a5e-9d23-4f33-923f-2e4151d49b1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B97874F0>]}
+[0m05:34:51.663494 [info ] [MainThread]: Found 7 models, 1 seed, 22 data tests, 1 source, 580 macros
+[0m05:34:51.671582 [info ] [MainThread]: 
+[0m05:34:51.671582 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m05:34:51.671582 [info ] [MainThread]: 
+[0m05:34:51.676964 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:34:51.679708 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m05:34:52.021959 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m05:34:52.021959 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:34:52.021959 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:34:52.096390 [debug] [ThreadPool]: SQL status: SELECT 89 in 0.072 seconds
+[0m05:34:52.096390 [debug] [ThreadPool]: On list_postgres: Close
+[0m05:34:52.108173 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_postgres'
+[0m05:34:52.112817 [debug] [ThreadPool]: Using postgres connection "list_postgres_postgres"
+[0m05:34:52.112817 [debug] [ThreadPool]: On list_postgres_postgres: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "list_postgres_postgres"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'postgres'
+  
+[0m05:34:52.112817 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:34:52.179392 [debug] [ThreadPool]: SQL status: SELECT 21 in 0.066 seconds
+[0m05:34:52.187585 [debug] [ThreadPool]: On list_postgres_postgres: ROLLBACK
+[0m05:34:52.187585 [debug] [ThreadPool]: On list_postgres_postgres: Close
+[0m05:34:52.212383 [debug] [MainThread]: Using postgres connection "master"
+[0m05:34:52.212383 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m05:34:52.220434 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:34:52.318365 [debug] [MainThread]: SQL status: SELECT 17 in 0.099 seconds
+[0m05:34:52.327919 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fad49a5e-9d23-4f33-923f-2e4151d49b1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B49F4100>]}
+[0m05:34:52.327919 [debug] [MainThread]: On master: ROLLBACK
+[0m05:34:52.327919 [debug] [MainThread]: On master: COMMIT
+[0m05:34:52.327919 [debug] [MainThread]: Using postgres connection "master"
+[0m05:34:52.333979 [debug] [MainThread]: On master: COMMIT
+[0m05:34:52.335986 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m05:34:52.335986 [debug] [MainThread]: On master: Close
+[0m05:34:52.344697 [debug] [Thread-1 (]: Began running node model.globalmart.dim_state
+[0m05:34:52.350347 [info ] [Thread-1 (]: 1 of 3 START sql view model postgres.dim_state ................................. [RUN]
+[0m05:34:52.351400 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.globalmart.dim_state'
+[0m05:34:52.353624 [debug] [Thread-1 (]: Began compiling node model.globalmart.dim_state
+[0m05:34:52.383391 [debug] [Thread-1 (]: Writing injected SQL for node "model.globalmart.dim_state"
+[0m05:34:52.383391 [debug] [Thread-1 (]: Began executing node model.globalmart.dim_state
+[0m05:34:52.444156 [debug] [Thread-1 (]: Writing runtime sql for node "model.globalmart.dim_state"
+[0m05:34:52.444156 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:34:52.444156 [debug] [Thread-1 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+
+  create view "postgres"."postgres"."dim_state__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT DISTINCT
+    state_id,
+    --region_id,
+    state as state_name
+FROM "postgres"."postgres"."stg_orders"
+  );
+[0m05:34:52.444156 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m05:34:52.494766 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.047 seconds
+[0m05:34:52.515442 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:34:52.515442 [debug] [Thread-1 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+alter table "postgres"."postgres"."dim_state" rename to "dim_state__dbt_backup"
+[0m05:34:52.515442 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:34:52.527510 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:34:52.531590 [debug] [Thread-1 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+alter table "postgres"."postgres"."dim_state__dbt_tmp" rename to "dim_state"
+[0m05:34:52.531590 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.000 seconds
+[0m05:34:52.564081 [debug] [Thread-1 (]: On model.globalmart.dim_state: COMMIT
+[0m05:34:52.564081 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:34:52.564081 [debug] [Thread-1 (]: On model.globalmart.dim_state: COMMIT
+[0m05:34:52.575180 [debug] [Thread-1 (]: SQL status: COMMIT in 0.004 seconds
+[0m05:34:52.580831 [debug] [Thread-1 (]: Applying DROP to: "postgres"."postgres"."dim_state__dbt_backup"
+[0m05:34:52.594092 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.dim_state"
+[0m05:34:52.594092 [debug] [Thread-1 (]: On model.globalmart.dim_state: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.dim_state"} */
+drop view if exists "postgres"."postgres"."dim_state__dbt_backup" cascade
+[0m05:34:52.597690 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m05:34:52.601435 [debug] [Thread-1 (]: On model.globalmart.dim_state: Close
+[0m05:34:52.605181 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fad49a5e-9d23-4f33-923f-2e4151d49b1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B9C16FE0>]}
+[0m05:34:52.605181 [info ] [Thread-1 (]: 1 of 3 OK created sql view model postgres.dim_state ............................ [[32mCREATE VIEW[0m in 0.25s]
+[0m05:34:52.607185 [debug] [Thread-1 (]: Finished running node model.globalmart.dim_state
+[0m05:34:52.608722 [debug] [Thread-3 (]: Began running node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:34:52.610358 [debug] [Thread-4 (]: Began running node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:34:52.610772 [info ] [Thread-3 (]: 2 of 3 START test not_null_dim_state_state_id .................................. [RUN]
+[0m05:34:52.610772 [info ] [Thread-4 (]: 3 of 3 START test unique_dim_state_state_id .................................... [RUN]
+[0m05:34:52.613423 [debug] [Thread-3 (]: Acquiring new postgres connection 'test.globalmart.not_null_dim_state_state_id.f30014acba'
+[0m05:34:52.615428 [debug] [Thread-4 (]: Acquiring new postgres connection 'test.globalmart.unique_dim_state_state_id.4fe0241f5a'
+[0m05:34:52.615428 [debug] [Thread-3 (]: Began compiling node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:34:52.617432 [debug] [Thread-4 (]: Began compiling node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:34:52.637806 [debug] [Thread-3 (]: Writing injected SQL for node "test.globalmart.not_null_dim_state_state_id.f30014acba"
+[0m05:34:52.654039 [debug] [Thread-4 (]: Writing injected SQL for node "test.globalmart.unique_dim_state_state_id.4fe0241f5a"
+[0m05:34:52.654039 [debug] [Thread-4 (]: Began executing node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:34:52.654039 [debug] [Thread-3 (]: Began executing node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:34:52.679199 [debug] [Thread-4 (]: Writing runtime sql for node "test.globalmart.unique_dim_state_state_id.4fe0241f5a"
+[0m05:34:52.683013 [debug] [Thread-3 (]: Writing runtime sql for node "test.globalmart.not_null_dim_state_state_id.f30014acba"
+[0m05:34:52.685015 [debug] [Thread-4 (]: Using postgres connection "test.globalmart.unique_dim_state_state_id.4fe0241f5a"
+[0m05:34:52.685015 [debug] [Thread-3 (]: Using postgres connection "test.globalmart.not_null_dim_state_state_id.f30014acba"
+[0m05:34:52.687595 [debug] [Thread-4 (]: On test.globalmart.unique_dim_state_state_id.4fe0241f5a: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.unique_dim_state_state_id.4fe0241f5a"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    state_id as unique_field,
+    count(*) as n_records
+
+from "postgres"."postgres"."dim_state"
+where state_id is not null
+group by state_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:34:52.687595 [debug] [Thread-3 (]: On test.globalmart.not_null_dim_state_state_id.f30014acba: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_dim_state_state_id.f30014acba"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select state_id
+from "postgres"."postgres"."dim_state"
+where state_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:34:52.687595 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m05:34:52.687595 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m05:34:52.737282 [debug] [Thread-3 (]: SQL status: SELECT 1 in 0.050 seconds
+[0m05:34:52.743661 [debug] [Thread-3 (]: On test.globalmart.not_null_dim_state_state_id.f30014acba: ROLLBACK
+[0m05:34:52.745713 [debug] [Thread-3 (]: On test.globalmart.not_null_dim_state_state_id.f30014acba: Close
+[0m05:34:52.745713 [info ] [Thread-3 (]: 2 of 3 PASS not_null_dim_state_state_id ........................................ [[32mPASS[0m in 0.13s]
+[0m05:34:52.745713 [debug] [Thread-3 (]: Finished running node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:34:52.863099 [debug] [Thread-4 (]: SQL status: SELECT 1 in 0.175 seconds
+[0m05:34:52.863099 [debug] [Thread-4 (]: On test.globalmart.unique_dim_state_state_id.4fe0241f5a: ROLLBACK
+[0m05:34:52.871150 [debug] [Thread-4 (]: On test.globalmart.unique_dim_state_state_id.4fe0241f5a: Close
+[0m05:34:52.871150 [info ] [Thread-4 (]: 3 of 3 PASS unique_dim_state_state_id .......................................... [[32mPASS[0m in 0.26s]
+[0m05:34:52.876269 [debug] [Thread-4 (]: Finished running node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:34:52.880578 [debug] [MainThread]: On master: COMMIT
+[0m05:34:52.880578 [debug] [MainThread]: Using postgres connection "master"
+[0m05:34:52.880578 [debug] [MainThread]: On master: COMMIT
+[0m05:34:52.880578 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:34:52.953939 [debug] [MainThread]: SQL status: COMMIT in 0.073 seconds
+[0m05:34:52.959279 [debug] [MainThread]: On master: Close
+[0m05:34:52.959959 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:34:52.962079 [debug] [MainThread]: Connection 'list_postgres' was properly closed.
+[0m05:34:52.962079 [debug] [MainThread]: Connection 'list_postgres_postgres' was properly closed.
+[0m05:34:52.962079 [debug] [MainThread]: Connection 'model.globalmart.dim_state' was properly closed.
+[0m05:34:52.962079 [debug] [MainThread]: Connection 'test.globalmart.not_null_dim_state_state_id.f30014acba' was properly closed.
+[0m05:34:52.962079 [debug] [MainThread]: Connection 'test.globalmart.unique_dim_state_state_id.4fe0241f5a' was properly closed.
+[0m05:34:52.962079 [info ] [MainThread]: 
+[0m05:34:52.962079 [info ] [MainThread]: Finished running 2 data tests, 1 view model in 0 hours 0 minutes and 1.29 seconds (1.29s).
+[0m05:34:52.970494 [debug] [MainThread]: Command end result
+[0m05:34:53.037047 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:34:53.044013 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:34:53.053644 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Administrator\Documents\global\target\run_results.json
+[0m05:34:53.053644 [info ] [MainThread]: 
+[0m05:34:53.053644 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m05:34:53.053644 [info ] [MainThread]: 
+[0m05:34:53.053644 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m05:34:53.060882 [debug] [MainThread]: Command `dbt build` succeeded at 05:34:53.060882 after 3.24 seconds
+[0m05:34:53.062010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B6CFA890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B7FF7C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221B7099960>]}
+[0m05:34:53.062010 [debug] [MainThread]: Flushing usage events
+[0m05:34:54.326253 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:35:02.154747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE197A890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE2CC0CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE2CC0AC0>]}
+
+
+============================== 05:35:02.157855 | d142414a-51e2-47f7-b687-ca2fcd746f56 ==============================
+[0m05:35:02.157855 [info ] [MainThread]: Running with dbt=1.11.6
+[0m05:35:02.164522 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Administrator\\Documents\\global', 'invocation_command': 'dbt test --select dim_state', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Administrator\\Documents\\global\\logs'}
+[0m05:35:02.464780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd142414a-51e2-47f7-b687-ca2fcd746f56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE2C73F10>]}
+[0m05:35:02.557224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd142414a-51e2-47f7-b687-ca2fcd746f56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE2C942B0>]}
+[0m05:35:02.557224 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m05:35:02.946782 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m05:35:03.378664 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m05:35:03.378664 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m05:35:03.378664 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m05:35:03.390430 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.globalmart.marts
+[0m05:35:03.492488 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd142414a-51e2-47f7-b687-ca2fcd746f56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE4404130>]}
+[0m05:35:03.753268 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:35:03.758088 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:35:03.810928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd142414a-51e2-47f7-b687-ca2fcd746f56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE43F4B50>]}
+[0m05:35:03.810928 [info ] [MainThread]: Found 7 models, 1 seed, 22 data tests, 1 source, 580 macros
+[0m05:35:03.810928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd142414a-51e2-47f7-b687-ca2fcd746f56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE43F4430>]}
+[0m05:35:03.820181 [info ] [MainThread]: 
+[0m05:35:03.820181 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m05:35:03.820181 [info ] [MainThread]: 
+[0m05:35:03.822859 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:35:03.829646 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_postgres'
+[0m05:35:04.340629 [debug] [ThreadPool]: Using postgres connection "list_postgres_postgres"
+[0m05:35:04.342279 [debug] [ThreadPool]: On list_postgres_postgres: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "list_postgres_postgres"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'postgres'
+  
+[0m05:35:04.342279 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:35:04.434066 [debug] [ThreadPool]: SQL status: SELECT 21 in 0.091 seconds
+[0m05:35:04.439470 [debug] [ThreadPool]: On list_postgres_postgres: ROLLBACK
+[0m05:35:04.441486 [debug] [ThreadPool]: On list_postgres_postgres: Close
+[0m05:35:04.466255 [debug] [MainThread]: Using postgres connection "master"
+[0m05:35:04.466255 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m05:35:04.466255 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:35:04.556922 [debug] [MainThread]: SQL status: SELECT 17 in 0.089 seconds
+[0m05:35:04.564755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd142414a-51e2-47f7-b687-ca2fcd746f56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE23FE5F0>]}
+[0m05:35:04.564755 [debug] [MainThread]: On master: ROLLBACK
+[0m05:35:04.566760 [debug] [MainThread]: On master: COMMIT
+[0m05:35:04.566760 [debug] [MainThread]: Using postgres connection "master"
+[0m05:35:04.566760 [debug] [MainThread]: On master: COMMIT
+[0m05:35:04.566760 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m05:35:04.571076 [debug] [MainThread]: On master: Close
+[0m05:35:04.573474 [debug] [Thread-1 (]: Began running node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:35:04.573474 [debug] [Thread-2 (]: Began running node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:35:04.579561 [info ] [Thread-1 (]: 1 of 2 START test not_null_dim_state_state_id .................................. [RUN]
+[0m05:35:04.579561 [info ] [Thread-2 (]: 2 of 2 START test unique_dim_state_state_id .................................... [RUN]
+[0m05:35:04.579561 [debug] [Thread-1 (]: Acquiring new postgres connection 'test.globalmart.not_null_dim_state_state_id.f30014acba'
+[0m05:35:04.579561 [debug] [Thread-2 (]: Acquiring new postgres connection 'test.globalmart.unique_dim_state_state_id.4fe0241f5a'
+[0m05:35:04.579561 [debug] [Thread-1 (]: Began compiling node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:35:04.579561 [debug] [Thread-2 (]: Began compiling node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:35:04.623616 [debug] [Thread-1 (]: Writing injected SQL for node "test.globalmart.not_null_dim_state_state_id.f30014acba"
+[0m05:35:04.636286 [debug] [Thread-2 (]: Writing injected SQL for node "test.globalmart.unique_dim_state_state_id.4fe0241f5a"
+[0m05:35:04.638293 [debug] [Thread-1 (]: Began executing node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:35:04.652377 [debug] [Thread-2 (]: Began executing node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:35:04.660626 [debug] [Thread-1 (]: Writing runtime sql for node "test.globalmart.not_null_dim_state_state_id.f30014acba"
+[0m05:35:04.673257 [debug] [Thread-2 (]: Writing runtime sql for node "test.globalmart.unique_dim_state_state_id.4fe0241f5a"
+[0m05:35:04.673257 [debug] [Thread-1 (]: Using postgres connection "test.globalmart.not_null_dim_state_state_id.f30014acba"
+[0m05:35:04.676836 [debug] [Thread-2 (]: Using postgres connection "test.globalmart.unique_dim_state_state_id.4fe0241f5a"
+[0m05:35:04.676836 [debug] [Thread-1 (]: On test.globalmart.not_null_dim_state_state_id.f30014acba: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_dim_state_state_id.f30014acba"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select state_id
+from "postgres"."postgres"."dim_state"
+where state_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:35:04.676836 [debug] [Thread-2 (]: On test.globalmart.unique_dim_state_state_id.4fe0241f5a: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.unique_dim_state_state_id.4fe0241f5a"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    state_id as unique_field,
+    count(*) as n_records
+
+from "postgres"."postgres"."dim_state"
+where state_id is not null
+group by state_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:35:04.678999 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m05:35:04.678999 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m05:35:04.722897 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.046 seconds
+[0m05:35:04.725767 [debug] [Thread-1 (]: On test.globalmart.not_null_dim_state_state_id.f30014acba: ROLLBACK
+[0m05:35:04.725767 [debug] [Thread-1 (]: On test.globalmart.not_null_dim_state_state_id.f30014acba: Close
+[0m05:35:04.734276 [info ] [Thread-1 (]: 1 of 2 PASS not_null_dim_state_state_id ........................................ [[32mPASS[0m in 0.15s]
+[0m05:35:04.735392 [debug] [Thread-1 (]: Finished running node test.globalmart.not_null_dim_state_state_id.f30014acba
+[0m05:35:04.850633 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.171 seconds
+[0m05:35:04.852635 [debug] [Thread-2 (]: On test.globalmart.unique_dim_state_state_id.4fe0241f5a: ROLLBACK
+[0m05:35:04.852635 [debug] [Thread-2 (]: On test.globalmart.unique_dim_state_state_id.4fe0241f5a: Close
+[0m05:35:04.854637 [info ] [Thread-2 (]: 2 of 2 PASS unique_dim_state_state_id .......................................... [[32mPASS[0m in 0.28s]
+[0m05:35:04.856639 [debug] [Thread-2 (]: Finished running node test.globalmart.unique_dim_state_state_id.4fe0241f5a
+[0m05:35:04.858642 [debug] [MainThread]: On master: COMMIT
+[0m05:35:04.858642 [debug] [MainThread]: Using postgres connection "master"
+[0m05:35:04.860645 [debug] [MainThread]: On master: COMMIT
+[0m05:35:04.860645 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:35:04.901262 [debug] [MainThread]: SQL status: COMMIT in 0.043 seconds
+[0m05:35:04.901262 [debug] [MainThread]: On master: Close
+[0m05:35:04.905837 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:35:04.905837 [debug] [MainThread]: Connection 'list_postgres_postgres' was properly closed.
+[0m05:35:04.905837 [debug] [MainThread]: Connection 'test.globalmart.not_null_dim_state_state_id.f30014acba' was properly closed.
+[0m05:35:04.908377 [debug] [MainThread]: Connection 'test.globalmart.unique_dim_state_state_id.4fe0241f5a' was properly closed.
+[0m05:35:04.908377 [info ] [MainThread]: 
+[0m05:35:04.908377 [info ] [MainThread]: Finished running 2 data tests in 0 hours 0 minutes and 1.09 seconds (1.09s).
+[0m05:35:04.911099 [debug] [MainThread]: Command end result
+[0m05:35:04.958422 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:35:04.962487 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:35:04.974337 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Administrator\Documents\global\target\run_results.json
+[0m05:35:04.974337 [info ] [MainThread]: 
+[0m05:35:04.974337 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m05:35:04.974337 [info ] [MainThread]: 
+[0m05:35:04.974337 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m05:35:04.979857 [debug] [MainThread]: Command `dbt test` succeeded at 05:35:04.974337 after 2.97 seconds
+[0m05:35:04.979857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE197A890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE1D19960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DE4846F80>]}
+[0m05:35:04.979857 [debug] [MainThread]: Flushing usage events
+[0m05:35:06.107774 [debug] [MainThread]: An error was encountered while trying to flush usage events
