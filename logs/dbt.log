@@ -10362,3 +10362,472 @@ having count(*) > 1
 [0m05:47:16.096445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220E524A920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220E6C66140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220E65940A0>]}
 [0m05:47:16.096445 [debug] [MainThread]: Flushing usage events
 [0m05:47:17.249576 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:55:23.796418 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236ACFFA8F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236AF314BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236AF3149D0>]}
+
+
+============================== 05:55:23.808438 | 44547fdf-a292-47d3-8515-e8c5c9e9cdc2 ==============================
+[0m05:55:23.808438 [info ] [MainThread]: Running with dbt=1.11.6
+[0m05:55:23.810441 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Administrator\\Documents\\global', 'invocation_command': 'dbt show --select stg_orders --limit 3', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Administrator\\Documents\\global\\logs'}
+[0m05:55:24.210956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '44547fdf-a292-47d3-8515-e8c5c9e9cdc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236AB3F7A00>]}
+[0m05:55:24.305253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '44547fdf-a292-47d3-8515-e8c5c9e9cdc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236AF2E19C0>]}
+[0m05:55:24.369157 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m05:55:24.930517 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m05:55:25.791061 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m05:55:25.791061 [debug] [MainThread]: Partial parsing: updated file: globalmart://models\dimensions\dim_state.sql
+[0m05:55:26.547484 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.globalmart.marts
+[0m05:55:26.574122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '44547fdf-a292-47d3-8515-e8c5c9e9cdc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236B0D9C130>]}
+[0m05:55:26.790862 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:55:26.797422 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:55:26.807544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '44547fdf-a292-47d3-8515-e8c5c9e9cdc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236AD376590>]}
+[0m05:55:26.807544 [info ] [MainThread]: Found 7 models, 1 seed, 22 data tests, 1 source, 580 macros
+[0m05:55:26.807544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '44547fdf-a292-47d3-8515-e8c5c9e9cdc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236B0E39F60>]}
+[0m05:55:26.820197 [info ] [MainThread]: 
+[0m05:55:26.820197 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m05:55:26.822855 [info ] [MainThread]: 
+[0m05:55:26.823621 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:55:26.833288 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_postgres'
+[0m05:55:27.377065 [debug] [ThreadPool]: Using postgres connection "list_postgres_postgres"
+[0m05:55:27.390124 [debug] [ThreadPool]: On list_postgres_postgres: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "list_postgres_postgres"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'postgres'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'postgres'
+  
+[0m05:55:27.390664 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:55:27.678473 [debug] [ThreadPool]: SQL status: SELECT 21 in 0.290 seconds
+[0m05:55:27.686212 [debug] [ThreadPool]: On list_postgres_postgres: ROLLBACK
+[0m05:55:27.690636 [debug] [ThreadPool]: On list_postgres_postgres: Close
+[0m05:55:27.709626 [debug] [MainThread]: Using postgres connection "master"
+[0m05:55:27.718609 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m05:55:27.718609 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:55:27.821827 [debug] [MainThread]: SQL status: SELECT 17 in 0.102 seconds
+[0m05:55:27.823261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '44547fdf-a292-47d3-8515-e8c5c9e9cdc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236AEA4E380>]}
+[0m05:55:27.823261 [debug] [MainThread]: On master: ROLLBACK
+[0m05:55:27.823261 [debug] [MainThread]: On master: Close
+[0m05:55:27.831604 [debug] [Thread-1 (]: Began running node model.globalmart.stg_orders
+[0m05:55:27.831604 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.globalmart.stg_orders'
+[0m05:55:27.831604 [debug] [Thread-1 (]: Began compiling node model.globalmart.stg_orders
+[0m05:55:27.872218 [debug] [Thread-1 (]: Writing injected SQL for node "model.globalmart.stg_orders"
+[0m05:55:27.873748 [debug] [Thread-1 (]: Began executing node model.globalmart.stg_orders
+[0m05:55:27.873748 [debug] [Thread-1 (]: Using postgres connection "model.globalmart.stg_orders"
+[0m05:55:27.873748 [debug] [Thread-1 (]: On model.globalmart.stg_orders: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "model.globalmart.stg_orders"} */
+
+  
+  
+
+with source as (
+
+    select *
+    from "postgres"."postgres"."globalsales"
+
+)
+
+select
+
+    order_id::text as order_id,
+    ---cast(order_date as date) as order_date,
+	order_date,
+    cast(ship_date as date) as ship_date,
+
+    trim(region) as region,
+    trim(state) as state,
+    trim(category) as category,
+    trim(sub_category) as sub_category,
+    trim(product_name) as product_name,
+
+    sales,
+    quantity,
+    discount,
+    profit,
+
+    md5(cast(coalesce(cast(region as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as region_id,
+
+    md5(cast(coalesce(cast(state as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as state_id,
+
+    md5(cast(coalesce(cast(category as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as category_id,
+
+    md5(cast(coalesce(cast(category as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(sub_category as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as subcategory_id,
+
+    md5(cast(coalesce(cast(product_name as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT))
+        as product_id
+
+from source
+  
+  limit 3
+
+[0m05:55:27.873748 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m05:55:27.951704 [debug] [Thread-1 (]: SQL status: SELECT 3 in 0.065 seconds
+[0m05:55:27.954185 [debug] [Thread-1 (]: On model.globalmart.stg_orders: Close
+[0m05:55:27.957849 [debug] [Thread-1 (]: Finished running node model.globalmart.stg_orders
+[0m05:55:27.959871 [debug] [Thread-3 (]: Began running node test.globalmart.not_null_stg_orders_category_id.72dfb306bf
+[0m05:55:27.959871 [debug] [Thread-4 (]: Began running node test.globalmart.not_null_stg_orders_order_date.2177a3e8bb
+[0m05:55:27.959871 [debug] [Thread-2 (]: Began running node test.globalmart.not_null_stg_orders_order_id.81cfe2fe64
+[0m05:55:27.959871 [debug] [Thread-1 (]: Began running node test.globalmart.not_null_stg_orders_product_id.034adb910e
+[0m05:55:27.963221 [debug] [Thread-3 (]: Acquiring new postgres connection 'test.globalmart.not_null_stg_orders_category_id.72dfb306bf'
+[0m05:55:27.963221 [debug] [Thread-4 (]: Acquiring new postgres connection 'test.globalmart.not_null_stg_orders_order_date.2177a3e8bb'
+[0m05:55:27.963221 [debug] [Thread-2 (]: Acquiring new postgres connection 'test.globalmart.not_null_stg_orders_order_id.81cfe2fe64'
+[0m05:55:27.963221 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.globalmart.stg_orders, now test.globalmart.not_null_stg_orders_product_id.034adb910e)
+[0m05:55:27.963221 [debug] [Thread-3 (]: Began compiling node test.globalmart.not_null_stg_orders_category_id.72dfb306bf
+[0m05:55:27.967999 [debug] [Thread-4 (]: Began compiling node test.globalmart.not_null_stg_orders_order_date.2177a3e8bb
+[0m05:55:27.967999 [debug] [Thread-2 (]: Began compiling node test.globalmart.not_null_stg_orders_order_id.81cfe2fe64
+[0m05:55:27.967999 [debug] [Thread-1 (]: Began compiling node test.globalmart.not_null_stg_orders_product_id.034adb910e
+[0m05:55:27.990281 [debug] [Thread-3 (]: Writing injected SQL for node "test.globalmart.not_null_stg_orders_category_id.72dfb306bf"
+[0m05:55:27.999178 [debug] [Thread-4 (]: Writing injected SQL for node "test.globalmart.not_null_stg_orders_order_date.2177a3e8bb"
+[0m05:55:28.015389 [debug] [Thread-2 (]: Writing injected SQL for node "test.globalmart.not_null_stg_orders_order_id.81cfe2fe64"
+[0m05:55:28.034726 [debug] [Thread-1 (]: Writing injected SQL for node "test.globalmart.not_null_stg_orders_product_id.034adb910e"
+[0m05:55:28.043250 [debug] [Thread-3 (]: Began executing node test.globalmart.not_null_stg_orders_category_id.72dfb306bf
+[0m05:55:28.043250 [debug] [Thread-4 (]: Began executing node test.globalmart.not_null_stg_orders_order_date.2177a3e8bb
+[0m05:55:28.043250 [debug] [Thread-2 (]: Began executing node test.globalmart.not_null_stg_orders_order_id.81cfe2fe64
+[0m05:55:28.062083 [debug] [Thread-3 (]: Using postgres connection "test.globalmart.not_null_stg_orders_category_id.72dfb306bf"
+[0m05:55:28.073070 [debug] [Thread-1 (]: Began executing node test.globalmart.not_null_stg_orders_product_id.034adb910e
+[0m05:55:28.074081 [debug] [Thread-4 (]: Using postgres connection "test.globalmart.not_null_stg_orders_order_date.2177a3e8bb"
+[0m05:55:28.074081 [debug] [Thread-2 (]: Using postgres connection "test.globalmart.not_null_stg_orders_order_id.81cfe2fe64"
+[0m05:55:28.088197 [debug] [Thread-3 (]: On test.globalmart.not_null_stg_orders_category_id.72dfb306bf: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_stg_orders_category_id.72dfb306bf"} */
+
+  
+  
+    
+    
+
+
+
+select category_id
+from "postgres"."postgres"."stg_orders"
+where category_id is null
+
+
+
+  
+  limit 3
+
+[0m05:55:28.099360 [debug] [Thread-1 (]: Using postgres connection "test.globalmart.not_null_stg_orders_product_id.034adb910e"
+[0m05:55:28.099360 [debug] [Thread-4 (]: On test.globalmart.not_null_stg_orders_order_date.2177a3e8bb: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_stg_orders_order_date.2177a3e8bb"} */
+
+  
+  
+    
+    
+
+
+
+select order_date
+from "postgres"."postgres"."stg_orders"
+where order_date is null
+
+
+
+  
+  limit 3
+
+[0m05:55:28.099360 [debug] [Thread-2 (]: On test.globalmart.not_null_stg_orders_order_id.81cfe2fe64: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_stg_orders_order_id.81cfe2fe64"} */
+
+  
+  
+    
+    
+
+
+
+select order_id
+from "postgres"."postgres"."stg_orders"
+where order_id is null
+
+
+
+  
+  limit 3
+
+[0m05:55:28.103828 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m05:55:28.103828 [debug] [Thread-1 (]: On test.globalmart.not_null_stg_orders_product_id.034adb910e: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_stg_orders_product_id.034adb910e"} */
+
+  
+  
+    
+    
+
+
+
+select product_id
+from "postgres"."postgres"."stg_orders"
+where product_id is null
+
+
+
+  
+  limit 3
+
+[0m05:55:28.106957 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m05:55:28.106957 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m05:55:28.106957 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:55:28.190070 [debug] [Thread-3 (]: SQL status: SELECT 0 in 0.086 seconds
+[0m05:55:28.194079 [debug] [Thread-3 (]: On test.globalmart.not_null_stg_orders_category_id.72dfb306bf: Close
+[0m05:55:28.196084 [debug] [Thread-3 (]: Finished running node test.globalmart.not_null_stg_orders_category_id.72dfb306bf
+[0m05:55:28.198089 [debug] [Thread-3 (]: Began running node test.globalmart.not_null_stg_orders_quantity.994494da59
+[0m05:55:28.199598 [debug] [Thread-4 (]: SQL status: SELECT 0 in 0.093 seconds
+[0m05:55:28.200837 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.091 seconds
+[0m05:55:28.202217 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.globalmart.not_null_stg_orders_category_id.72dfb306bf, now test.globalmart.not_null_stg_orders_quantity.994494da59)
+[0m05:55:28.204405 [debug] [Thread-4 (]: On test.globalmart.not_null_stg_orders_order_date.2177a3e8bb: Close
+[0m05:55:28.206411 [debug] [Thread-2 (]: SQL status: SELECT 0 in 0.099 seconds
+[0m05:55:28.210113 [debug] [Thread-1 (]: On test.globalmart.not_null_stg_orders_product_id.034adb910e: Close
+[0m05:55:28.210113 [debug] [Thread-3 (]: Began compiling node test.globalmart.not_null_stg_orders_quantity.994494da59
+[0m05:55:28.213043 [debug] [Thread-4 (]: Finished running node test.globalmart.not_null_stg_orders_order_date.2177a3e8bb
+[0m05:55:28.215553 [debug] [Thread-2 (]: On test.globalmart.not_null_stg_orders_order_id.81cfe2fe64: Close
+[0m05:55:28.216559 [debug] [Thread-1 (]: Finished running node test.globalmart.not_null_stg_orders_product_id.034adb910e
+[0m05:55:28.223149 [debug] [Thread-3 (]: Writing injected SQL for node "test.globalmart.not_null_stg_orders_quantity.994494da59"
+[0m05:55:28.223149 [debug] [Thread-4 (]: Began running node test.globalmart.not_null_stg_orders_region_id.1af1414db2
+[0m05:55:28.228905 [debug] [Thread-2 (]: Finished running node test.globalmart.not_null_stg_orders_order_id.81cfe2fe64
+[0m05:55:28.228905 [debug] [Thread-1 (]: Began running node test.globalmart.not_null_stg_orders_sales.e5343de104
+[0m05:55:28.232653 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.globalmart.not_null_stg_orders_order_date.2177a3e8bb, now test.globalmart.not_null_stg_orders_region_id.1af1414db2)
+[0m05:55:28.233748 [debug] [Thread-2 (]: Began running node test.globalmart.not_null_stg_orders_state_id.3e5fde1da2
+[0m05:55:28.233748 [debug] [Thread-3 (]: Began executing node test.globalmart.not_null_stg_orders_quantity.994494da59
+[0m05:55:28.235752 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.globalmart.not_null_stg_orders_product_id.034adb910e, now test.globalmart.not_null_stg_orders_sales.e5343de104)
+[0m05:55:28.237756 [debug] [Thread-4 (]: Began compiling node test.globalmart.not_null_stg_orders_region_id.1af1414db2
+[0m05:55:28.238794 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.globalmart.not_null_stg_orders_order_id.81cfe2fe64, now test.globalmart.not_null_stg_orders_state_id.3e5fde1da2)
+[0m05:55:28.240898 [debug] [Thread-3 (]: Using postgres connection "test.globalmart.not_null_stg_orders_quantity.994494da59"
+[0m05:55:28.240898 [debug] [Thread-1 (]: Began compiling node test.globalmart.not_null_stg_orders_sales.e5343de104
+[0m05:55:28.254651 [debug] [Thread-4 (]: Writing injected SQL for node "test.globalmart.not_null_stg_orders_region_id.1af1414db2"
+[0m05:55:28.256618 [debug] [Thread-2 (]: Began compiling node test.globalmart.not_null_stg_orders_state_id.3e5fde1da2
+[0m05:55:28.256618 [debug] [Thread-3 (]: On test.globalmart.not_null_stg_orders_quantity.994494da59: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_stg_orders_quantity.994494da59"} */
+
+  
+  
+    
+    
+
+
+
+select quantity
+from "postgres"."postgres"."stg_orders"
+where quantity is null
+
+
+
+  
+  limit 3
+
+[0m05:55:28.264712 [debug] [Thread-1 (]: Writing injected SQL for node "test.globalmart.not_null_stg_orders_sales.e5343de104"
+[0m05:55:28.362236 [debug] [Thread-2 (]: Writing injected SQL for node "test.globalmart.not_null_stg_orders_state_id.3e5fde1da2"
+[0m05:55:28.362236 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m05:55:28.366917 [debug] [Thread-4 (]: Began executing node test.globalmart.not_null_stg_orders_region_id.1af1414db2
+[0m05:55:28.384954 [debug] [Thread-4 (]: Using postgres connection "test.globalmart.not_null_stg_orders_region_id.1af1414db2"
+[0m05:55:28.389813 [debug] [Thread-1 (]: Began executing node test.globalmart.not_null_stg_orders_sales.e5343de104
+[0m05:55:28.392570 [debug] [Thread-4 (]: On test.globalmart.not_null_stg_orders_region_id.1af1414db2: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_stg_orders_region_id.1af1414db2"} */
+
+  
+  
+    
+    
+
+
+
+select region_id
+from "postgres"."postgres"."stg_orders"
+where region_id is null
+
+
+
+  
+  limit 3
+
+[0m05:55:28.394577 [debug] [Thread-2 (]: Began executing node test.globalmart.not_null_stg_orders_state_id.3e5fde1da2
+[0m05:55:28.407001 [debug] [Thread-1 (]: Using postgres connection "test.globalmart.not_null_stg_orders_sales.e5343de104"
+[0m05:55:28.407001 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m05:55:28.431415 [debug] [Thread-2 (]: Using postgres connection "test.globalmart.not_null_stg_orders_state_id.3e5fde1da2"
+[0m05:55:28.433160 [debug] [Thread-1 (]: On test.globalmart.not_null_stg_orders_sales.e5343de104: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_stg_orders_sales.e5343de104"} */
+
+  
+  
+    
+    
+
+
+
+select sales
+from "postgres"."postgres"."stg_orders"
+where sales is null
+
+
+
+  
+  limit 3
+
+[0m05:55:28.437340 [debug] [Thread-2 (]: On test.globalmart.not_null_stg_orders_state_id.3e5fde1da2: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_stg_orders_state_id.3e5fde1da2"} */
+
+  
+  
+    
+    
+
+
+
+select state_id
+from "postgres"."postgres"."stg_orders"
+where state_id is null
+
+
+
+  
+  limit 3
+
+[0m05:55:28.439345 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:55:28.441911 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m05:55:28.471417 [debug] [Thread-3 (]: SQL status: SELECT 0 in 0.107 seconds
+[0m05:55:28.473421 [debug] [Thread-3 (]: On test.globalmart.not_null_stg_orders_quantity.994494da59: Close
+[0m05:55:28.477973 [debug] [Thread-3 (]: Finished running node test.globalmart.not_null_stg_orders_quantity.994494da59
+[0m05:55:28.477973 [debug] [Thread-3 (]: Began running node test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4
+[0m05:55:28.479976 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.globalmart.not_null_stg_orders_quantity.994494da59, now test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4)
+[0m05:55:28.479976 [debug] [Thread-3 (]: Began compiling node test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4
+[0m05:55:28.491810 [debug] [Thread-3 (]: Writing injected SQL for node "test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4"
+[0m05:55:28.491810 [debug] [Thread-3 (]: Began executing node test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4
+[0m05:55:28.506703 [debug] [Thread-3 (]: Using postgres connection "test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4"
+[0m05:55:28.506703 [debug] [Thread-3 (]: On test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4"} */
+
+  
+  
+    
+    
+
+
+
+select subcategory_id
+from "postgres"."postgres"."stg_orders"
+where subcategory_id is null
+
+
+
+  
+  limit 3
+
+[0m05:55:28.508618 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.070 seconds
+[0m05:55:28.508618 [debug] [Thread-4 (]: SQL status: SELECT 0 in 0.096 seconds
+[0m05:55:28.508618 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m05:55:28.510621 [debug] [Thread-1 (]: On test.globalmart.not_null_stg_orders_sales.e5343de104: Close
+[0m05:55:28.510621 [debug] [Thread-4 (]: On test.globalmart.not_null_stg_orders_region_id.1af1414db2: Close
+[0m05:55:28.515587 [debug] [Thread-1 (]: Finished running node test.globalmart.not_null_stg_orders_sales.e5343de104
+[0m05:55:28.515587 [debug] [Thread-2 (]: SQL status: SELECT 0 in 0.075 seconds
+[0m05:55:28.518422 [debug] [Thread-4 (]: Finished running node test.globalmart.not_null_stg_orders_region_id.1af1414db2
+[0m05:55:28.518422 [debug] [Thread-1 (]: Began running node test.globalmart.unique_stg_orders_order_id.e3b841c71a
+[0m05:55:28.521207 [debug] [Thread-2 (]: On test.globalmart.not_null_stg_orders_state_id.3e5fde1da2: Close
+[0m05:55:28.523400 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.globalmart.not_null_stg_orders_sales.e5343de104, now test.globalmart.unique_stg_orders_order_id.e3b841c71a)
+[0m05:55:28.525091 [debug] [Thread-2 (]: Finished running node test.globalmart.not_null_stg_orders_state_id.3e5fde1da2
+[0m05:55:28.527096 [debug] [Thread-1 (]: Began compiling node test.globalmart.unique_stg_orders_order_id.e3b841c71a
+[0m05:55:28.538324 [debug] [Thread-1 (]: Writing injected SQL for node "test.globalmart.unique_stg_orders_order_id.e3b841c71a"
+[0m05:55:28.539714 [debug] [Thread-1 (]: Began executing node test.globalmart.unique_stg_orders_order_id.e3b841c71a
+[0m05:55:28.545020 [debug] [Thread-1 (]: Using postgres connection "test.globalmart.unique_stg_orders_order_id.e3b841c71a"
+[0m05:55:28.545020 [debug] [Thread-1 (]: On test.globalmart.unique_stg_orders_order_id.e3b841c71a: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "globalmart", "target_name": "dev", "node_id": "test.globalmart.unique_stg_orders_order_id.e3b841c71a"} */
+
+  
+  
+    
+    
+
+select
+    order_id as unique_field,
+    count(*) as n_records
+
+from "postgres"."postgres"."stg_orders"
+where order_id is not null
+group by order_id
+having count(*) > 1
+
+
+
+  
+  limit 3
+
+[0m05:55:28.545020 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:55:28.566655 [debug] [Thread-3 (]: SQL status: SELECT 0 in 0.057 seconds
+[0m05:55:28.566655 [debug] [Thread-3 (]: On test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4: Close
+[0m05:55:28.569861 [debug] [Thread-3 (]: Finished running node test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4
+[0m05:55:28.601624 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.055 seconds
+[0m05:55:28.606657 [debug] [Thread-1 (]: On test.globalmart.unique_stg_orders_order_id.e3b841c71a: Close
+[0m05:55:28.608446 [debug] [Thread-1 (]: Finished running node test.globalmart.unique_stg_orders_order_id.e3b841c71a
+[0m05:55:28.609925 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:55:28.611493 [debug] [MainThread]: Connection 'list_postgres_postgres' was properly closed.
+[0m05:55:28.611493 [debug] [MainThread]: Connection 'test.globalmart.unique_stg_orders_order_id.e3b841c71a' was properly closed.
+[0m05:55:28.611493 [debug] [MainThread]: Connection 'test.globalmart.not_null_stg_orders_subcategory_id.91235f3db4' was properly closed.
+[0m05:55:28.611493 [debug] [MainThread]: Connection 'test.globalmart.not_null_stg_orders_region_id.1af1414db2' was properly closed.
+[0m05:55:28.613496 [debug] [MainThread]: Connection 'test.globalmart.not_null_stg_orders_state_id.3e5fde1da2' was properly closed.
+[0m05:55:28.615499 [debug] [MainThread]: Command end result
+[0m05:55:28.666009 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Administrator\Documents\global\target\manifest.json
+[0m05:55:28.669482 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Administrator\Documents\global\target\semantic_manifest.json
+[0m05:55:28.682111 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Administrator\Documents\global\target\run_results.json
+[0m05:55:28.682111 [debug] [MainThread]: Excluded node 'not_null_stg_orders_category_id' from results
+[0m05:55:28.682111 [debug] [MainThread]: Excluded node 'not_null_stg_orders_order_date' from results
+[0m05:55:28.682111 [debug] [MainThread]: Excluded node 'not_null_stg_orders_product_id' from results
+[0m05:55:28.687732 [debug] [MainThread]: Excluded node 'not_null_stg_orders_order_id' from results
+[0m05:55:28.687732 [debug] [MainThread]: Excluded node 'not_null_stg_orders_quantity' from results
+[0m05:55:28.689072 [debug] [MainThread]: Excluded node 'not_null_stg_orders_sales' from results
+[0m05:55:28.690480 [debug] [MainThread]: Excluded node 'not_null_stg_orders_region_id' from results
+[0m05:55:28.690480 [debug] [MainThread]: Excluded node 'not_null_stg_orders_state_id' from results
+[0m05:55:28.690480 [debug] [MainThread]: Excluded node 'not_null_stg_orders_subcategory_id' from results
+[0m05:55:28.692495 [debug] [MainThread]: Excluded node 'unique_stg_orders_order_id' from results
+[0m05:55:28.694064 [info ] [MainThread]: Previewing node 'stg_orders':
+| order_id             | order_date |  ship_date | region  | state      | category  | ... |
+| -------------------- | ---------- | ---------- | ------- | ---------- | --------- | --- |
+| a075480d-a9d2-41a... | 8/2/2023   | 2023-08-03 | East    | Ohio       | Furniture | ... |
+| 0a503659-9020-425... | 3/2/2020   | 2020-03-03 | South   | California | Furniture | ... |
+| c52e304a-de0f-48e... | 4/21/2023  | 2023-04-25 | Central | Illinois   | Furniture | ... |
+
+[0m05:55:28.696191 [debug] [MainThread]: Command `dbt show` succeeded at 05:55:28.694064 after 5.09 seconds
+[0m05:55:28.696191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236ACFFA8F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236AB575300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236B0B49FF0>]}
+[0m05:55:28.696191 [debug] [MainThread]: Flushing usage events
+[0m05:55:29.935903 [debug] [MainThread]: An error was encountered while trying to flush usage events
