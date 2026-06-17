@@ -1,6 +1,6 @@
 
 
 SELECT DISTINCT
-    state_id,
-    state as state_name
+    region_id,
+    region as region_name
 FROM "postgres"."postgres"."stg_orders"

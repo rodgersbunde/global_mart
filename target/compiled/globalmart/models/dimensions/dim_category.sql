@@ -1,6 +1,6 @@
 
 
 SELECT DISTINCT
-    state_id,
-    state as state_name
+    category_id,
+    category as category_name
 FROM "postgres"."postgres"."stg_orders"
