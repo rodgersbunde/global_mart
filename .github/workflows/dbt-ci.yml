@@ -54,6 +54,8 @@ jobs:
       # 5. Install dependencies
       - name: dbt deps
         run: dbt deps
+      - name: Clean dbt artifacts
+        run: dbt clean
 
       # 6. Seed data
       - name: Run dbt seed
@@ -62,3 +64,6 @@ jobs:
       # 7. Run models (BEST PRACTICE: build instead of run)
       - name: dbt build
         run: dbt build --target dev
+        
+      - run: dbt debug
+      - run: dbt build --target dev
