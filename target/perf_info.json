@@ -1,0 +1,62 @@
+{
+    "path_count": 193,
+    "parsed_path_count": 193,
+    "static_analysis_path_count": 6,
+    "static_analysis_parsed_path_count": 4,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.17625779996160418,
+    "load_macros_elapsed": 1.3489881999557838,
+    "parse_project_elapsed": 1.1662036000052467,
+    "patch_sources_elapsed": 0.0352083999896422,
+    "process_manifest_elapsed": 0.054632100043818355,
+    "load_all_elapsed": 2.9319798999931663,
+    "projects": [
+        {
+            "project_name": "globalmart",
+            "elapsed": 1.1431293999776244,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.38391149998642504,
+                    "parsed_path_count": 6
+                },
+                {
+                    "parser": "seed",
+                    "elapsed": 0.20657529996242374,
+                    "parsed_path_count": 1
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.5440229999367148,
+                    "parsed_path_count": 4
+                }
+            ],
+            "parsed_path_count": 11
+        },
+        {
+            "project_name": "dbt_postgres",
+            "elapsed": 0.0074970000423491,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.008731900015845895,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.0002706999657675624,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        },
+        {
+            "project_name": "dbt_utils",
+            "elapsed": 0.006657400052063167,
+            "parsers": [],
+            "parsed_path_count": 0
+        }
+    ]
+}

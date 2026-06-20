@@ -17,3 +17,13 @@ SELECT
 FROM "postgres"."postgres"."stg_orders"
 
 --
+
+--where order_date > (
+  --  select max_order_date 
+   --- from (
+    --    select max(order_date) as max_order_date 
+    --    from "postgres"."postgres"."fact_orders"
+    --) as sub
+--)
+
+--

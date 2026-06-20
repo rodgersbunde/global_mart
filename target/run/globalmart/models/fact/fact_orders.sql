@@ -1,33 +1,18 @@
 
       
-  
+        
+        
+        delete from "postgres"."postgres"."fact_orders" as DBT_INTERNAL_DEST
+        where (order_id) in (
+            select distinct order_id
+            from "fact_orders__dbt_tmp125527256356" as DBT_INTERNAL_SOURCE
+        );
+
     
 
-  create  table "postgres"."postgres"."fact_orders__dbt_tmp"
-  
-  
-    as
-  
-  (
-    
-
-SELECT
-    order_id,
-    product_id,
-    region_id,
-    state_id,
-    category_id,
-    subcategory_id,
-    order_date,
-    ship_date,
-    sales,
-    quantity,
-    discount,
-    profit,
-	profit / sales as profit_margin
-FROM "postgres"."postgres"."stg_orders"
-
---
-  );
-  
+    insert into "postgres"."postgres"."fact_orders" ("order_id", "product_id", "region_id", "state_id", "category_id", "subcategory_id", "order_date", "ship_date", "sales", "quantity", "discount", "profit", "profit_margin")
+    (
+        select "order_id", "product_id", "region_id", "state_id", "category_id", "subcategory_id", "order_date", "ship_date", "sales", "quantity", "discount", "profit", "profit_margin"
+        from "fact_orders__dbt_tmp125527256356"
+    )
   
