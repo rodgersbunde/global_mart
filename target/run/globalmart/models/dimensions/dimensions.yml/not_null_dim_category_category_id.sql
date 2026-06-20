@@ -12,9 +12,9 @@
 
 
 
-select state_id
-from "postgres"."postgres"."dim_state"
-where state_id is null
+select category_id
+from "postgres"."postgres"."dim_category"
+where category_id is null
 
 
 

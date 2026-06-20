@@ -1,6 +1,0 @@
-
-
-SELECT DISTINCT
-    state_id,
-    state as state_name
-FROM "postgres"."postgres"."stg_orders"

@@ -5,7 +5,7 @@
 
 
 select state_id
-from "postgres"."postgres"."dim_state"
+from "postgres"."postgres"."stg_orders"
 where state_id is null
 
 
