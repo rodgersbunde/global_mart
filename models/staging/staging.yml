@@ -26,11 +26,6 @@ models:
         tests:
           - not_null
 
-      - name: state_id
-        description: "Surrogate key for state"
-        tests:
-          - not_null
-
       - name: category_id
         description: "Surrogate key for category"
         tests:
