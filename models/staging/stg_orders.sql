@@ -30,9 +30,6 @@ select
     {{ dbt_utils.generate_surrogate_key(['region']) }}
         as region_id,
 
-    {{ dbt_utils.generate_surrogate_key(['state']) }}
-        as state_id,
-
     {{ dbt_utils.generate_surrogate_key(['category']) }}
         as category_id,
 
