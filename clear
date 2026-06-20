@@ -1,0 +1,66 @@
+[33mcommit f8ef084e58a6400579cd28cb4377aaa9b0556f0a[m
+Author: Rodgers <roggybunde@gmail.com>
+Date:   Sat Jun 20 21:06:41 2026 +0300
+
+    fully remove dim_state model and yml references
+
+ .../globalmart/models/dimensions/dim_category.sql  |   6 [32m+++[m
+ .../globalmart/models/dimensions/dim_products.sql  |   8 [32m++++[m
+ .../globalmart/models/dimensions/dim_region.sql    |   6 [32m+++[m
+ .../models/dimensions/dim_subcategory.sql          |   7 [32m+++[m
+ .../not_null_dim_category_category_id.sql          |  11 [32m+++++[m
+ .../not_null_dim_products_product_id.sql           |  11 [32m+++++[m
+ .../not_null_dim_region_region_id.sql              |  11 [32m+++++[m
+ .../not_null_dim_subcategory_subcategory_id.sql    |  11 [32m+++++[m
+ .../unique_dim_category_category_id.sql            |  14 [32m++++++[m
+ .../unique_dim_products_product_id.sql             |  14 [32m++++++[m
+ .../dimensions.yml/unique_dim_region_region_id.sql |  14 [32m++++++[m
+ .../unique_dim_subcategory_subcategory_id.sql      |  14 [32m++++++[m
+ .../globalmart/models/fact/fact_orders.sql         |  29 [32m++++++++++++[m
+ .../facts.yml/not_null_fact_orders_order_id.sql    |  11 [32m+++++[m
+ .../fact/facts.yml/unique_fact_orders_order_id.sql |  14 [32m++++++[m
+ .../not_null_stg_orders_category_id.sql            |  11 [32m+++++[m
+ .../staging.yml/not_null_stg_orders_order_date.sql |  11 [32m+++++[m
+ .../staging.yml/not_null_stg_orders_order_id.sql   |  11 [32m+++++[m
+ .../staging.yml/not_null_stg_orders_product_id.sql |  11 [32m+++++[m
+ .../staging.yml/not_null_stg_orders_quantity.sql   |  11 [32m+++++[m
+ .../staging.yml/not_null_stg_orders_region_id.sql  |  11 [32m+++++[m
+ .../staging.yml/not_null_stg_orders_sales.sql      |  11 [32m+++++[m
+ .../staging.yml/not_null_stg_orders_state_id.sql   |  11 [32m+++++[m
+ .../not_null_stg_orders_subcategory_id.sql         |  11 [32m+++++[m
+ .../staging.yml/unique_stg_orders_order_id.sql     |  14 [32m++++++[m
+ .../globalmart/models/staging/stg_orders.sql       |  43 [32m++++++++++++++++++[m
+ target/graph.gpickle                               | Bin [31m0[m -> [32m23781[m bytes
+ target/graph_summary.json                          |   1 [32m+[m
+ target/manifest.json                               |   1 [32m+[m
+ target/partial_parse.msgpack                       | Bin [31m0[m -> [32m637901[m bytes
+ .../globalmart/models/dimensions/dim_category.sql  |  12 [32m+++++[m
+ .../globalmart/models/dimensions/dim_products.sql  |  20 [32m+++++++++[m
+ .../globalmart/models/dimensions/dim_region.sql    |  12 [32m+++++[m
+ .../models/dimensions/dim_subcategory.sql          |  13 [32m++++++[m
+ .../not_null_dim_category_category_id.sql          |  24 [32m++++++++++[m
+ .../not_null_dim_products_product_id.sql           |  24 [32m++++++++++[m
+ .../not_null_dim_region_region_id.sql              |  24 [32m++++++++++[m
+ .../not_null_dim_subcategory_subcategory_id.sql    |  24 [32m++++++++++[m
+ .../unique_dim_category_category_id.sql            |  27 [32m++++++++++++[m
+ .../unique_dim_products_product_id.sql             |  27 [32m++++++++++++[m
+ .../dimensions.yml/unique_dim_region_region_id.sql |  27 [32m++++++++++++[m
+ .../unique_dim_subcategory_subcategory_id.sql      |  27 [32m++++++++++++[m
+ target/run/globalmart/models/fact/fact_orders.sql  |  18 [32m++++++++[m
+ .../facts.yml/not_null_fact_orders_order_id.sql    |  24 [32m++++++++++[m
+ .../fact/facts.yml/unique_fact_orders_order_id.sql |  27 [32m++++++++++++[m
+ .../not_null_stg_orders_category_id.sql            |  24 [32m++++++++++[m
+ .../staging.yml/not_null_stg_orders_order_date.sql |  24 [32m++++++++++[m
+ .../staging.yml/not_null_stg_orders_order_id.sql   |  24 [32m++++++++++[m
+ .../staging.yml/not_null_stg_orders_product_id.sql |  24 [32m++++++++++[m
+ .../staging.yml/not_null_stg_orders_quantity.sql   |  24 [32m++++++++++[m
+ .../staging.yml/not_null_stg_orders_region_id.sql  |  24 [32m++++++++++[m
+ .../staging.yml/not_null_stg_orders_sales.sql      |  24 [32m++++++++++[m
+ .../staging.yml/not_null_stg_orders_state_id.sql   |  24 [32m++++++++++[m
+ .../not_null_stg_orders_subcategory_id.sql         |  24 [32m++++++++++[m
+ .../staging.yml/unique_stg_orders_order_id.sql     |  27 [32m++++++++++++[m
+ .../run/globalmart/models/staging/stg_orders.sql   |  49 [32m+++++++++++++++++++++[m
+ target/run/globalmart/seeds/globalsales.csv        |  12 [32m+++++[m
+ target/run_results.json                            |   1 [32m+[m
+ target/semantic_manifest.json                      |   1 [32m+[m
+ 59 files changed, 975 insertions(+)
