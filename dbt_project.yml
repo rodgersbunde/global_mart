@@ -28,7 +28,7 @@ models:
     marts:
       +materialized: table
     dimensions:
-      +materialized: table
-    fact:
+      +materialized: view
+    facts:
       +materialized: table
       
